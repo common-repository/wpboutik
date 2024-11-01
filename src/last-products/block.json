@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wpboutik/last-products",
+	"version": "0.1.0",
+	"title": "WPBoutik: Last products",
+	"category": "wpboutik",
+	"icon": "smiley",
+	"description": "Affiche les derniers produits ajoutés à la boutique",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "wpboutik",
+	"editorScript": "file:./index.js"
+}

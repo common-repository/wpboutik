@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpboutik/cart",
+  "version": "0.1.0",
+  "title": "WPBoutik: Cart",
+  "category": "wpboutik",
+  "icon": "smiley",
+  "description": "Affichage du panier",
+  "example": {},
+  "supports": {
+    "html": false,
+    "color": {
+      "text": true,
+      "link": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalWritingMode": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "spacing": {
+      "blockGap": true,
+      "padding": true,
+      "__experimentalDefaultControls": {
+        "padding": true,
+        "blockGap": true
+      }
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "style": true,
+      "width": true,
+      "radius": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "style": false,
+        "width": true,
+        "radius": true
+      }
+    }
+  },
+  "textdomain": "wpboutik",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,24 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+ .wp-block-wpboutik-breadcrumb ol {
+  display:flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  align-items: center;
+  gap: .5em;
+}
+
+.wp-block-wpboutik-breadcrumb li {
+  display:flex;
+  align-items: center;
+  gap: .5em;
+}
+
+.wp-block-wpboutik-breadcrumb svg {
+  width: 1.2em;
+  height: 1.2em;
+}

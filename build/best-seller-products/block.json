@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpboutik/best-seller-products",
+  "version": "0.1.0",
+  "title": "WPBoutik: Best Seller",
+  "category": "wpboutik",
+  "icon": "smiley",
+  "description": "Affiche les meilleures ventes de produits",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "wpboutik",
+  "editorScript": "file:./index.js"
+}

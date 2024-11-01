@@ -1,0 +1,9519 @@
+# Copyright (C) 2024 NicolasKulka, wpformation
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPBoutik 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpboutik\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-17T17:41:58+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wpboutik\n"
+
+#. Plugin Name of the plugin
+#: classes/plugin.php:1669
+msgid "WPBoutik"
+msgstr ""
+
+#. Description of the plugin
+msgid "Il n’a jamais été aussi simple de vendre en ligne !"
+msgstr ""
+
+#. Author of the plugin
+msgid "NicolasKulka, wpformation"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpboutik.com/"
+msgstr ""
+
+#: build/breadcrumb/render.php:10
+#: src/breadcrumb/render.php:10
+#: templates/parts/breadcrumbs.php:8
+#: build/breadcrumb/index.js:1
+#: src/breadcrumb/edit.js:41
+msgid "All products"
+msgstr ""
+
+#: build/cart-content/render.php:10
+#: classes/plugin.php:1653
+#: src/cart-content/render.php:10
+#: templates/cart/cart.php:42
+msgid "Empty cart"
+msgstr ""
+
+#: build/cart-content/render.php:14
+#: build/cart-validate/render.php:18
+#: classes/plugin.php:1657
+#: src/cart-content/render.php:14
+#: src/cart-validate/render.php:18
+#: templates/cart/cart.php:47
+#: templates/cart/cart.php:264
+#: templates/cart/mini-cart.php:28
+msgid "Continue Shopping"
+msgstr ""
+
+#: build/cart-content/render.php:25
+#: src/cart-content/render.php:25
+#: templates/cart/cart.php:56
+msgid "Items in your shopping cart"
+msgstr ""
+
+#: build/cart-content/render.php:89
+#: src/cart-content/render.php:89
+#: templates/cart/cart.php:184
+msgid "Unit price"
+msgstr ""
+
+#: build/cart-content/render.php:94
+#: src/cart-content/render.php:94
+#: templates/account/orders.php:273
+#: templates/account/view-order.php:252
+#: templates/cart/cart.php:190
+#: templates/cart/mini-cart.php:135
+#: templates/checkout.php:671
+#: templates/checkout/thankyou.php:202
+#: templates/fields/action-single.php:27
+msgid "Quantity"
+msgstr ""
+
+#: build/cart-content/render.php:120
+#: src/cart-content/render.php:120
+#: templates/cart/cart.php:216
+#: templates/cart/mini-cart.php:162
+msgid "Remove"
+msgstr ""
+
+#: build/cart-total/render.php:9
+#: src/cart-total/render.php:9
+#: templates/cart/cart.php:231
+#: templates/checkout.php:578
+msgid "Order summary"
+msgstr ""
+
+#: build/cart-total/render.php:16
+#: src/cart-total/render.php:16
+#: templates/account/view-order.php:338
+#: templates/cart/cart.php:236
+#: templates/checkout.php:682
+#: templates/checkout/thankyou.php:286
+msgid "Subtotal"
+msgstr ""
+
+#: build/cart-total/render.php:23
+#: src/cart-total/render.php:23
+#: templates/cart/cart.php:241
+msgid "Order total"
+msgstr ""
+
+#: build/cart-validate/render.php:10
+#: classes/plugin.php:618
+#: src/cart-validate/render.php:10
+#: templates/cart/cart.php:254
+#: templates/cart/mini-cart.php:187
+#: templates/checkout.php:41
+msgid "Checkout"
+msgstr ""
+
+#: build/cart-validate/render.php:16
+#: src/cart-validate/render.php:16
+#: templates/cart/cart.php:261
+msgid "or"
+msgstr ""
+
+#: classes/admin-dashboard.php:15
+msgid "WPBoutik Status"
+msgstr ""
+
+#: classes/ajax.php:1990
+msgid "results"
+msgstr ""
+
+#: classes/analytics/class-wpb-google-gtag-js.php:257
+msgid "Search Results"
+msgstr ""
+
+#: classes/analytics/class-wpb-google-gtag-js.php:257
+msgid "Product List"
+msgstr ""
+
+#: classes/block-templates-utils.php:131
+#: classes/blocks-templates-objects.php:38
+msgid "No theme is defined for this template."
+msgstr ""
+
+#: classes/block-templates-utils.php:337
+msgctxt "Template name"
+msgid "Single Product"
+msgstr ""
+
+#: classes/block-templates-utils.php:338
+msgid "Displays a single product."
+msgstr ""
+
+#: classes/block-templates-utils.php:341
+msgctxt "Template name"
+msgid "Product Catalog"
+msgstr ""
+
+#: classes/block-templates-utils.php:342
+msgid "Displays your products."
+msgstr ""
+
+#: classes/block-templates-utils.php:345
+msgctxt "Template name"
+msgid "Products by Category"
+msgstr ""
+
+#: classes/block-templates-utils.php:346
+msgid "Displays products filtered by a category."
+msgstr ""
+
+#: classes/block-templates-utils.php:349
+msgctxt "Template name"
+msgid "Products by Tag"
+msgstr ""
+
+#: classes/block-templates-utils.php:350
+msgid "Displays products filtered by a tag."
+msgstr ""
+
+#: classes/blocks-templates-objects.php:13
+msgid "Page des produits"
+msgstr ""
+
+#: classes/blocks-templates-objects.php:14
+msgid "Page permettant l'affichage du détail des produits"
+msgstr ""
+
+#: classes/blocks-templates-objects.php:17
+msgid "Pages d'archives des produits."
+msgstr ""
+
+#: classes/blocks-templates-objects.php:21
+msgid "Page panier"
+msgstr ""
+
+#: classes/blocks-templates-objects.php:22
+msgid "Page affichant le panier du visiteur"
+msgstr ""
+
+#: classes/customize.php:23
+#: classes/customize.php:30
+msgid "Personalization"
+msgstr ""
+
+#: classes/customize.php:24
+#: classes/customize.php:31
+#: classes/customize.php:1172
+#: classes/tabs-admin.php:37
+msgid "Settings"
+msgstr ""
+
+#: classes/customize.php:120
+msgid "Prebuilt theme"
+msgstr ""
+
+#: classes/customize.php:121
+msgid "Apply an atmosphere and a color scheme to your entire store in one click (store page, product sheet, basket and sidebar), you can then modify each element independently in the specific settings."
+msgstr ""
+
+#: classes/customize.php:135
+msgid "Explore our various presentation proposals, with the ability to customize each element in the dedicated tabs of WPBoutik."
+msgstr ""
+
+#: classes/customize.php:155
+msgid "Colors theme"
+msgstr ""
+
+#: classes/customize.php:157
+msgid "Choose or create a colors theme for your shop."
+msgstr ""
+
+#: classes/customize.php:163
+msgid "Global Design"
+msgstr ""
+
+#: classes/customize.php:164
+msgid "Personalize your product titles and prices: sizes, colors. As well as your main buttons and breadcrumbs."
+msgstr ""
+
+#: classes/customize.php:180
+msgid "Default values for text styling."
+msgstr ""
+
+#: classes/customize.php:206
+msgid "Colors of titles and prices"
+msgstr ""
+
+#: classes/customize.php:209
+msgid "For styling title display."
+msgstr ""
+
+#: classes/customize.php:214
+msgid "Title product color"
+msgstr ""
+
+#: classes/customize.php:219
+msgid "Title product color on hover"
+msgstr ""
+
+#: classes/customize.php:236
+msgid "Price product color"
+msgstr ""
+
+#: classes/customize.php:253
+msgid "Buttons"
+msgstr ""
+
+#: classes/customize.php:266
+msgid "Text color of add to cart buttons"
+msgstr ""
+
+#: classes/customize.php:271
+msgid "Color of the buttons (and after visit)"
+msgstr ""
+
+#: classes/customize.php:277
+msgid "Button color on hover"
+msgstr ""
+
+#: classes/customize.php:292
+msgid "Font size “Add to cart” button"
+msgstr ""
+
+#: classes/customize.php:295
+#: classes/customize.php:316
+#: classes/customize.php:516
+#: classes/customize.php:539
+#: classes/customize.php:615
+#: classes/customize.php:659
+#: classes/customize.php:704
+#: classes/customize.php:749
+#: classes/customize.php:812
+#: classes/customize.php:872
+#: classes/customize.php:906
+#: classes/customize.php:928
+#: classes/customize.php:948
+#: classes/customize.php:967
+#: classes/customize.php:1261
+#: classes/customize.php:1430
+msgid "The measurement is in pixels."
+msgstr ""
+
+#: classes/customize.php:313
+msgid "Button border radius"
+msgstr ""
+
+#: classes/customize.php:328
+msgid "Shop Page and Product Categories"
+msgstr ""
+
+#: classes/customize.php:329
+msgid "Find here all the settings for your Shop Page and Product Categories (archive): Initial display, number of columns, colors, border radius, display mode, labels, etc..."
+msgstr ""
+
+#: classes/customize.php:340
+msgid "The store page displays:"
+msgstr ""
+
+#: classes/customize.php:344
+#: classes/google-analytics.php:373
+#: classes/google-analytics.php:414
+#: templates/archive-wpboutik_product.php:209
+msgid "Products"
+msgstr ""
+
+#: classes/customize.php:345
+msgid "Products categories"
+msgstr ""
+
+#: classes/customize.php:346
+msgid "Products categories and Products"
+msgstr ""
+
+#: classes/customize.php:355
+msgid "Show a second product image on hover"
+msgstr ""
+
+#: classes/customize.php:360
+#: classes/customize.php:375
+#: classes/customize.php:1124
+#: classes/customize.php:1281
+#: classes/customize.php:1322
+#: classes/customize.php:1360
+msgid "Yes"
+msgstr ""
+
+#: classes/customize.php:361
+#: classes/customize.php:376
+#: classes/customize.php:1125
+#: classes/customize.php:1282
+#: classes/customize.php:1323
+#: classes/customize.php:1361
+msgid "No"
+msgstr ""
+
+#: classes/customize.php:370
+msgid "Show out of stock products"
+msgstr ""
+
+#: classes/customize.php:390
+msgid "Number of columns to display"
+msgstr ""
+
+#: classes/customize.php:412
+msgid "Number of columns to display for mobile or tablet"
+msgstr ""
+
+#: classes/customize.php:434
+msgid "Margin between columns"
+msgstr ""
+
+#: classes/customize.php:437
+msgid "Size of margin between elements in archive page in px."
+msgstr ""
+
+#: classes/customize.php:452
+msgid "Background color of products"
+msgstr ""
+
+#: classes/customize.php:461
+msgid "Product display mode"
+msgstr ""
+
+#: classes/customize.php:466
+msgid "Vertical"
+msgstr ""
+
+#: classes/customize.php:467
+msgid "Horizontal"
+msgstr ""
+
+#: classes/customize.php:478
+msgid "Border's settings."
+msgstr ""
+
+#: classes/customize.php:498
+msgid "Product border color"
+msgstr ""
+
+#: classes/customize.php:513
+msgid "Product's card border radius"
+msgstr ""
+
+#: classes/customize.php:536
+msgid "Product's card border weight"
+msgstr ""
+
+#: classes/customize.php:555
+msgid "Image's settings."
+msgstr ""
+
+#: classes/customize.php:574
+msgid "Product image display format"
+msgstr ""
+
+#: classes/customize.php:579
+msgid "Square"
+msgstr ""
+
+#: classes/customize.php:580
+msgid "Landscape 16:9"
+msgstr ""
+
+#: classes/customize.php:581
+msgid "Landscape 3:2"
+msgstr ""
+
+#: classes/customize.php:582
+msgid "Portrait 9:16"
+msgstr ""
+
+#: classes/customize.php:583
+msgid "Portrait 2:3"
+msgstr ""
+
+#: classes/customize.php:592
+msgid "Image display mode"
+msgstr ""
+
+#: classes/customize.php:597
+msgid "Contain"
+msgstr ""
+
+#: classes/customize.php:598
+msgid "Cover"
+msgstr ""
+
+#: classes/customize.php:612
+msgid "Padding arround image"
+msgstr ""
+
+#: classes/customize.php:631
+msgid "Content's settings."
+msgstr ""
+
+#: classes/customize.php:656
+msgid "Padding arround content"
+msgstr ""
+
+#: classes/customize.php:676
+msgid "Product title's settings."
+msgstr ""
+
+#: classes/customize.php:701
+msgid "Product title font size"
+msgstr ""
+
+#: classes/customize.php:721
+msgid "Label's settings."
+msgstr ""
+
+#: classes/customize.php:746
+msgid "Product price font size"
+msgstr ""
+
+#: classes/customize.php:765
+msgid "Excerpt's settings."
+msgstr ""
+
+#: classes/customize.php:786
+#: classes/customize.php:980
+msgid "Show product description"
+msgstr ""
+
+#: classes/customize.php:796
+msgid "Hide product description on small devices"
+msgstr ""
+
+#: classes/customize.php:809
+#: classes/customize.php:964
+msgid "Excerpt font's size"
+msgstr ""
+
+#: classes/customize.php:830
+msgid "Length of short description"
+msgstr ""
+
+#: classes/customize.php:833
+msgid "Number of words to show in the excerpt."
+msgstr ""
+
+#: classes/customize.php:848
+msgid "Color of labels (Out of stock, promo, etc.)"
+msgstr ""
+
+#: classes/customize.php:857
+msgid "Background-color of labels (Out of stock, promo, etc.)"
+msgstr ""
+
+#: classes/customize.php:870
+msgid "Label font size (Out of stock, promo, etc.)"
+msgstr ""
+
+#: classes/customize.php:889
+msgid "Products Page"
+msgstr ""
+
+#: classes/customize.php:890
+msgid "Find here all the settings for your Product Page (single product): Font size, gallery replacement, alignments, labels, related products, etc..."
+msgstr ""
+
+#: classes/customize.php:903
+msgid "Single product title font size"
+msgstr ""
+
+#: classes/customize.php:925
+msgid "Single price font size"
+msgstr ""
+
+#: classes/customize.php:945
+msgid "Long description text size"
+msgstr ""
+
+#: classes/customize.php:990
+msgid "Replace the “product image” gallery with a slideshow"
+msgstr ""
+
+#: classes/customize.php:1001
+msgid "Show social sharing buttons"
+msgstr ""
+
+#: classes/customize.php:1012
+msgid "Gallery position"
+msgstr ""
+
+#: classes/customize.php:1017
+#: classes/customize.php:1337
+#: classes/customize.php:1388
+#: classes/customize.php:1400
+#: classes/customize.php:1412
+msgid "Left"
+msgstr ""
+
+#: classes/customize.php:1018
+#: classes/customize.php:1338
+#: classes/customize.php:1389
+#: classes/customize.php:1401
+#: classes/customize.php:1413
+msgid "Right"
+msgstr ""
+
+#: classes/customize.php:1048
+msgid "Content Alignment"
+msgstr ""
+
+#: classes/customize.php:1053
+msgid "Top"
+msgstr ""
+
+#: classes/customize.php:1054
+msgid "Middle"
+msgstr ""
+
+#: classes/customize.php:1055
+msgid "Bottom"
+msgstr ""
+
+#: classes/customize.php:1064
+msgid "Quantity Alignment"
+msgstr ""
+
+#: classes/customize.php:1069
+msgid "Column"
+msgstr ""
+
+#: classes/customize.php:1070
+msgid "Row"
+msgstr ""
+
+#: classes/customize.php:1079
+msgid "Show labels Product categories"
+msgstr ""
+
+#: classes/customize.php:1089
+msgid "Show Categories labels as:"
+msgstr ""
+
+#: classes/customize.php:1094
+msgid "Button"
+msgstr ""
+
+#: classes/customize.php:1095
+msgid "Link"
+msgstr ""
+
+#: classes/customize.php:1104
+msgid "Display of contents (Description, Additional Information and Reviews):"
+msgstr ""
+
+#: classes/customize.php:1109
+msgid "In tab"
+msgstr ""
+
+#: classes/customize.php:1110
+msgid "After the content"
+msgstr ""
+
+#: classes/customize.php:1119
+msgid "Show related products"
+msgstr ""
+
+#: classes/customize.php:1134
+msgid "Number of related products"
+msgstr ""
+
+#: classes/customize.php:1150
+msgid "Order"
+msgstr ""
+
+#: classes/customize.php:1155
+msgid "Sidebar"
+msgstr ""
+
+#: classes/customize.php:1160
+msgid "Shopping cart icon"
+msgstr ""
+
+#: classes/customize.php:1165
+msgid "Product Search"
+msgstr ""
+
+#: classes/customize.php:1169
+msgid "Your WPBoutik settings"
+msgstr ""
+
+#: classes/customize.php:1171
+msgid "Adjust your WPBoutik sidebar widgets"
+msgstr ""
+
+#: classes/customize.php:1172
+msgid "Adjust your WPBoutik pages"
+msgstr ""
+
+#: classes/customize.php:1173
+msgid "Need help with setup"
+msgstr ""
+
+#: classes/customize.php:1173
+msgid "See the documentation"
+msgstr ""
+
+#: classes/customize.php:1177
+msgid "Modify your options, products, etc."
+msgstr ""
+
+#: classes/customize.php:1177
+#: templates/admin/pages/settings.php:128
+msgid "Edit my products"
+msgstr ""
+
+#: classes/customize.php:1179
+msgid "Access your WPBoutik account"
+msgstr ""
+
+#: classes/customize.php:1179
+msgid "View my profile"
+msgstr ""
+
+#: classes/customize.php:1183
+msgid "Links"
+msgstr ""
+
+#: classes/customize.php:1194
+#: templates/admin/pages/tabs/settings.php:18
+msgid "Shop page"
+msgstr ""
+
+#: classes/customize.php:1200
+msgid "Display the cart in submenu of the cart link"
+msgstr ""
+
+#: classes/customize.php:1212
+msgid "Select the menu"
+msgstr ""
+
+#: classes/customize.php:1220
+msgid "Display a visual icon for the cart"
+msgstr ""
+
+#: classes/customize.php:1227
+msgid "Choice icon"
+msgstr ""
+
+#: classes/customize.php:1258
+msgid "Size cart icon menu"
+msgstr ""
+
+#: classes/customize.php:1276
+msgid "Show and activate the product research"
+msgstr ""
+
+#: classes/customize.php:1290
+msgid "Show search"
+msgstr ""
+
+#: classes/customize.php:1295
+msgid "Click on the magnifying glass"
+msgstr ""
+
+#: classes/customize.php:1296
+msgid "Directly in the menu"
+msgstr ""
+
+#: classes/customize.php:1305
+msgid "Select the menu where the search is visible"
+msgstr ""
+
+#: classes/customize.php:1317
+msgid "Add to cart when result is hovered."
+msgstr ""
+
+#: classes/customize.php:1332
+msgid "Add to cart position"
+msgstr ""
+
+#: classes/customize.php:1347
+msgid "Breadcrumb"
+msgstr ""
+
+#: classes/customize.php:1355
+msgid "Show breadcrumb"
+msgstr ""
+
+#: classes/customize.php:1373
+msgid "Upload a default product image"
+msgstr ""
+
+#: classes/customize.php:1383
+msgid "Choose where your sidebar product page will appear"
+msgstr ""
+
+#: classes/customize.php:1387
+#: classes/customize.php:1399
+#: classes/customize.php:1411
+msgid "Hidden"
+msgstr ""
+
+#: classes/customize.php:1395
+msgid "Choose where your sidebar archive pages will appear"
+msgstr ""
+
+#: classes/customize.php:1407
+msgid "Choose where your sidebar cart page will appear"
+msgstr ""
+
+#: classes/customize.php:1427
+msgid "Size of widget titles"
+msgstr ""
+
+#: classes/customize.php:1443
+msgid "Title widget color"
+msgstr ""
+
+#: classes/google-analytics.php:265
+msgid "Google Analytics"
+msgstr ""
+
+#: classes/google-analytics.php:374
+#: classes/google-analytics.php:415
+msgid "Add to Cart"
+msgstr ""
+
+#: classes/google-analytics.php:375
+msgid "ID:"
+msgstr ""
+
+#: classes/plugin.php:540
+#: classes/plugin.php:605
+#: classes/plugin.php:702
+#: classes/product.php:1015
+#: classes/product.php:1020
+msgid "Cart"
+msgstr ""
+
+#: classes/plugin.php:592
+#: classes/plugin.php:655
+msgid "Shop"
+msgstr ""
+
+#: classes/plugin.php:631
+#: classes/plugin.php:662
+#: templates/account/view-order.php:52
+msgid "My account"
+msgstr ""
+
+#. translators: 1 HTML Tag, 2 HTML Tag
+#: classes/plugin.php:862
+msgid "WPBoutik is installed but not yet configured, you need to configure WPBoutik here : %1$sWPBoutik configuration page%2$s. The configuration takes only 1 minute! "
+msgstr ""
+
+#. translators: 1 HTML Tag, 2 HTML Tag
+#: classes/plugin.php:875
+msgid "WPBoutik: You need to activate cURL. If you need help, just ask us directly at support@wpboutik.com."
+msgstr ""
+
+#. translators: 1 HTML Tag, 2 HTML Tag
+#: classes/plugin.php:888
+msgid "WPBoutik: WooCommerce appears to be enabled on this site, which may cause conflicts and malfunctions. Please disable it to avoid any issues."
+msgstr ""
+
+#. translators: 1 HTML Tag, 2 HTML Tag
+#: classes/plugin.php:901
+msgid "WPBoutik: A new version is available. Please update your plugin to avoid any functionality issues."
+msgstr ""
+
+#. translators: 1 HTML Tag, 2 HTML Tag
+#: classes/plugin.php:914
+msgid "WPBoutik: You need to activate package php-json. If you need help, please contact your host or just ask us directly at support@wpboutik.com."
+msgstr ""
+
+#: classes/plugin.php:981
+msgid "View store"
+msgstr ""
+
+#: classes/plugin.php:1007
+#: classes/product.php:410
+msgid "Edit product"
+msgstr ""
+
+#: classes/plugin.php:1055
+msgid "Plugin settings"
+msgstr ""
+
+#: classes/plugin.php:1071
+msgid "WPBoutik dashboard"
+msgstr ""
+
+#: classes/plugin.php:1492
+#: classes/plugin.php:1592
+msgid "First Name is required"
+msgstr ""
+
+#: classes/plugin.php:1493
+#: classes/plugin.php:1593
+msgid "Last Name is required"
+msgstr ""
+
+#: classes/plugin.php:1494
+#: classes/plugin.php:1594
+msgid "Email is required"
+msgstr ""
+
+#: classes/plugin.php:1495
+#: classes/plugin.php:1595
+msgid "Address is required"
+msgstr ""
+
+#: classes/plugin.php:1496
+#: classes/plugin.php:1596
+msgid "City is required"
+msgstr ""
+
+#: classes/plugin.php:1497
+#: classes/plugin.php:1597
+msgid "Country is required"
+msgstr ""
+
+#: classes/plugin.php:1498
+#: classes/plugin.php:1598
+msgid "Postal code is required"
+msgstr ""
+
+#: classes/plugin.php:1499
+#: classes/plugin.php:1599
+msgid "Phone is required"
+msgstr ""
+
+#: classes/plugin.php:1500
+#: classes/plugin.php:1600
+msgid "Please accept the terms"
+msgstr ""
+
+#: classes/plugin.php:1501
+#: classes/plugin.php:1601
+msgid "Please select a relay point"
+msgstr ""
+
+#: classes/plugin.php:1638
+#: templates/fields/action-single.php:46
+#: templates/fields/action.php:14
+#: build/add-to-cart/index.js:1
+#: src/add-to-cart/edit.js:42
+#: src/add-to-cart/edit.js:60
+msgid "Add to cart"
+msgstr ""
+
+#: classes/plugin.php:1643
+msgid "Please select some product options before adding this product to your cart."
+msgstr ""
+
+#: classes/product.php:337
+msgid "Categories"
+msgstr ""
+
+#: classes/product.php:339
+msgid "Product categories WPB"
+msgstr ""
+
+#: classes/product.php:340
+msgid "Category"
+msgstr ""
+
+#: classes/product.php:341
+msgctxt "Admin menu name"
+msgid "Categories"
+msgstr ""
+
+#: classes/product.php:342
+msgid "Search categories"
+msgstr ""
+
+#: classes/product.php:343
+msgid "All categories"
+msgstr ""
+
+#: classes/product.php:344
+msgid "Parent category"
+msgstr ""
+
+#: classes/product.php:345
+msgid "Parent category:"
+msgstr ""
+
+#: classes/product.php:346
+msgid "Edit category"
+msgstr ""
+
+#: classes/product.php:347
+msgid "Update category"
+msgstr ""
+
+#: classes/product.php:348
+msgid "Add new category"
+msgstr ""
+
+#: classes/product.php:349
+msgid "New category name"
+msgstr ""
+
+#: classes/product.php:350
+msgid "No categories found"
+msgstr ""
+
+#: classes/product.php:371
+#: classes/product.php:373
+msgid "Product tags"
+msgstr ""
+
+#: classes/product.php:374
+msgid "Tag"
+msgstr ""
+
+#: classes/product.php:375
+msgctxt "Admin menu name"
+msgid "Tags"
+msgstr ""
+
+#: classes/product.php:376
+msgid "Search tags"
+msgstr ""
+
+#: classes/product.php:377
+msgid "All tags"
+msgstr ""
+
+#: classes/product.php:378
+msgid "Edit tag"
+msgstr ""
+
+#: classes/product.php:379
+msgid "Update tag"
+msgstr ""
+
+#: classes/product.php:380
+msgid "Add new tag"
+msgstr ""
+
+#: classes/product.php:381
+msgid "New tag name"
+msgstr ""
+
+#: classes/product.php:382
+msgid "Popular tags"
+msgstr ""
+
+#: classes/product.php:383
+msgid "Separate tags with commas"
+msgstr ""
+
+#: classes/product.php:384
+msgid "Add or remove tags"
+msgstr ""
+
+#: classes/product.php:385
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: classes/product.php:386
+msgid "No tags found"
+msgstr ""
+
+#: classes/product.php:478
+msgid "Weight"
+msgstr ""
+
+#: classes/product.php:485
+msgid "Dimensions"
+msgstr ""
+
+#: classes/product.php:493
+msgid "SKU"
+msgstr ""
+
+#: classes/product.php:797
+msgid "Rating"
+msgstr ""
+
+#: classes/product.php:929
+#: classes/product.php:970
+msgid "Description"
+msgstr ""
+
+#: classes/product.php:946
+#: classes/product.php:980
+msgid "Additional information"
+msgstr ""
+
+#. translators: %s: reviews count
+#: classes/product.php:956
+msgid "Reviews"
+msgstr ""
+
+#: classes/query.php:80
+msgid "Pay for order"
+msgstr ""
+
+#: classes/query.php:83
+msgid "Order received"
+msgstr ""
+
+#. translators: %s: page
+#: classes/query.php:88
+msgid "Orders (page %d)"
+msgstr ""
+
+#: classes/query.php:90
+#: wpboutik-functions.php:1376
+msgid "Orders"
+msgstr ""
+
+#. translators: %s: order number
+#: classes/query.php:96
+#: templates/account/view-order.php:60
+msgid "Order #%s"
+msgstr ""
+
+#: classes/query.php:99
+#: wpboutik-functions.php:1377
+msgid "Downloads"
+msgstr ""
+
+#: classes/query.php:102
+#: wpboutik-functions.php:1384
+msgid "Licenses"
+msgstr ""
+
+#: classes/query.php:105
+#: wpboutik-functions.php:1389
+msgid "Abonnements"
+msgstr ""
+
+#: classes/query.php:108
+#: templates/account/form-edit-account.php:39
+#: wpboutik-functions.php:1399
+msgid "Account details"
+msgstr ""
+
+#: classes/query.php:111
+#: templates/account/my-address.php:43
+#: templates/account/view-order.php:275
+#: templates/checkout/thankyou.php:225
+#: wpboutik-functions.php:1398
+msgid "Addresses"
+msgstr ""
+
+#: classes/query.php:114
+msgid "Payment methods"
+msgstr ""
+
+#: classes/query.php:117
+msgid "Add payment method"
+msgstr ""
+
+#: classes/query.php:121
+msgid "Set password"
+msgstr ""
+
+#: classes/query.php:123
+msgid "Lost password"
+msgstr ""
+
+#. translators: %s is replaced with the api key
+#. translators: %s is replaced with api key
+#: classes/rest.php:43
+#: classes/rest.php:66
+#: classes/rest.php:89
+#: classes/rest.php:112
+#: classes/rest.php:134
+#: classes/rest.php:157
+#: classes/rest.php:180
+#: classes/rest.php:203
+#: classes/rest.php:226
+#: classes/rest.php:249
+#: classes/rest.php:272
+#: classes/rest.php:304
+#: classes/rest.php:327
+#: classes/rest.php:350
+#: classes/rest.php:373
+#: classes/rest.php:396
+#: classes/rest.php:419
+#: classes/rest.php:442
+#: classes/rest.php:465
+#: classes/rest.php:488
+#: classes/rest.php:511
+#: classes/rest.php:534
+#: classes/rest.php:557
+#: classes/rest.php:580
+#: classes/rest.php:603
+#: classes/rest.php:628
+#: classes/rest.php:651
+#: classes/rest.php:674
+#: classes/rest.php:697
+#: classes/rest.php:720
+#: classes/rest.php:743
+#: controllers.php:49
+#: controllers.php:109
+msgid "%s must be an alphanumeric string."
+msgstr ""
+
+#: classes/rest.php:961
+#: classes/rest.php:1056
+#: classes/rest.php:1093
+#: classes/rest.php:1129
+#: classes/rest.php:1174
+#: classes/rest.php:1196
+#: classes/rest.php:1216
+#: classes/rest.php:1244
+#: classes/rest.php:1268
+#: classes/rest.php:1296
+#: classes/rest.php:1324
+#: classes/rest.php:1412
+#: classes/rest.php:1438
+#: classes/rest.php:1463
+#: classes/rest.php:1489
+#: classes/rest.php:1512
+#: classes/rest.php:1538
+#: classes/rest.php:1576
+#: classes/rest.php:1602
+#: classes/rest.php:1665
+#: classes/rest.php:1679
+#: classes/rest.php:1699
+#: classes/rest.php:1737
+#: classes/rest.php:1756
+#: classes/rest.php:1775
+#: classes/rest.php:1789
+#: classes/rest.php:1917
+#: classes/rest.php:1938
+#: classes/rest.php:1978
+#: classes/rest.php:2042
+#: wpboutik-functions.php:5145
+msgid "api_key not valid !"
+msgstr ""
+
+#. translators: %s is replaced with the api key
+#: classes/rest.php:1721
+msgid "%s is not correct for this app."
+msgstr ""
+
+#. translators: %s is replaced with the api key
+#: classes/rest.php:1728
+msgid "%s is required."
+msgstr ""
+
+#: classes/rest.php:1793
+msgid "Woocommerce is not present in your WordPress"
+msgstr ""
+
+#: classes/template.php:310
+msgid "Invalid order."
+msgstr ""
+
+#: classes/template.php:492
+#: classes/template.php:662
+#: templates/account/form-edit-account.php:95
+#: templates/checkout.php:146
+#: templates/checkout.php:288
+msgid "First name"
+msgstr ""
+
+#: classes/template.php:493
+#: classes/template.php:663
+#: templates/account/form-edit-account.php:108
+#: templates/checkout.php:161
+#: templates/checkout.php:300
+msgid "Last name"
+msgstr ""
+
+#: classes/template.php:494
+#: templates/checkout.php:175
+#: templates/checkout.php:312
+msgid "Company"
+msgstr ""
+
+#: classes/template.php:495
+#: templates/checkout.php:251
+#: templates/checkout.php:255
+#: templates/checkout.php:378
+#: templates/checkout.php:381
+msgid "Phone"
+msgstr ""
+
+#: classes/template.php:496
+#: templates/checkout.php:186
+#: templates/checkout.php:323
+msgid "Address"
+msgstr ""
+
+#: classes/template.php:497
+#: templates/checkout.php:200
+#: templates/checkout.php:335
+msgid "City"
+msgstr ""
+
+#: classes/template.php:498
+#: templates/checkout.php:213
+#: templates/checkout.php:347
+msgid "Country"
+msgstr ""
+
+#: classes/template.php:500
+#: templates/checkout.php:237
+#: templates/checkout.php:241
+#: templates/checkout.php:366
+#: templates/checkout.php:369
+msgid "Postal code"
+msgstr ""
+
+#. translators: %s: Field name.
+#: classes/template.php:516
+#: classes/template.php:672
+msgid "%s is a required field."
+msgstr ""
+
+#: classes/template.php:530
+msgid "Please enter a valid Eircode."
+msgstr ""
+
+#: classes/template.php:533
+msgid "Please enter a valid postcode / ZIP."
+msgstr ""
+
+#. translators: %s: Phone number.
+#: classes/template.php:541
+msgid "%s is not a valid phone number."
+msgstr ""
+
+#. translators: %s: Email address.
+#: classes/template.php:549
+msgid "%s is not a valid email address."
+msgstr ""
+
+#: classes/template.php:655
+msgid "Display name cannot be changed to email address due to privacy concern."
+msgstr ""
+
+#: classes/template.php:664
+#: templates/account/form-edit-account.php:121
+msgid "Display name"
+msgstr ""
+
+#: classes/template.php:665
+#: templates/account/form-edit-account.php:134
+#: templates/checkout.php:128
+msgid "Email address"
+msgstr ""
+
+#: classes/template.php:679
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: classes/template.php:681
+msgid "This email address is already registered."
+msgstr ""
+
+#: classes/template.php:687
+msgid "Please fill out all password fields."
+msgstr ""
+
+#: classes/template.php:690
+msgid "Please enter your current password."
+msgstr ""
+
+#: classes/template.php:693
+msgid "Please re-enter your password."
+msgstr ""
+
+#: classes/template.php:696
+msgid "New passwords do not match."
+msgstr ""
+
+#: classes/template.php:699
+msgid "Your current password is incorrect."
+msgstr ""
+
+#: classes/widgets.php:24
+msgid "WBoutik Product Sidebar"
+msgstr ""
+
+#: classes/widgets.php:26
+msgid "Widgets added here will appear on single wpboutik product pages."
+msgstr ""
+
+#: classes/widgets.php:34
+msgid "WBoutik Archive Sidebar"
+msgstr ""
+
+#: classes/widgets.php:36
+msgid "Widgets added here will appear on wpboutik archive product pages."
+msgstr ""
+
+#: classes/widgets.php:44
+msgid "WBoutik Cart Sidebar"
+msgstr ""
+
+#: classes/widgets.php:46
+msgid "Widgets added here will appear on wpboutik cart page."
+msgstr ""
+
+#: classes/widgets.php:98
+msgid "WPBoutik Liste Nouveaux Produits"
+msgstr ""
+
+#: classes/widgets.php:99
+msgid "Affiche la liste des nouveaux produits"
+msgstr ""
+
+#: classes/widgets.php:113
+msgid "New products"
+msgstr ""
+
+#: classes/widgets.php:204
+msgid "WPBoutik Liste Produits mis en avant"
+msgstr ""
+
+#: classes/widgets.php:205
+msgid "Affiche la liste des produits mis en avant"
+msgstr ""
+
+#: classes/widgets.php:236
+msgid "Featured products"
+msgstr ""
+
+#: classes/widgets.php:318
+msgid "WPBoutik Liste Meilleures Ventes"
+msgstr ""
+
+#: classes/widgets.php:319
+msgid "Affiche la liste des meilleures ventes de produits"
+msgstr ""
+
+#: classes/widgets.php:335
+msgid "Best Sellers"
+msgstr ""
+
+#: classes/widgets.php:423
+msgid "WPBoutik Liste Categories Produits"
+msgstr ""
+
+#: classes/widgets.php:424
+msgid "Affiche la liste des catégories de produits"
+msgstr ""
+
+#: classes/widgets.php:438
+msgid "Les catégories de produits"
+msgstr ""
+
+#: classes/widgets.php:506
+msgid "WPBoutik Filter Products by Price"
+msgstr ""
+
+#: classes/widgets.php:507
+msgid "Display a slider to filter products in your store by price."
+msgstr ""
+
+#: classes/widgets.php:594
+msgid "Filtrer par prix"
+msgstr ""
+
+#: classes/widgets.php:645
+#: classes/widgets.php:649
+msgid "Min price"
+msgstr ""
+
+#: classes/widgets.php:651
+#: classes/widgets.php:655
+msgid "Max price"
+msgstr ""
+
+#: classes/widgets.php:658
+msgid "Filter"
+msgstr ""
+
+#: classes/widgets.php:660
+msgid "Price:"
+msgstr ""
+
+#: classes/widgets.php:782
+msgid "WPBoutik Gift Card Widget"
+msgstr ""
+
+#: classes/widgets.php:783
+msgid "Display Gift card product."
+msgstr ""
+
+#: classes/widgets.php:798
+msgid "Gift Card"
+msgstr ""
+
+#: classes/widgets.php:818
+msgid "No gift cards were found on this site."
+msgstr ""
+
+#: classes/widgets.php:870
+msgid "WPBoutik Product Search Widget"
+msgstr ""
+
+#: classes/widgets.php:871
+msgid "Display an input to search products."
+msgstr ""
+
+#: classes/widgets.php:960
+msgid "WPBoutik Product Categories"
+msgstr ""
+
+#: classes/widgets.php:961
+msgid "A list or dropdown of product categories."
+msgstr ""
+
+#: classes/widgets.php:970
+msgid "Product categories"
+msgstr ""
+
+#: classes/widgets.php:971
+msgid "Title"
+msgstr ""
+
+#: classes/widgets.php:976
+msgid "Order by"
+msgstr ""
+
+#: classes/widgets.php:978
+msgid "Category order"
+msgstr ""
+
+#: classes/widgets.php:979
+#: templates/single/product-reviews.php:64
+msgid "Name"
+msgstr ""
+
+#: classes/widgets.php:985
+msgid "Show as dropdown"
+msgstr ""
+
+#: classes/widgets.php:990
+msgid "Show product counts"
+msgstr ""
+
+#: classes/widgets.php:995
+msgid "Show hierarchy"
+msgstr ""
+
+#: classes/widgets.php:1000
+msgid "Only show children of the current category"
+msgstr ""
+
+#: classes/widgets.php:1005
+msgid "Hide empty categories"
+msgstr ""
+
+#: classes/widgets.php:1010
+msgid "Maximum depth"
+msgstr ""
+
+#: classes/widgets.php:1255
+#: wpboutik-functions.php:465
+#: wpboutik-functions.php:4803
+msgid "Toutes les catégories"
+msgstr ""
+
+#: classes/widgets.php:1261
+#: wpboutik-functions.php:471
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: classes/widgets.php:1277
+msgid "No product categories exist."
+msgstr ""
+
+#: controllers.php:44
+#: controllers.php:104
+msgid "Not param correct api key."
+msgstr ""
+
+#: templates/account/abonnement.php:40
+#: templates/account/licenses.php:40
+msgid "Product"
+msgstr ""
+
+#: templates/account/abonnement.php:43
+#: templates/account/licenses.php:46
+msgid "Limit date"
+msgstr ""
+
+#: templates/account/abonnement.php:46
+#: templates/account/licenses.php:52
+msgid "automatic renewal"
+msgstr ""
+
+#. translators: 1: user display name 2: logout url
+#: templates/account/dashboard.php:29
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+msgstr ""
+
+#. translators: 1: Orders URL 2: Address URL 3: Account URL.
+#: templates/account/dashboard.php:39
+msgid "From your account dashboard you can view your <a href=\"%1$s\">recent orders</a>, manage your <a href=\"%2$s\">billing address</a>, and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+
+#: templates/account/downloads.php:66
+#: templates/account/view-order.php:240
+#: templates/checkout/thankyou.php:190
+msgid "Download"
+msgstr ""
+
+#: templates/account/downloads.php:75
+msgid "You have no downloads."
+msgstr ""
+
+#: templates/account/form-edit-account.php:71
+msgid "Account details changed successfully."
+msgstr ""
+
+#: templates/account/form-edit-account.php:128
+msgid "This will be how your name will be displayed in the account section and in reviews"
+msgstr ""
+
+#: templates/account/form-edit-account.php:147
+msgid "Password change"
+msgstr ""
+
+#: templates/account/form-edit-account.php:150
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: templates/account/form-edit-account.php:154
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: templates/account/form-edit-account.php:158
+msgid "Confirm new password"
+msgstr ""
+
+#: templates/account/form-edit-account.php:168
+msgid "Save changes"
+msgstr ""
+
+#: templates/account/form-edit-address.php:22
+#: templates/account/view-order.php:288
+#: templates/checkout/thankyou.php:238
+msgid "Billing address"
+msgstr ""
+
+#: templates/account/form-edit-address.php:22
+#: templates/account/view-order.php:278
+#: templates/checkout/thankyou.php:228
+msgid "Shipping address"
+msgstr ""
+
+#: templates/account/form-lost-password.php:48
+msgid "A password reset email has been sent to the email address on file for your account, but may take several minutes to show up in your inbox. Please wait at least 10 minutes before attempting another reset."
+msgstr ""
+
+#: templates/account/form-reset-password.php:65
+msgid "Enter a new password below."
+msgstr ""
+
+#: templates/account/form-reset-password.php:68
+msgid "New password"
+msgstr ""
+
+#: templates/account/form-reset-password.php:74
+msgid "Re-enter new password"
+msgstr ""
+
+#: templates/account/form-reset-password.php:93
+msgid "Save"
+msgstr ""
+
+#: templates/account/licenses.php:43
+msgid "Code"
+msgstr ""
+
+#: templates/account/licenses.php:49
+msgid "Installations"
+msgstr ""
+
+#: templates/account/licenses.php:94
+#: templates/account/licenses.php:100
+msgid "Unlimited"
+msgstr ""
+
+#: templates/account/licenses.php:108
+msgid "Manage urls"
+msgstr ""
+
+#: templates/account/my-address.php:48
+msgid "Address changed successfully."
+msgstr ""
+
+#: templates/account/orders.php:44
+msgid "Order history"
+msgstr ""
+
+#: templates/account/orders.php:58
+msgid "Order placed on"
+msgstr ""
+
+#: templates/account/orders.php:67
+msgid "Order number"
+msgstr ""
+
+#: templates/account/orders.php:71
+msgid "Date placed"
+msgstr ""
+
+#: templates/account/orders.php:78
+msgid "Total amount"
+msgstr ""
+
+#: templates/account/orders.php:125
+msgid "View"
+msgstr ""
+
+#: templates/account/orders.php:131
+msgid "Invoice"
+msgstr ""
+
+#: templates/account/orders.php:141
+msgid "View Order"
+msgstr ""
+
+#: templates/account/orders.php:149
+msgid "View Invoice"
+msgstr ""
+
+#: templates/account/orders.php:158
+msgid "View Credit"
+msgstr ""
+
+#: templates/account/orders.php:329
+msgid "No order has been made yet."
+msgstr ""
+
+#: templates/account/orders.php:333
+msgid "Browse products"
+msgstr ""
+
+#: templates/account/view-order.php:141
+#: templates/checkout/thankyou.php:124
+msgid "Your order"
+msgstr ""
+
+#: templates/account/view-order.php:194
+#: templates/cart/cart.php:160
+#: templates/cart/mini-cart.php:112
+#: templates/fields/gift-card-customization.php:13
+msgid "Recipient's email"
+msgstr ""
+
+#: templates/account/view-order.php:197
+#: templates/cart/cart.php:163
+#: templates/cart/mini-cart.php:115
+#: templates/fields/gift-card-customization.php:19
+msgid "Your message:"
+msgstr ""
+
+#: templates/account/view-order.php:256
+#: templates/checkout/thankyou.php:206
+msgid "Price"
+msgstr ""
+
+#: templates/account/view-order.php:273
+#: templates/checkout/thankyou.php:223
+msgid "Your information"
+msgstr ""
+
+#: templates/account/view-order.php:299
+#: templates/checkout.php:479
+#: templates/checkout/thankyou.php:249
+msgid "Payment"
+msgstr ""
+
+#: templates/account/view-order.php:303
+#: templates/checkout/thankyou.php:253
+msgid "Payment method"
+msgstr ""
+
+#: templates/account/view-order.php:306
+#: templates/checkout.php:499
+#: templates/checkout.php:504
+#: templates/checkout.php:509
+#: templates/checkout.php:514
+#: templates/checkout/thankyou.php:256
+msgid "Credit card"
+msgstr ""
+
+#: templates/account/view-order.php:308
+#: templates/checkout.php:516
+#: templates/checkout/thankyou.php:258
+msgid "PayPal"
+msgstr ""
+
+#: templates/account/view-order.php:310
+#: templates/checkout.php:518
+#: templates/checkout.php:548
+#: templates/checkout/thankyou.php:260
+msgid "Bacs / Check"
+msgstr ""
+
+#: templates/account/view-order.php:321
+#: templates/checkout/thankyou.php:271
+msgid "Shipping method"
+msgstr ""
+
+#: templates/account/view-order.php:334
+#: templates/checkout/thankyou.php:282
+msgid "Summary"
+msgstr ""
+
+#: templates/account/view-order.php:345
+#: templates/checkout.php:696
+#: templates/checkout/thankyou.php:293
+msgid "Discount"
+msgstr ""
+
+#: templates/account/view-order.php:376
+#: templates/checkout.php:746
+#: templates/checkout/thankyou.php:325
+msgid "Taxes"
+msgstr ""
+
+#: templates/account/view-order.php:392
+#: templates/checkout.php:764
+#: templates/checkout/thankyou.php:341
+msgid "Shipping"
+msgstr ""
+
+#: templates/account/view-order.php:397
+#: templates/checkout.php:773
+#: templates/checkout/thankyou.php:346
+msgid "Total"
+msgstr ""
+
+#: templates/account/view-order.php:403
+msgid "Gift Card payment"
+msgstr ""
+
+#: templates/account/view-order.php:408
+msgid "Left to be paid:"
+msgstr ""
+
+#: templates/admin/pages/settings.php:99
+msgid "Customize WPBoutik to your colors"
+msgstr ""
+
+#: templates/admin/pages/settings.php:104
+msgid "Love WPBoutik? Give us 5 stars on WordPress.org"
+msgstr ""
+
+#. translators: 1 HTML Tag, 2 HTML Tag
+#: templates/admin/pages/settings.php:109
+msgid "If you need any help, you can contact us via email us at %1$ssupport@wpboutik.com%2$s."
+msgstr ""
+
+#. translators: 1 HTML Tag, 2 HTML Tag
+#: templates/admin/pages/settings.php:112
+msgid "You can also check our %1$sFAQ%2$s."
+msgstr ""
+
+#: templates/admin/pages/settings.php:123
+msgid "Where are my products?"
+msgstr ""
+
+#: templates/admin/pages/settings.php:125
+msgid "You can find all your products in your WPBoutik account:"
+msgstr ""
+
+#: templates/admin/pages/settings.php:131
+msgid "When you edit your products in WPBoutik, remember to clear your cache (if you have a cache plugin) to make sure you see the latest version of your page)"
+msgstr ""
+
+#: templates/admin/pages/tabs/settings.php:13
+msgid "API Key"
+msgstr ""
+
+#: templates/admin/pages/tabs/settings.php:14
+msgid "Log in to %1$sWPBoutik%2$s to get your API key."
+msgstr ""
+
+#: templates/admin/pages/tabs/settings.php:22
+msgid "Cart page"
+msgstr ""
+
+#: templates/admin/pages/tabs/settings.php:26
+msgid "Checkout page"
+msgstr ""
+
+#: templates/admin/pages/tabs/settings.php:30
+msgid "Account page"
+msgstr ""
+
+#: templates/admin/pages/tabs/settings.php:34
+msgid "General Terms and Conditions page"
+msgstr ""
+
+#: templates/admin/pages/tabs/settings.php:44
+msgid "Main configuration"
+msgstr ""
+
+#: templates/admin/pages/tabs/settings.php:70
+msgid "If you don't have an account, you can create one in 20 seconds !"
+msgstr ""
+
+#: templates/archive-wpboutik_product.php:236
+#: templates/taxonomy-wpboutik_product_cat.php:80
+msgid "Aucun produit n'existe avec ce filtre."
+msgstr ""
+
+#: templates/cart/cart.php:38
+msgid "Shopping Cart"
+msgstr ""
+
+#: templates/cart/cart.php:113
+#: templates/cart/mini-cart.php:78
+#: templates/checkout.php:634
+#: templates/fields/price.php:32
+msgid "then"
+msgstr ""
+
+#: templates/cart/cart.php:156
+#: templates/cart/mini-cart.php:109
+msgid "Value"
+msgstr ""
+
+#: templates/cart/mini-cart.php:21
+#: templates/fields/action-single.php:50
+#: templates/fields/action.php:18
+msgid "View cart"
+msgstr ""
+
+#: templates/cart/mini-cart.php:171
+msgid "No products in the cart."
+msgstr ""
+
+#: templates/cart/mini-cart.php:177
+#: templates/cart/mini-cart.php:195
+msgid "Panier total"
+msgstr ""
+
+#: templates/checkout.php:102
+#: templates/forms/login.php:31
+msgid "Sign in"
+msgstr ""
+
+#: templates/checkout.php:111
+msgid "Attention, le paiement n’a pas fonctionné, veuillez réessayer"
+msgstr ""
+
+#: templates/checkout.php:124
+msgid "Contact information"
+msgstr ""
+
+#: templates/checkout.php:141
+msgid "Shipping information"
+msgstr ""
+
+#: templates/checkout.php:266
+msgid "Billing information"
+msgstr ""
+
+#: templates/checkout.php:280
+msgid "Same as shipping information"
+msgstr ""
+
+#: templates/checkout.php:407
+msgid "Order comments"
+msgstr ""
+
+#: templates/checkout.php:411
+msgid "Comments about your order, eg. : delivery instructions."
+msgstr ""
+
+#: templates/checkout.php:422
+msgid "Delivery method"
+msgstr ""
+
+#: templates/checkout.php:482
+msgid "Payment type"
+msgstr ""
+
+#: templates/checkout.php:581
+msgid "Items in your cart"
+msgstr ""
+
+#: templates/checkout.php:716
+#: templates/checkout.php:839
+msgid "Gift card"
+msgstr ""
+
+#: templates/checkout.php:797
+msgid "Have a coupon code?"
+msgstr ""
+
+#: templates/checkout.php:806
+msgid "Coupon code"
+msgstr ""
+
+#: templates/checkout.php:819
+msgid "Apply coupon code"
+msgstr ""
+
+#: templates/checkout.php:830
+msgid "Have a gift card?"
+msgstr ""
+
+#: templates/checkout.php:852
+msgid "Apply gift card code"
+msgstr ""
+
+#: templates/checkout.php:865
+msgid "Vos données personnelles seront utilisées pour le traitement de votre commande, vous accompagner au cours de votre visite du site web, et pour d’autres raisons décrites dans notre"
+msgstr ""
+
+#: templates/checkout.php:877
+msgid "J’ai lu et j’accepte les"
+msgstr ""
+
+#: templates/checkout/thankyou.php:43
+msgid "Thank you!"
+msgstr ""
+
+#: templates/checkout/thankyou.php:44
+msgid "It's on the way!"
+msgstr ""
+
+#: templates/checkout/thankyou.php:65
+msgid "Bank"
+msgstr ""
+
+#: templates/checkout/thankyou.php:69
+msgid "Account number"
+msgstr ""
+
+#: templates/checkout/thankyou.php:73
+msgid "Code guichet"
+msgstr ""
+
+#: templates/checkout/thankyou.php:77
+msgid "IBAN"
+msgstr ""
+
+#: templates/checkout/thankyou.php:81
+msgid "BIC"
+msgstr ""
+
+#: templates/checkout/thankyou.php:101
+msgid "Our bank details"
+msgstr ""
+
+#: templates/checkout/thankyou.php:363
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: templates/fields/action-single.php:5
+#: templates/fields/action-single.php:59
+#: templates/fields/action.php:27
+#: build/add-to-cart/index.js:1
+#: src/add-to-cart/edit.js:62
+msgid "Out of stock"
+msgstr ""
+
+#: templates/fields/action-single.php:12
+msgid "Option non disponible"
+msgstr ""
+
+#: templates/fields/action.php:5
+#: build/add-to-cart/index.js:1
+#: src/add-to-cart/edit.js:58
+msgid "Choose options"
+msgstr ""
+
+#: templates/fields/action.php:24
+msgid "View product"
+msgstr ""
+
+#: templates/fields/gift-card-customization.php:3
+msgid "Customizations:"
+msgstr ""
+
+#: templates/fields/gift-card-customization.php:7
+#: templates/fields/product-options.php:42
+msgid "Custom price"
+msgstr ""
+
+#: templates/fields/payment.php:9
+msgid "Confirm order"
+msgstr ""
+
+#: templates/forms/address.php:153
+msgid "Save address"
+msgstr ""
+
+#: templates/forms/back-in-stock.php:3
+msgid "Receive an email when the product is back in stock"
+msgstr ""
+
+#: templates/forms/back-in-stock.php:13
+msgid "Subscribe now"
+msgstr ""
+
+#: templates/forms/lost-password.php:23
+msgid "Reset password"
+msgstr ""
+
+#: templates/parts/share.php:7
+msgid "Share"
+msgstr ""
+
+#: templates/parts/share.php:11
+msgid "Share on Facebook"
+msgstr ""
+
+#: templates/parts/share.php:19
+msgid "Share on Instagram"
+msgstr ""
+
+#: templates/parts/share.php:27
+msgid "Share on X"
+msgstr ""
+
+#: templates/parts/share.php:35
+msgid "Share on Pinterest"
+msgstr ""
+
+#: templates/parts/share.php:43
+msgid "Share on Linkedin"
+msgstr ""
+
+#: templates/parts/slideshow.php:6
+#: templates/parts/slideshow.php:110
+msgid "Images"
+msgstr ""
+
+#: templates/single/product-review-meta.php:16
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: templates/single/product-reviews.php:39
+msgid "There are no reviews yet."
+msgstr ""
+
+#. translators: %s is product title
+#: templates/single/product-reviews.php:50
+msgid "Add a review"
+msgstr ""
+
+#. translators: %s is product title
+#: templates/single/product-reviews.php:50
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s is product title
+#: templates/single/product-reviews.php:52
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: templates/single/product-reviews.php:56
+msgid "Submit"
+msgstr ""
+
+#: templates/single/product-reviews.php:70
+msgid "Email"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+#: templates/single/product-reviews.php:95
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: templates/single/product-reviews.php:99
+msgid "Your rating"
+msgstr ""
+
+#: templates/single/product-reviews.php:100
+msgid "Rate&hellip;"
+msgstr ""
+
+#: templates/single/product-reviews.php:101
+msgid "Perfect"
+msgstr ""
+
+#: templates/single/product-reviews.php:102
+msgid "Good"
+msgstr ""
+
+#: templates/single/product-reviews.php:103
+msgid "Average"
+msgstr ""
+
+#: templates/single/product-reviews.php:104
+msgid "Not that bad"
+msgstr ""
+
+#: templates/single/product-reviews.php:105
+msgid "Very poor"
+msgstr ""
+
+#: templates/single/product-reviews.php:109
+msgid "Your review"
+msgstr ""
+
+#: templates/single/product-reviews.php:116
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: wpboutik-functions.php:528
+msgid "Default sorting"
+msgstr ""
+
+#: wpboutik-functions.php:533
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: wpboutik-functions.php:534
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: wpboutik-functions.php:543
+msgid "Shop order"
+msgstr ""
+
+#: wpboutik-functions.php:842
+#: wpboutik-functions.php:877
+msgid "N/A"
+msgstr ""
+
+#: wpboutik-functions.php:1281
+msgctxt "edit-address-slug"
+msgid "billing"
+msgstr ""
+
+#: wpboutik-functions.php:1282
+msgctxt "edit-address-slug"
+msgid "shipping"
+msgstr ""
+
+#: wpboutik-functions.php:1375
+msgid "Dashboard"
+msgstr ""
+
+#: wpboutik-functions.php:1430
+msgid "every %d %s"
+msgstr ""
+
+#: wpboutik-functions.php:1432
+msgid "every %s"
+msgstr ""
+
+#: wpboutik-functions.php:1446
+msgid "day"
+msgstr ""
+
+#: wpboutik-functions.php:1449
+msgid "month"
+msgstr ""
+
+#: wpboutik-functions.php:1452
+msgid "year"
+msgstr ""
+
+#: wpboutik-functions.php:1884
+msgid "Afghanistan"
+msgstr ""
+
+#: wpboutik-functions.php:1885
+msgid "Åland Islands"
+msgstr ""
+
+#: wpboutik-functions.php:1886
+msgid "Albania"
+msgstr ""
+
+#: wpboutik-functions.php:1887
+msgid "Algeria"
+msgstr ""
+
+#: wpboutik-functions.php:1888
+msgid "American Samoa"
+msgstr ""
+
+#: wpboutik-functions.php:1889
+msgid "Andorra"
+msgstr ""
+
+#: wpboutik-functions.php:1890
+msgid "Angola"
+msgstr ""
+
+#: wpboutik-functions.php:1891
+msgid "Anguilla"
+msgstr ""
+
+#: wpboutik-functions.php:1892
+msgid "Antarctica"
+msgstr ""
+
+#: wpboutik-functions.php:1893
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: wpboutik-functions.php:1894
+msgid "Argentina"
+msgstr ""
+
+#: wpboutik-functions.php:1895
+msgid "Armenia"
+msgstr ""
+
+#: wpboutik-functions.php:1896
+msgid "Aruba"
+msgstr ""
+
+#: wpboutik-functions.php:1897
+msgid "Australia"
+msgstr ""
+
+#: wpboutik-functions.php:1898
+msgid "Austria"
+msgstr ""
+
+#: wpboutik-functions.php:1899
+msgid "Azerbaijan"
+msgstr ""
+
+#: wpboutik-functions.php:1900
+msgid "Bahamas"
+msgstr ""
+
+#: wpboutik-functions.php:1901
+msgid "Bahrain"
+msgstr ""
+
+#: wpboutik-functions.php:1902
+msgid "Bangladesh"
+msgstr ""
+
+#: wpboutik-functions.php:1903
+msgid "Barbados"
+msgstr ""
+
+#: wpboutik-functions.php:1904
+msgid "Belarus"
+msgstr ""
+
+#: wpboutik-functions.php:1905
+msgid "Belgium"
+msgstr ""
+
+#: wpboutik-functions.php:1906
+msgid "Belau"
+msgstr ""
+
+#: wpboutik-functions.php:1907
+msgid "Belize"
+msgstr ""
+
+#: wpboutik-functions.php:1908
+msgid "Benin"
+msgstr ""
+
+#: wpboutik-functions.php:1909
+msgid "Bermuda"
+msgstr ""
+
+#: wpboutik-functions.php:1910
+msgid "Bhutan"
+msgstr ""
+
+#: wpboutik-functions.php:1911
+msgid "Bolivia"
+msgstr ""
+
+#: wpboutik-functions.php:1912
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: wpboutik-functions.php:1913
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: wpboutik-functions.php:1914
+msgid "Botswana"
+msgstr ""
+
+#: wpboutik-functions.php:1915
+msgid "Bouvet Island"
+msgstr ""
+
+#: wpboutik-functions.php:1916
+msgid "Brazil"
+msgstr ""
+
+#: wpboutik-functions.php:1917
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: wpboutik-functions.php:1918
+msgid "Brunei"
+msgstr ""
+
+#: wpboutik-functions.php:1919
+msgid "Bulgaria"
+msgstr ""
+
+#: wpboutik-functions.php:1920
+msgid "Burkina Faso"
+msgstr ""
+
+#: wpboutik-functions.php:1921
+msgid "Burundi"
+msgstr ""
+
+#: wpboutik-functions.php:1922
+msgid "Cambodia"
+msgstr ""
+
+#: wpboutik-functions.php:1923
+msgid "Cameroon"
+msgstr ""
+
+#: wpboutik-functions.php:1924
+msgid "Canada"
+msgstr ""
+
+#: wpboutik-functions.php:1925
+msgid "Cape Verde"
+msgstr ""
+
+#: wpboutik-functions.php:1926
+msgid "Cayman Islands"
+msgstr ""
+
+#: wpboutik-functions.php:1927
+msgid "Central African Republic"
+msgstr ""
+
+#: wpboutik-functions.php:1928
+msgid "Chad"
+msgstr ""
+
+#: wpboutik-functions.php:1929
+msgid "Chile"
+msgstr ""
+
+#: wpboutik-functions.php:1930
+msgid "China"
+msgstr ""
+
+#: wpboutik-functions.php:1931
+msgid "Christmas Island"
+msgstr ""
+
+#: wpboutik-functions.php:1932
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: wpboutik-functions.php:1933
+msgid "Colombia"
+msgstr ""
+
+#: wpboutik-functions.php:1934
+msgid "Comoros"
+msgstr ""
+
+#: wpboutik-functions.php:1935
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: wpboutik-functions.php:1936
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: wpboutik-functions.php:1937
+msgid "Cook Islands"
+msgstr ""
+
+#: wpboutik-functions.php:1938
+msgid "Costa Rica"
+msgstr ""
+
+#: wpboutik-functions.php:1939
+msgid "Croatia"
+msgstr ""
+
+#: wpboutik-functions.php:1940
+msgid "Cuba"
+msgstr ""
+
+#: wpboutik-functions.php:1941
+msgid "Cura&ccedil;ao"
+msgstr ""
+
+#: wpboutik-functions.php:1942
+msgid "Cyprus"
+msgstr ""
+
+#: wpboutik-functions.php:1943
+msgid "Czech Republic"
+msgstr ""
+
+#: wpboutik-functions.php:1944
+msgid "Denmark"
+msgstr ""
+
+#: wpboutik-functions.php:1945
+msgid "Djibouti"
+msgstr ""
+
+#: wpboutik-functions.php:1946
+msgid "Dominica"
+msgstr ""
+
+#: wpboutik-functions.php:1947
+msgid "Dominican Republic"
+msgstr ""
+
+#: wpboutik-functions.php:1948
+msgid "Ecuador"
+msgstr ""
+
+#: wpboutik-functions.php:1949
+msgid "Egypt"
+msgstr ""
+
+#: wpboutik-functions.php:1950
+msgid "El Salvador"
+msgstr ""
+
+#: wpboutik-functions.php:1951
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: wpboutik-functions.php:1952
+msgid "Eritrea"
+msgstr ""
+
+#: wpboutik-functions.php:1953
+msgid "Estonia"
+msgstr ""
+
+#: wpboutik-functions.php:1954
+msgid "Ethiopia"
+msgstr ""
+
+#: wpboutik-functions.php:1955
+msgid "Falkland Islands"
+msgstr ""
+
+#: wpboutik-functions.php:1956
+msgid "Faroe Islands"
+msgstr ""
+
+#: wpboutik-functions.php:1957
+msgid "Fiji"
+msgstr ""
+
+#: wpboutik-functions.php:1958
+msgid "Finland"
+msgstr ""
+
+#: wpboutik-functions.php:1959
+msgid "France"
+msgstr ""
+
+#: wpboutik-functions.php:1960
+msgid "French Guiana"
+msgstr ""
+
+#: wpboutik-functions.php:1961
+msgid "French Polynesia"
+msgstr ""
+
+#: wpboutik-functions.php:1962
+msgid "French Southern Territories"
+msgstr ""
+
+#: wpboutik-functions.php:1963
+msgid "Gabon"
+msgstr ""
+
+#: wpboutik-functions.php:1964
+msgid "Gambia"
+msgstr ""
+
+#: wpboutik-functions.php:1965
+msgid "Georgia"
+msgstr ""
+
+#: wpboutik-functions.php:1966
+msgid "Germany"
+msgstr ""
+
+#: wpboutik-functions.php:1967
+msgid "Ghana"
+msgstr ""
+
+#: wpboutik-functions.php:1968
+msgid "Gibraltar"
+msgstr ""
+
+#: wpboutik-functions.php:1969
+msgid "Greece"
+msgstr ""
+
+#: wpboutik-functions.php:1970
+msgid "Greenland"
+msgstr ""
+
+#: wpboutik-functions.php:1971
+msgid "Grenada"
+msgstr ""
+
+#: wpboutik-functions.php:1972
+msgid "Guadeloupe"
+msgstr ""
+
+#: wpboutik-functions.php:1973
+msgid "Guam"
+msgstr ""
+
+#: wpboutik-functions.php:1974
+msgid "Guatemala"
+msgstr ""
+
+#: wpboutik-functions.php:1975
+msgid "Guernsey"
+msgstr ""
+
+#: wpboutik-functions.php:1976
+msgid "Guinea"
+msgstr ""
+
+#: wpboutik-functions.php:1977
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: wpboutik-functions.php:1978
+msgid "Guyana"
+msgstr ""
+
+#: wpboutik-functions.php:1979
+msgid "Haiti"
+msgstr ""
+
+#: wpboutik-functions.php:1980
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: wpboutik-functions.php:1981
+msgid "Honduras"
+msgstr ""
+
+#: wpboutik-functions.php:1982
+msgid "Hong Kong"
+msgstr ""
+
+#: wpboutik-functions.php:1983
+msgid "Hungary"
+msgstr ""
+
+#: wpboutik-functions.php:1984
+msgid "Iceland"
+msgstr ""
+
+#: wpboutik-functions.php:1985
+msgid "India"
+msgstr ""
+
+#: wpboutik-functions.php:1986
+msgid "Indonesia"
+msgstr ""
+
+#: wpboutik-functions.php:1987
+msgid "Iran"
+msgstr ""
+
+#: wpboutik-functions.php:1988
+msgid "Iraq"
+msgstr ""
+
+#: wpboutik-functions.php:1989
+msgid "Ireland"
+msgstr ""
+
+#: wpboutik-functions.php:1990
+msgid "Isle of Man"
+msgstr ""
+
+#: wpboutik-functions.php:1991
+msgid "Israel"
+msgstr ""
+
+#: wpboutik-functions.php:1992
+msgid "Italy"
+msgstr ""
+
+#: wpboutik-functions.php:1993
+msgid "Ivory Coast"
+msgstr ""
+
+#: wpboutik-functions.php:1994
+msgid "Jamaica"
+msgstr ""
+
+#: wpboutik-functions.php:1995
+msgid "Japan"
+msgstr ""
+
+#: wpboutik-functions.php:1996
+msgid "Jersey"
+msgstr ""
+
+#: wpboutik-functions.php:1997
+msgid "Jordan"
+msgstr ""
+
+#: wpboutik-functions.php:1998
+msgid "Kazakhstan"
+msgstr ""
+
+#: wpboutik-functions.php:1999
+msgid "Kenya"
+msgstr ""
+
+#: wpboutik-functions.php:2000
+msgid "Kiribati"
+msgstr ""
+
+#: wpboutik-functions.php:2001
+msgid "Kuwait"
+msgstr ""
+
+#: wpboutik-functions.php:2002
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: wpboutik-functions.php:2003
+msgid "Laos"
+msgstr ""
+
+#: wpboutik-functions.php:2004
+msgid "Latvia"
+msgstr ""
+
+#: wpboutik-functions.php:2005
+msgid "Lebanon"
+msgstr ""
+
+#: wpboutik-functions.php:2006
+msgid "Lesotho"
+msgstr ""
+
+#: wpboutik-functions.php:2007
+msgid "Liberia"
+msgstr ""
+
+#: wpboutik-functions.php:2008
+msgid "Libya"
+msgstr ""
+
+#: wpboutik-functions.php:2009
+msgid "Liechtenstein"
+msgstr ""
+
+#: wpboutik-functions.php:2010
+msgid "Lithuania"
+msgstr ""
+
+#: wpboutik-functions.php:2011
+msgid "Luxembourg"
+msgstr ""
+
+#: wpboutik-functions.php:2012
+msgid "Macao"
+msgstr ""
+
+#: wpboutik-functions.php:2013
+msgid "North Macedonia"
+msgstr ""
+
+#: wpboutik-functions.php:2014
+msgid "Madagascar"
+msgstr ""
+
+#: wpboutik-functions.php:2015
+msgid "Malawi"
+msgstr ""
+
+#: wpboutik-functions.php:2016
+msgid "Malaysia"
+msgstr ""
+
+#: wpboutik-functions.php:2017
+msgid "Maldives"
+msgstr ""
+
+#: wpboutik-functions.php:2018
+msgid "Mali"
+msgstr ""
+
+#: wpboutik-functions.php:2019
+msgid "Malta"
+msgstr ""
+
+#: wpboutik-functions.php:2020
+msgid "Marshall Islands"
+msgstr ""
+
+#: wpboutik-functions.php:2021
+msgid "Martinique"
+msgstr ""
+
+#: wpboutik-functions.php:2022
+msgid "Mauritania"
+msgstr ""
+
+#: wpboutik-functions.php:2023
+msgid "Mauritius"
+msgstr ""
+
+#: wpboutik-functions.php:2024
+msgid "Mayotte"
+msgstr ""
+
+#: wpboutik-functions.php:2025
+msgid "Mexico"
+msgstr ""
+
+#: wpboutik-functions.php:2026
+msgid "Micronesia"
+msgstr ""
+
+#: wpboutik-functions.php:2027
+msgid "Moldova"
+msgstr ""
+
+#: wpboutik-functions.php:2028
+msgid "Monaco"
+msgstr ""
+
+#: wpboutik-functions.php:2029
+msgid "Mongolia"
+msgstr ""
+
+#: wpboutik-functions.php:2030
+msgid "Montenegro"
+msgstr ""
+
+#: wpboutik-functions.php:2031
+msgid "Montserrat"
+msgstr ""
+
+#: wpboutik-functions.php:2032
+msgid "Morocco"
+msgstr ""
+
+#: wpboutik-functions.php:2033
+msgid "Mozambique"
+msgstr ""
+
+#: wpboutik-functions.php:2034
+msgid "Myanmar"
+msgstr ""
+
+#: wpboutik-functions.php:2035
+msgid "Namibia"
+msgstr ""
+
+#: wpboutik-functions.php:2036
+msgid "Nauru"
+msgstr ""
+
+#: wpboutik-functions.php:2037
+msgid "Nepal"
+msgstr ""
+
+#: wpboutik-functions.php:2038
+msgid "Netherlands"
+msgstr ""
+
+#: wpboutik-functions.php:2039
+msgid "New Caledonia"
+msgstr ""
+
+#: wpboutik-functions.php:2040
+msgid "New Zealand"
+msgstr ""
+
+#: wpboutik-functions.php:2041
+msgid "Nicaragua"
+msgstr ""
+
+#: wpboutik-functions.php:2042
+#: wpboutik-functions.php:3172
+msgid "Niger"
+msgstr ""
+
+#: wpboutik-functions.php:2043
+msgid "Nigeria"
+msgstr ""
+
+#: wpboutik-functions.php:2044
+msgid "Niue"
+msgstr ""
+
+#: wpboutik-functions.php:2045
+msgid "Norfolk Island"
+msgstr ""
+
+#: wpboutik-functions.php:2046
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: wpboutik-functions.php:2047
+msgid "North Korea"
+msgstr ""
+
+#: wpboutik-functions.php:2048
+msgid "Norway"
+msgstr ""
+
+#: wpboutik-functions.php:2049
+msgid "Oman"
+msgstr ""
+
+#: wpboutik-functions.php:2050
+msgid "Pakistan"
+msgstr ""
+
+#: wpboutik-functions.php:2051
+msgid "Palestinian Territory"
+msgstr ""
+
+#: wpboutik-functions.php:2052
+msgid "Panama"
+msgstr ""
+
+#: wpboutik-functions.php:2053
+msgid "Papua New Guinea"
+msgstr ""
+
+#: wpboutik-functions.php:2054
+msgid "Paraguay"
+msgstr ""
+
+#: wpboutik-functions.php:2055
+msgid "Peru"
+msgstr ""
+
+#: wpboutik-functions.php:2056
+msgid "Philippines"
+msgstr ""
+
+#: wpboutik-functions.php:2057
+msgid "Pitcairn"
+msgstr ""
+
+#: wpboutik-functions.php:2058
+msgid "Poland"
+msgstr ""
+
+#: wpboutik-functions.php:2059
+msgid "Portugal"
+msgstr ""
+
+#: wpboutik-functions.php:2060
+msgid "Puerto Rico"
+msgstr ""
+
+#: wpboutik-functions.php:2061
+msgid "Qatar"
+msgstr ""
+
+#: wpboutik-functions.php:2062
+msgid "Reunion"
+msgstr ""
+
+#: wpboutik-functions.php:2063
+msgid "Romania"
+msgstr ""
+
+#: wpboutik-functions.php:2064
+msgid "Russia"
+msgstr ""
+
+#: wpboutik-functions.php:2065
+msgid "Rwanda"
+msgstr ""
+
+#: wpboutik-functions.php:2066
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: wpboutik-functions.php:2067
+msgid "Saint Helena"
+msgstr ""
+
+#: wpboutik-functions.php:2068
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: wpboutik-functions.php:2069
+msgid "Saint Lucia"
+msgstr ""
+
+#: wpboutik-functions.php:2070
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: wpboutik-functions.php:2071
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: wpboutik-functions.php:2072
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: wpboutik-functions.php:2073
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: wpboutik-functions.php:2074
+msgid "San Marino"
+msgstr ""
+
+#: wpboutik-functions.php:2075
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: wpboutik-functions.php:2076
+msgid "Saudi Arabia"
+msgstr ""
+
+#: wpboutik-functions.php:2077
+msgid "Senegal"
+msgstr ""
+
+#: wpboutik-functions.php:2078
+msgid "Serbia"
+msgstr ""
+
+#: wpboutik-functions.php:2079
+msgid "Seychelles"
+msgstr ""
+
+#: wpboutik-functions.php:2080
+msgid "Sierra Leone"
+msgstr ""
+
+#: wpboutik-functions.php:2081
+msgid "Singapore"
+msgstr ""
+
+#: wpboutik-functions.php:2082
+msgid "Slovakia"
+msgstr ""
+
+#: wpboutik-functions.php:2083
+msgid "Slovenia"
+msgstr ""
+
+#: wpboutik-functions.php:2084
+msgid "Solomon Islands"
+msgstr ""
+
+#: wpboutik-functions.php:2085
+msgid "Somalia"
+msgstr ""
+
+#: wpboutik-functions.php:2086
+msgid "South Africa"
+msgstr ""
+
+#: wpboutik-functions.php:2087
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: wpboutik-functions.php:2088
+msgid "South Korea"
+msgstr ""
+
+#: wpboutik-functions.php:2089
+msgid "South Sudan"
+msgstr ""
+
+#: wpboutik-functions.php:2090
+msgid "Spain"
+msgstr ""
+
+#: wpboutik-functions.php:2091
+msgid "Sri Lanka"
+msgstr ""
+
+#: wpboutik-functions.php:2092
+msgid "Sudan"
+msgstr ""
+
+#: wpboutik-functions.php:2093
+msgid "Suriname"
+msgstr ""
+
+#: wpboutik-functions.php:2094
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: wpboutik-functions.php:2095
+msgid "Swaziland"
+msgstr ""
+
+#: wpboutik-functions.php:2096
+msgid "Sweden"
+msgstr ""
+
+#: wpboutik-functions.php:2097
+msgid "Switzerland"
+msgstr ""
+
+#: wpboutik-functions.php:2098
+msgid "Syria"
+msgstr ""
+
+#: wpboutik-functions.php:2099
+msgid "Taiwan"
+msgstr ""
+
+#: wpboutik-functions.php:2100
+msgid "Tajikistan"
+msgstr ""
+
+#: wpboutik-functions.php:2101
+msgid "Tanzania"
+msgstr ""
+
+#: wpboutik-functions.php:2102
+msgid "Thailand"
+msgstr ""
+
+#: wpboutik-functions.php:2103
+msgid "Timor-Leste"
+msgstr ""
+
+#: wpboutik-functions.php:2104
+msgid "Togo"
+msgstr ""
+
+#: wpboutik-functions.php:2105
+msgid "Tokelau"
+msgstr ""
+
+#: wpboutik-functions.php:2106
+msgid "Tonga"
+msgstr ""
+
+#: wpboutik-functions.php:2107
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: wpboutik-functions.php:2108
+msgid "Tunisia"
+msgstr ""
+
+#: wpboutik-functions.php:2109
+msgid "Turkey"
+msgstr ""
+
+#: wpboutik-functions.php:2110
+msgid "Turkmenistan"
+msgstr ""
+
+#: wpboutik-functions.php:2111
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: wpboutik-functions.php:2112
+msgid "Tuvalu"
+msgstr ""
+
+#: wpboutik-functions.php:2113
+msgid "Uganda"
+msgstr ""
+
+#: wpboutik-functions.php:2114
+msgid "Ukraine"
+msgstr ""
+
+#: wpboutik-functions.php:2115
+msgid "United Arab Emirates"
+msgstr ""
+
+#: wpboutik-functions.php:2116
+msgid "United Kingdom (UK)"
+msgstr ""
+
+#: wpboutik-functions.php:2117
+msgid "United States (US)"
+msgstr ""
+
+#: wpboutik-functions.php:2118
+msgid "United States (US) Minor Outlying Islands"
+msgstr ""
+
+#: wpboutik-functions.php:2119
+msgid "Uruguay"
+msgstr ""
+
+#: wpboutik-functions.php:2120
+msgid "Uzbekistan"
+msgstr ""
+
+#: wpboutik-functions.php:2121
+msgid "Vanuatu"
+msgstr ""
+
+#: wpboutik-functions.php:2122
+msgid "Vatican"
+msgstr ""
+
+#: wpboutik-functions.php:2123
+msgid "Venezuela"
+msgstr ""
+
+#: wpboutik-functions.php:2124
+msgid "Vietnam"
+msgstr ""
+
+#: wpboutik-functions.php:2125
+msgid "Virgin Islands (British)"
+msgstr ""
+
+#: wpboutik-functions.php:2126
+msgid "Virgin Islands (US)"
+msgstr ""
+
+#: wpboutik-functions.php:2127
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: wpboutik-functions.php:2128
+msgid "Western Sahara"
+msgstr ""
+
+#: wpboutik-functions.php:2129
+msgid "Samoa"
+msgstr ""
+
+#: wpboutik-functions.php:2130
+msgid "Yemen"
+msgstr ""
+
+#: wpboutik-functions.php:2131
+msgid "Zambia"
+msgstr ""
+
+#: wpboutik-functions.php:2132
+msgid "Zimbabwe"
+msgstr ""
+
+#: wpboutik-functions.php:2143
+msgid "Bengo"
+msgstr ""
+
+#: wpboutik-functions.php:2144
+msgid "Benguela"
+msgstr ""
+
+#: wpboutik-functions.php:2145
+msgid "Bié"
+msgstr ""
+
+#: wpboutik-functions.php:2146
+msgid "Cabinda"
+msgstr ""
+
+#: wpboutik-functions.php:2147
+msgid "Cunene"
+msgstr ""
+
+#: wpboutik-functions.php:2148
+msgid "Huambo"
+msgstr ""
+
+#: wpboutik-functions.php:2149
+msgid "Huíla"
+msgstr ""
+
+#: wpboutik-functions.php:2150
+msgid "Kuando Kubango"
+msgstr ""
+
+#: wpboutik-functions.php:2151
+msgid "Kwanza-Norte"
+msgstr ""
+
+#: wpboutik-functions.php:2152
+msgid "Kwanza-Sul"
+msgstr ""
+
+#: wpboutik-functions.php:2153
+msgid "Luanda"
+msgstr ""
+
+#: wpboutik-functions.php:2154
+msgid "Lunda-Norte"
+msgstr ""
+
+#: wpboutik-functions.php:2155
+msgid "Lunda-Sul"
+msgstr ""
+
+#: wpboutik-functions.php:2156
+msgid "Malanje"
+msgstr ""
+
+#: wpboutik-functions.php:2157
+msgid "Moxico"
+msgstr ""
+
+#: wpboutik-functions.php:2158
+msgid "Namibe"
+msgstr ""
+
+#: wpboutik-functions.php:2159
+msgid "Uíge"
+msgstr ""
+
+#: wpboutik-functions.php:2160
+msgid "Zaire"
+msgstr ""
+
+#: wpboutik-functions.php:2163
+msgid "Ciudad Autónoma de Buenos Aires"
+msgstr ""
+
+#: wpboutik-functions.php:2164
+msgid "Buenos Aires"
+msgstr ""
+
+#: wpboutik-functions.php:2165
+msgid "Catamarca"
+msgstr ""
+
+#: wpboutik-functions.php:2166
+msgid "Chaco"
+msgstr ""
+
+#: wpboutik-functions.php:2167
+msgid "Chubut"
+msgstr ""
+
+#: wpboutik-functions.php:2168
+#: wpboutik-functions.php:2531
+msgid "Córdoba"
+msgstr ""
+
+#: wpboutik-functions.php:2169
+msgid "Corrientes"
+msgstr ""
+
+#: wpboutik-functions.php:2170
+msgid "Entre Ríos"
+msgstr ""
+
+#: wpboutik-functions.php:2171
+msgid "Formosa"
+msgstr ""
+
+#: wpboutik-functions.php:2172
+msgid "Jujuy"
+msgstr ""
+
+#: wpboutik-functions.php:2173
+msgid "La Pampa"
+msgstr ""
+
+#: wpboutik-functions.php:2174
+#: wpboutik-functions.php:2540
+msgid "La Rioja"
+msgstr ""
+
+#: wpboutik-functions.php:2175
+msgid "Mendoza"
+msgstr ""
+
+#: wpboutik-functions.php:2176
+#: wpboutik-functions.php:3357
+msgid "Misiones"
+msgstr ""
+
+#: wpboutik-functions.php:2177
+msgid "Neuquén"
+msgstr ""
+
+#: wpboutik-functions.php:2178
+msgid "Río Negro"
+msgstr ""
+
+#: wpboutik-functions.php:2179
+msgid "Salta"
+msgstr ""
+
+#: wpboutik-functions.php:2180
+msgid "San Juan"
+msgstr ""
+
+#: wpboutik-functions.php:2181
+msgid "San Luis"
+msgstr ""
+
+#: wpboutik-functions.php:2182
+#: wpboutik-functions.php:2321
+msgid "Santa Cruz"
+msgstr ""
+
+#: wpboutik-functions.php:2183
+msgid "Santa Fe"
+msgstr ""
+
+#: wpboutik-functions.php:2184
+msgid "Santiago del Estero"
+msgstr ""
+
+#: wpboutik-functions.php:2185
+msgid "Tierra del Fuego"
+msgstr ""
+
+#: wpboutik-functions.php:2186
+msgid "Tucumán"
+msgstr ""
+
+#: wpboutik-functions.php:2190
+msgid "Australian Capital Territory"
+msgstr ""
+
+#: wpboutik-functions.php:2191
+msgid "New South Wales"
+msgstr ""
+
+#: wpboutik-functions.php:2192
+msgid "Northern Territory"
+msgstr ""
+
+#: wpboutik-functions.php:2193
+msgid "Queensland"
+msgstr ""
+
+#: wpboutik-functions.php:2194
+msgid "South Australia"
+msgstr ""
+
+#: wpboutik-functions.php:2195
+msgid "Tasmania"
+msgstr ""
+
+#: wpboutik-functions.php:2196
+msgid "Victoria"
+msgstr ""
+
+#: wpboutik-functions.php:2197
+msgid "Western Australia"
+msgstr ""
+
+#: wpboutik-functions.php:2201
+msgid "Bagerhat"
+msgstr ""
+
+#: wpboutik-functions.php:2202
+msgid "Bandarban"
+msgstr ""
+
+#: wpboutik-functions.php:2203
+msgid "Barguna"
+msgstr ""
+
+#: wpboutik-functions.php:2204
+msgid "Barishal"
+msgstr ""
+
+#: wpboutik-functions.php:2205
+msgid "Bhola"
+msgstr ""
+
+#: wpboutik-functions.php:2206
+msgid "Bogura"
+msgstr ""
+
+#: wpboutik-functions.php:2207
+msgid "Brahmanbaria"
+msgstr ""
+
+#: wpboutik-functions.php:2208
+msgid "Chandpur"
+msgstr ""
+
+#: wpboutik-functions.php:2209
+msgid "Chattogram"
+msgstr ""
+
+#: wpboutik-functions.php:2210
+msgid "Chuadanga"
+msgstr ""
+
+#: wpboutik-functions.php:2211
+msgid "Cox's Bazar"
+msgstr ""
+
+#: wpboutik-functions.php:2212
+msgid "Cumilla"
+msgstr ""
+
+#: wpboutik-functions.php:2213
+msgid "Dhaka"
+msgstr ""
+
+#: wpboutik-functions.php:2214
+msgid "Dinajpur"
+msgstr ""
+
+#: wpboutik-functions.php:2215
+msgid "Faridpur "
+msgstr ""
+
+#: wpboutik-functions.php:2216
+msgid "Feni"
+msgstr ""
+
+#: wpboutik-functions.php:2217
+msgid "Gaibandha"
+msgstr ""
+
+#: wpboutik-functions.php:2218
+msgid "Gazipur"
+msgstr ""
+
+#: wpboutik-functions.php:2219
+msgid "Gopalganj"
+msgstr ""
+
+#: wpboutik-functions.php:2220
+msgid "Habiganj"
+msgstr ""
+
+#: wpboutik-functions.php:2221
+msgid "Jamalpur"
+msgstr ""
+
+#: wpboutik-functions.php:2222
+msgid "Jashore"
+msgstr ""
+
+#: wpboutik-functions.php:2223
+msgid "Jhalokati"
+msgstr ""
+
+#: wpboutik-functions.php:2224
+msgid "Jhenaidah"
+msgstr ""
+
+#: wpboutik-functions.php:2225
+msgid "Joypurhat"
+msgstr ""
+
+#: wpboutik-functions.php:2226
+msgid "Khagrachhari"
+msgstr ""
+
+#: wpboutik-functions.php:2227
+msgid "Khulna"
+msgstr ""
+
+#: wpboutik-functions.php:2228
+msgid "Kishoreganj"
+msgstr ""
+
+#: wpboutik-functions.php:2229
+msgid "Kurigram"
+msgstr ""
+
+#: wpboutik-functions.php:2230
+msgid "Kushtia"
+msgstr ""
+
+#: wpboutik-functions.php:2231
+msgid "Lakshmipur"
+msgstr ""
+
+#: wpboutik-functions.php:2232
+msgid "Lalmonirhat"
+msgstr ""
+
+#: wpboutik-functions.php:2233
+msgid "Madaripur"
+msgstr ""
+
+#: wpboutik-functions.php:2234
+msgid "Magura"
+msgstr ""
+
+#: wpboutik-functions.php:2235
+msgid "Manikganj "
+msgstr ""
+
+#: wpboutik-functions.php:2236
+msgid "Meherpur"
+msgstr ""
+
+#: wpboutik-functions.php:2237
+msgid "Moulvibazar"
+msgstr ""
+
+#: wpboutik-functions.php:2238
+msgid "Munshiganj"
+msgstr ""
+
+#: wpboutik-functions.php:2239
+msgid "Mymensingh"
+msgstr ""
+
+#: wpboutik-functions.php:2240
+msgid "Naogaon"
+msgstr ""
+
+#: wpboutik-functions.php:2241
+msgid "Narail"
+msgstr ""
+
+#: wpboutik-functions.php:2242
+msgid "Narayanganj"
+msgstr ""
+
+#: wpboutik-functions.php:2243
+msgid "Narsingdi"
+msgstr ""
+
+#: wpboutik-functions.php:2244
+msgid "Natore"
+msgstr ""
+
+#: wpboutik-functions.php:2245
+msgid "Nawabganj"
+msgstr ""
+
+#: wpboutik-functions.php:2246
+msgid "Netrakona"
+msgstr ""
+
+#: wpboutik-functions.php:2247
+msgid "Nilphamari"
+msgstr ""
+
+#: wpboutik-functions.php:2248
+msgid "Noakhali"
+msgstr ""
+
+#: wpboutik-functions.php:2249
+msgid "Pabna"
+msgstr ""
+
+#: wpboutik-functions.php:2250
+msgid "Panchagarh"
+msgstr ""
+
+#: wpboutik-functions.php:2251
+msgid "Patuakhali"
+msgstr ""
+
+#: wpboutik-functions.php:2252
+msgid "Pirojpur"
+msgstr ""
+
+#: wpboutik-functions.php:2253
+msgid "Rajbari"
+msgstr ""
+
+#: wpboutik-functions.php:2254
+msgid "Rajshahi"
+msgstr ""
+
+#: wpboutik-functions.php:2255
+msgid "Rangamati"
+msgstr ""
+
+#: wpboutik-functions.php:2256
+msgid "Rangpur"
+msgstr ""
+
+#: wpboutik-functions.php:2257
+msgid "Satkhira"
+msgstr ""
+
+#: wpboutik-functions.php:2258
+msgid "Shariatpur"
+msgstr ""
+
+#: wpboutik-functions.php:2259
+msgid "Sherpur"
+msgstr ""
+
+#: wpboutik-functions.php:2260
+msgid "Sirajganj"
+msgstr ""
+
+#: wpboutik-functions.php:2261
+msgid "Sunamganj"
+msgstr ""
+
+#: wpboutik-functions.php:2262
+msgid "Sylhet"
+msgstr ""
+
+#: wpboutik-functions.php:2263
+msgid "Tangail"
+msgstr ""
+
+#: wpboutik-functions.php:2264
+msgid "Thakurgaon"
+msgstr ""
+
+#: wpboutik-functions.php:2268
+msgid "Blagoevgrad"
+msgstr ""
+
+#: wpboutik-functions.php:2269
+msgid "Burgas"
+msgstr ""
+
+#: wpboutik-functions.php:2270
+msgid "Dobrich"
+msgstr ""
+
+#: wpboutik-functions.php:2271
+msgid "Gabrovo"
+msgstr ""
+
+#: wpboutik-functions.php:2272
+msgid "Haskovo"
+msgstr ""
+
+#: wpboutik-functions.php:2273
+msgid "Kardzhali"
+msgstr ""
+
+#: wpboutik-functions.php:2274
+msgid "Kyustendil"
+msgstr ""
+
+#: wpboutik-functions.php:2275
+msgid "Lovech"
+msgstr ""
+
+#: wpboutik-functions.php:2276
+#: wpboutik-functions.php:3781
+msgid "Montana"
+msgstr ""
+
+#: wpboutik-functions.php:2277
+msgid "Pazardzhik"
+msgstr ""
+
+#: wpboutik-functions.php:2278
+msgid "Pernik"
+msgstr ""
+
+#: wpboutik-functions.php:2279
+msgid "Pleven"
+msgstr ""
+
+#: wpboutik-functions.php:2280
+msgid "Plovdiv"
+msgstr ""
+
+#: wpboutik-functions.php:2281
+msgid "Razgrad"
+msgstr ""
+
+#: wpboutik-functions.php:2282
+msgid "Ruse"
+msgstr ""
+
+#: wpboutik-functions.php:2283
+msgid "Shumen"
+msgstr ""
+
+#: wpboutik-functions.php:2284
+msgid "Silistra"
+msgstr ""
+
+#: wpboutik-functions.php:2285
+msgid "Sliven"
+msgstr ""
+
+#: wpboutik-functions.php:2286
+msgid "Smolyan"
+msgstr ""
+
+#: wpboutik-functions.php:2287
+msgid "Sofia"
+msgstr ""
+
+#: wpboutik-functions.php:2288
+msgid "Sofia-Grad"
+msgstr ""
+
+#: wpboutik-functions.php:2289
+msgid "Stara Zagora"
+msgstr ""
+
+#: wpboutik-functions.php:2290
+msgid "Targovishte"
+msgstr ""
+
+#: wpboutik-functions.php:2291
+msgid "Varna"
+msgstr ""
+
+#: wpboutik-functions.php:2292
+msgid "Veliko Tarnovo"
+msgstr ""
+
+#: wpboutik-functions.php:2293
+msgid "Vidin"
+msgstr ""
+
+#: wpboutik-functions.php:2294
+msgid "Vratsa"
+msgstr ""
+
+#: wpboutik-functions.php:2295
+msgid "Yambol"
+msgstr ""
+
+#: wpboutik-functions.php:2300
+msgid "Alibori"
+msgstr ""
+
+#: wpboutik-functions.php:2301
+msgid "Atakora"
+msgstr ""
+
+#: wpboutik-functions.php:2302
+msgid "Atlantique"
+msgstr ""
+
+#: wpboutik-functions.php:2303
+msgid "Borgou"
+msgstr ""
+
+#: wpboutik-functions.php:2304
+msgid "Collines"
+msgstr ""
+
+#: wpboutik-functions.php:2305
+msgid "Kouffo"
+msgstr ""
+
+#: wpboutik-functions.php:2306
+msgid "Donga"
+msgstr ""
+
+#: wpboutik-functions.php:2307
+msgid "Littoral"
+msgstr ""
+
+#: wpboutik-functions.php:2308
+msgid "Mono"
+msgstr ""
+
+#: wpboutik-functions.php:2309
+msgid "Ouémé"
+msgstr ""
+
+#: wpboutik-functions.php:2310
+#: wpboutik-functions.php:3177
+msgid "Plateau"
+msgstr ""
+
+#: wpboutik-functions.php:2311
+msgid "Zou"
+msgstr ""
+
+#: wpboutik-functions.php:2314
+msgid "Chuquisaca"
+msgstr ""
+
+#: wpboutik-functions.php:2315
+msgid "Beni"
+msgstr ""
+
+#: wpboutik-functions.php:2316
+msgid "Cochabamba"
+msgstr ""
+
+#: wpboutik-functions.php:2317
+msgid "La Paz"
+msgstr ""
+
+#: wpboutik-functions.php:2318
+msgid "Oruro"
+msgstr ""
+
+#: wpboutik-functions.php:2319
+msgid "Pando"
+msgstr ""
+
+#: wpboutik-functions.php:2320
+msgid "Potosí"
+msgstr ""
+
+#: wpboutik-functions.php:2322
+msgid "Tarija"
+msgstr ""
+
+#: wpboutik-functions.php:2325
+msgid "Acre"
+msgstr ""
+
+#: wpboutik-functions.php:2326
+msgid "Alagoas"
+msgstr ""
+
+#: wpboutik-functions.php:2327
+msgid "Amapá"
+msgstr ""
+
+#: wpboutik-functions.php:2328
+#: wpboutik-functions.php:3223
+msgid "Amazonas"
+msgstr ""
+
+#: wpboutik-functions.php:2329
+msgid "Bahia"
+msgstr ""
+
+#: wpboutik-functions.php:2330
+msgid "Ceará"
+msgstr ""
+
+#: wpboutik-functions.php:2331
+msgid "Distrito Federal"
+msgstr ""
+
+#: wpboutik-functions.php:2332
+msgid "Espírito Santo"
+msgstr ""
+
+#: wpboutik-functions.php:2333
+msgid "Goiás"
+msgstr ""
+
+#: wpboutik-functions.php:2334
+msgid "Maranhão"
+msgstr ""
+
+#: wpboutik-functions.php:2335
+msgid "Mato Grosso"
+msgstr ""
+
+#: wpboutik-functions.php:2336
+msgid "Mato Grosso do Sul"
+msgstr ""
+
+#: wpboutik-functions.php:2337
+msgid "Minas Gerais"
+msgstr ""
+
+#: wpboutik-functions.php:2338
+msgid "Pará"
+msgstr ""
+
+#: wpboutik-functions.php:2339
+msgid "Paraíba"
+msgstr ""
+
+#: wpboutik-functions.php:2340
+msgid "Paraná"
+msgstr ""
+
+#: wpboutik-functions.php:2341
+msgid "Pernambuco"
+msgstr ""
+
+#: wpboutik-functions.php:2342
+msgid "Piauí"
+msgstr ""
+
+#: wpboutik-functions.php:2343
+msgid "Rio de Janeiro"
+msgstr ""
+
+#: wpboutik-functions.php:2344
+msgid "Rio Grande do Norte"
+msgstr ""
+
+#: wpboutik-functions.php:2345
+msgid "Rio Grande do Sul"
+msgstr ""
+
+#: wpboutik-functions.php:2346
+msgid "Rondônia"
+msgstr ""
+
+#: wpboutik-functions.php:2347
+msgid "Roraima"
+msgstr ""
+
+#: wpboutik-functions.php:2348
+msgid "Santa Catarina"
+msgstr ""
+
+#: wpboutik-functions.php:2349
+msgid "São Paulo"
+msgstr ""
+
+#: wpboutik-functions.php:2350
+msgid "Sergipe"
+msgstr ""
+
+#: wpboutik-functions.php:2351
+msgid "Tocantins"
+msgstr ""
+
+#: wpboutik-functions.php:2354
+msgid "Alberta"
+msgstr ""
+
+#: wpboutik-functions.php:2355
+msgid "British Columbia"
+msgstr ""
+
+#: wpboutik-functions.php:2356
+msgid "Manitoba"
+msgstr ""
+
+#: wpboutik-functions.php:2357
+msgid "New Brunswick"
+msgstr ""
+
+#: wpboutik-functions.php:2358
+msgid "Newfoundland and Labrador"
+msgstr ""
+
+#: wpboutik-functions.php:2359
+msgid "Northwest Territories"
+msgstr ""
+
+#: wpboutik-functions.php:2360
+msgid "Nova Scotia"
+msgstr ""
+
+#: wpboutik-functions.php:2361
+msgid "Nunavut"
+msgstr ""
+
+#: wpboutik-functions.php:2362
+msgid "Ontario"
+msgstr ""
+
+#: wpboutik-functions.php:2363
+msgid "Prince Edward Island"
+msgstr ""
+
+#: wpboutik-functions.php:2364
+msgid "Quebec"
+msgstr ""
+
+#: wpboutik-functions.php:2365
+msgid "Saskatchewan"
+msgstr ""
+
+#: wpboutik-functions.php:2366
+msgid "Yukon Territory"
+msgstr ""
+
+#: wpboutik-functions.php:2369
+msgid "Aargau"
+msgstr ""
+
+#: wpboutik-functions.php:2370
+msgid "Appenzell Ausserrhoden"
+msgstr ""
+
+#: wpboutik-functions.php:2371
+msgid "Appenzell Innerrhoden"
+msgstr ""
+
+#: wpboutik-functions.php:2372
+msgid "Basel-Landschaft"
+msgstr ""
+
+#: wpboutik-functions.php:2373
+msgid "Basel-Stadt"
+msgstr ""
+
+#: wpboutik-functions.php:2374
+msgid "Bern"
+msgstr ""
+
+#: wpboutik-functions.php:2375
+msgid "Fribourg"
+msgstr ""
+
+#: wpboutik-functions.php:2376
+msgid "Geneva"
+msgstr ""
+
+#: wpboutik-functions.php:2377
+msgid "Glarus"
+msgstr ""
+
+#: wpboutik-functions.php:2378
+msgid "Graubünden"
+msgstr ""
+
+#: wpboutik-functions.php:2379
+msgid "Jura"
+msgstr ""
+
+#: wpboutik-functions.php:2380
+msgid "Luzern"
+msgstr ""
+
+#: wpboutik-functions.php:2381
+msgid "Neuchâtel"
+msgstr ""
+
+#: wpboutik-functions.php:2382
+msgid "Nidwalden"
+msgstr ""
+
+#: wpboutik-functions.php:2383
+msgid "Obwalden"
+msgstr ""
+
+#: wpboutik-functions.php:2384
+msgid "Schaffhausen"
+msgstr ""
+
+#: wpboutik-functions.php:2385
+msgid "Schwyz"
+msgstr ""
+
+#: wpboutik-functions.php:2386
+msgid "Solothurn"
+msgstr ""
+
+#: wpboutik-functions.php:2387
+msgid "St. Gallen"
+msgstr ""
+
+#: wpboutik-functions.php:2388
+msgid "Thurgau"
+msgstr ""
+
+#: wpboutik-functions.php:2389
+msgid "Ticino"
+msgstr ""
+
+#: wpboutik-functions.php:2390
+msgid "Uri"
+msgstr ""
+
+#: wpboutik-functions.php:2391
+msgid "Valais"
+msgstr ""
+
+#: wpboutik-functions.php:2392
+msgid "Vaud"
+msgstr ""
+
+#: wpboutik-functions.php:2393
+msgid "Zug"
+msgstr ""
+
+#: wpboutik-functions.php:2394
+msgid "Zürich"
+msgstr ""
+
+#: wpboutik-functions.php:2397
+msgid "Yunnan / 云南"
+msgstr ""
+
+#: wpboutik-functions.php:2398
+msgid "Beijing / 北京"
+msgstr ""
+
+#: wpboutik-functions.php:2399
+msgid "Tianjin / 天津"
+msgstr ""
+
+#: wpboutik-functions.php:2400
+msgid "Hebei / 河北"
+msgstr ""
+
+#: wpboutik-functions.php:2401
+msgid "Shanxi / 山西"
+msgstr ""
+
+#: wpboutik-functions.php:2402
+msgid "Inner Mongolia / 內蒙古"
+msgstr ""
+
+#: wpboutik-functions.php:2403
+msgid "Liaoning / 辽宁"
+msgstr ""
+
+#: wpboutik-functions.php:2404
+msgid "Jilin / 吉林"
+msgstr ""
+
+#: wpboutik-functions.php:2405
+msgid "Heilongjiang / 黑龙江"
+msgstr ""
+
+#: wpboutik-functions.php:2406
+msgid "Shanghai / 上海"
+msgstr ""
+
+#: wpboutik-functions.php:2407
+msgid "Jiangsu / 江苏"
+msgstr ""
+
+#: wpboutik-functions.php:2408
+msgid "Zhejiang / 浙江"
+msgstr ""
+
+#: wpboutik-functions.php:2409
+msgid "Anhui / 安徽"
+msgstr ""
+
+#: wpboutik-functions.php:2410
+msgid "Fujian / 福建"
+msgstr ""
+
+#: wpboutik-functions.php:2411
+msgid "Jiangxi / 江西"
+msgstr ""
+
+#: wpboutik-functions.php:2412
+msgid "Shandong / 山东"
+msgstr ""
+
+#: wpboutik-functions.php:2413
+msgid "Henan / 河南"
+msgstr ""
+
+#: wpboutik-functions.php:2414
+msgid "Hubei / 湖北"
+msgstr ""
+
+#: wpboutik-functions.php:2415
+msgid "Hunan / 湖南"
+msgstr ""
+
+#: wpboutik-functions.php:2416
+msgid "Guangdong / 广东"
+msgstr ""
+
+#: wpboutik-functions.php:2417
+msgid "Guangxi Zhuang / 广西壮族"
+msgstr ""
+
+#: wpboutik-functions.php:2418
+msgid "Hainan / 海南"
+msgstr ""
+
+#: wpboutik-functions.php:2419
+msgid "Chongqing / 重庆"
+msgstr ""
+
+#: wpboutik-functions.php:2420
+msgid "Sichuan / 四川"
+msgstr ""
+
+#: wpboutik-functions.php:2421
+msgid "Guizhou / 贵州"
+msgstr ""
+
+#: wpboutik-functions.php:2422
+msgid "Shaanxi / 陕西"
+msgstr ""
+
+#: wpboutik-functions.php:2423
+msgid "Gansu / 甘肃"
+msgstr ""
+
+#: wpboutik-functions.php:2424
+msgid "Qinghai / 青海"
+msgstr ""
+
+#: wpboutik-functions.php:2425
+msgid "Ningxia Hui / 宁夏"
+msgstr ""
+
+#: wpboutik-functions.php:2426
+msgid "Macao / 澳门"
+msgstr ""
+
+#: wpboutik-functions.php:2427
+msgid "Tibet / 西藏"
+msgstr ""
+
+#: wpboutik-functions.php:2428
+msgid "Xinjiang / 新疆"
+msgstr ""
+
+#: wpboutik-functions.php:2434
+msgid "Adrar"
+msgstr ""
+
+#: wpboutik-functions.php:2435
+msgid "Chlef"
+msgstr ""
+
+#: wpboutik-functions.php:2436
+msgid "Laghouat"
+msgstr ""
+
+#: wpboutik-functions.php:2437
+msgid "Oum El Bouaghi"
+msgstr ""
+
+#: wpboutik-functions.php:2438
+msgid "Batna"
+msgstr ""
+
+#: wpboutik-functions.php:2439
+msgid "Béjaïa"
+msgstr ""
+
+#: wpboutik-functions.php:2440
+msgid "Biskra"
+msgstr ""
+
+#: wpboutik-functions.php:2441
+msgid "Béchar"
+msgstr ""
+
+#: wpboutik-functions.php:2442
+msgid "Blida"
+msgstr ""
+
+#: wpboutik-functions.php:2443
+msgid "Bouira"
+msgstr ""
+
+#: wpboutik-functions.php:2444
+msgid "Tamanghasset"
+msgstr ""
+
+#: wpboutik-functions.php:2445
+msgid "Tébessa"
+msgstr ""
+
+#: wpboutik-functions.php:2446
+msgid "Tlemcen"
+msgstr ""
+
+#: wpboutik-functions.php:2447
+msgid "Tiaret"
+msgstr ""
+
+#: wpboutik-functions.php:2448
+msgid "Tizi Ouzou"
+msgstr ""
+
+#: wpboutik-functions.php:2449
+msgid "Algiers"
+msgstr ""
+
+#: wpboutik-functions.php:2450
+msgid "Djelfa"
+msgstr ""
+
+#: wpboutik-functions.php:2451
+msgid "Jijel"
+msgstr ""
+
+#: wpboutik-functions.php:2452
+msgid "Sétif"
+msgstr ""
+
+#: wpboutik-functions.php:2453
+msgid "Saïda"
+msgstr ""
+
+#: wpboutik-functions.php:2454
+msgid "Skikda"
+msgstr ""
+
+#: wpboutik-functions.php:2455
+msgid "Sidi Bel Abbès"
+msgstr ""
+
+#: wpboutik-functions.php:2456
+msgid "Annaba"
+msgstr ""
+
+#: wpboutik-functions.php:2457
+msgid "Guelma"
+msgstr ""
+
+#: wpboutik-functions.php:2458
+msgid "Constantine"
+msgstr ""
+
+#: wpboutik-functions.php:2459
+msgid "Médéa"
+msgstr ""
+
+#: wpboutik-functions.php:2460
+msgid "Mostaganem"
+msgstr ""
+
+#: wpboutik-functions.php:2461
+msgid "M’Sila"
+msgstr ""
+
+#: wpboutik-functions.php:2462
+msgid "Mascara"
+msgstr ""
+
+#: wpboutik-functions.php:2463
+msgid "Ouargla"
+msgstr ""
+
+#: wpboutik-functions.php:2464
+msgid "Oran"
+msgstr ""
+
+#: wpboutik-functions.php:2465
+msgid "El Bayadh"
+msgstr ""
+
+#: wpboutik-functions.php:2466
+msgid "Illizi"
+msgstr ""
+
+#: wpboutik-functions.php:2467
+msgid "Bordj Bou Arréridj"
+msgstr ""
+
+#: wpboutik-functions.php:2468
+msgid "Boumerdès"
+msgstr ""
+
+#: wpboutik-functions.php:2469
+msgid "El Tarf"
+msgstr ""
+
+#: wpboutik-functions.php:2470
+msgid "Tindouf"
+msgstr ""
+
+#: wpboutik-functions.php:2471
+msgid "Tissemsilt"
+msgstr ""
+
+#: wpboutik-functions.php:2472
+msgid "El Oued"
+msgstr ""
+
+#: wpboutik-functions.php:2473
+msgid "Khenchela"
+msgstr ""
+
+#: wpboutik-functions.php:2474
+msgid "Souk Ahras"
+msgstr ""
+
+#: wpboutik-functions.php:2475
+msgid "Tipasa"
+msgstr ""
+
+#: wpboutik-functions.php:2476
+msgid "Mila"
+msgstr ""
+
+#: wpboutik-functions.php:2477
+msgid "Aïn Defla"
+msgstr ""
+
+#: wpboutik-functions.php:2478
+msgid "Naama"
+msgstr ""
+
+#: wpboutik-functions.php:2479
+msgid "Aïn Témouchent"
+msgstr ""
+
+#: wpboutik-functions.php:2480
+msgid "Ghardaïa"
+msgstr ""
+
+#: wpboutik-functions.php:2481
+msgid "Relizane"
+msgstr ""
+
+#: wpboutik-functions.php:2485
+msgid "Alexandria"
+msgstr ""
+
+#: wpboutik-functions.php:2486
+msgid "Aswan"
+msgstr ""
+
+#: wpboutik-functions.php:2487
+msgid "Asyut"
+msgstr ""
+
+#: wpboutik-functions.php:2488
+msgid "Red Sea"
+msgstr ""
+
+#: wpboutik-functions.php:2489
+msgid "Beheira"
+msgstr ""
+
+#: wpboutik-functions.php:2490
+msgid "Beni Suef"
+msgstr ""
+
+#: wpboutik-functions.php:2491
+msgid "Cairo"
+msgstr ""
+
+#: wpboutik-functions.php:2492
+msgid "Dakahlia"
+msgstr ""
+
+#: wpboutik-functions.php:2493
+msgid "Damietta"
+msgstr ""
+
+#: wpboutik-functions.php:2494
+msgid "Faiyum"
+msgstr ""
+
+#: wpboutik-functions.php:2495
+msgid "Gharbia"
+msgstr ""
+
+#: wpboutik-functions.php:2496
+msgid "Giza"
+msgstr ""
+
+#: wpboutik-functions.php:2497
+msgid "Ismailia"
+msgstr ""
+
+#: wpboutik-functions.php:2498
+msgid "South Sinai"
+msgstr ""
+
+#: wpboutik-functions.php:2499
+msgid "Qalyubia"
+msgstr ""
+
+#: wpboutik-functions.php:2500
+msgid "Kafr el-Sheikh"
+msgstr ""
+
+#: wpboutik-functions.php:2501
+msgid "Qena"
+msgstr ""
+
+#: wpboutik-functions.php:2502
+msgid "Luxor"
+msgstr ""
+
+#: wpboutik-functions.php:2503
+msgid "Minya"
+msgstr ""
+
+#: wpboutik-functions.php:2504
+msgid "Monufia"
+msgstr ""
+
+#: wpboutik-functions.php:2505
+msgid "Matrouh"
+msgstr ""
+
+#: wpboutik-functions.php:2506
+msgid "Port Said"
+msgstr ""
+
+#: wpboutik-functions.php:2507
+msgid "Sohag"
+msgstr ""
+
+#: wpboutik-functions.php:2508
+msgid "Al Sharqia"
+msgstr ""
+
+#: wpboutik-functions.php:2509
+msgid "North Sinai"
+msgstr ""
+
+#: wpboutik-functions.php:2510
+msgid "Suez"
+msgstr ""
+
+#: wpboutik-functions.php:2511
+msgid "New Valley"
+msgstr ""
+
+#: wpboutik-functions.php:2514
+msgid "A Coruña"
+msgstr ""
+
+#: wpboutik-functions.php:2515
+msgid "Araba/Álava"
+msgstr ""
+
+#: wpboutik-functions.php:2516
+msgid "Albacete"
+msgstr ""
+
+#: wpboutik-functions.php:2517
+msgid "Alicante"
+msgstr ""
+
+#: wpboutik-functions.php:2518
+msgid "Almería"
+msgstr ""
+
+#: wpboutik-functions.php:2519
+msgid "Asturias"
+msgstr ""
+
+#: wpboutik-functions.php:2520
+msgid "Ávila"
+msgstr ""
+
+#: wpboutik-functions.php:2521
+msgid "Badajoz"
+msgstr ""
+
+#: wpboutik-functions.php:2522
+msgid "Baleares"
+msgstr ""
+
+#: wpboutik-functions.php:2523
+msgid "Barcelona"
+msgstr ""
+
+#: wpboutik-functions.php:2524
+msgid "Burgos"
+msgstr ""
+
+#: wpboutik-functions.php:2525
+msgid "Cáceres"
+msgstr ""
+
+#: wpboutik-functions.php:2526
+msgid "Cádiz"
+msgstr ""
+
+#: wpboutik-functions.php:2527
+msgid "Cantabria"
+msgstr ""
+
+#: wpboutik-functions.php:2528
+msgid "Castellón"
+msgstr ""
+
+#: wpboutik-functions.php:2529
+msgid "Ceuta"
+msgstr ""
+
+#: wpboutik-functions.php:2530
+msgid "Ciudad Real"
+msgstr ""
+
+#: wpboutik-functions.php:2532
+msgid "Cuenca"
+msgstr ""
+
+#: wpboutik-functions.php:2533
+msgid "Girona"
+msgstr ""
+
+#: wpboutik-functions.php:2534
+msgid "Granada"
+msgstr ""
+
+#: wpboutik-functions.php:2535
+msgid "Guadalajara"
+msgstr ""
+
+#: wpboutik-functions.php:2536
+msgid "Gipuzkoa"
+msgstr ""
+
+#: wpboutik-functions.php:2537
+msgid "Huelva"
+msgstr ""
+
+#: wpboutik-functions.php:2538
+msgid "Huesca"
+msgstr ""
+
+#: wpboutik-functions.php:2539
+msgid "Jaén"
+msgstr ""
+
+#: wpboutik-functions.php:2541
+msgid "Las Palmas"
+msgstr ""
+
+#: wpboutik-functions.php:2542
+msgid "León"
+msgstr ""
+
+#: wpboutik-functions.php:2543
+msgid "Lleida"
+msgstr ""
+
+#: wpboutik-functions.php:2544
+msgid "Lugo"
+msgstr ""
+
+#: wpboutik-functions.php:2545
+msgid "Madrid"
+msgstr ""
+
+#: wpboutik-functions.php:2546
+msgid "Málaga"
+msgstr ""
+
+#: wpboutik-functions.php:2547
+msgid "Melilla"
+msgstr ""
+
+#: wpboutik-functions.php:2548
+msgid "Murcia"
+msgstr ""
+
+#: wpboutik-functions.php:2549
+msgid "Navarra"
+msgstr ""
+
+#: wpboutik-functions.php:2550
+msgid "Ourense"
+msgstr ""
+
+#: wpboutik-functions.php:2551
+msgid "Palencia"
+msgstr ""
+
+#: wpboutik-functions.php:2552
+msgid "Pontevedra"
+msgstr ""
+
+#: wpboutik-functions.php:2553
+msgid "Salamanca"
+msgstr ""
+
+#: wpboutik-functions.php:2554
+msgid "Santa Cruz de Tenerife"
+msgstr ""
+
+#: wpboutik-functions.php:2555
+msgid "Segovia"
+msgstr ""
+
+#: wpboutik-functions.php:2556
+msgid "Sevilla"
+msgstr ""
+
+#: wpboutik-functions.php:2557
+msgid "Soria"
+msgstr ""
+
+#: wpboutik-functions.php:2558
+msgid "Tarragona"
+msgstr ""
+
+#: wpboutik-functions.php:2559
+msgid "Teruel"
+msgstr ""
+
+#: wpboutik-functions.php:2560
+msgid "Toledo"
+msgstr ""
+
+#: wpboutik-functions.php:2561
+msgid "Valencia"
+msgstr ""
+
+#: wpboutik-functions.php:2562
+msgid "Valladolid"
+msgstr ""
+
+#: wpboutik-functions.php:2563
+msgid "Biscay"
+msgstr ""
+
+#: wpboutik-functions.php:2564
+msgid "Zamora"
+msgstr ""
+
+#: wpboutik-functions.php:2565
+msgid "Zaragoza"
+msgstr ""
+
+#: wpboutik-functions.php:2570
+msgid "Ahafo"
+msgstr ""
+
+#: wpboutik-functions.php:2571
+msgid "Ashanti"
+msgstr ""
+
+#: wpboutik-functions.php:2572
+msgid "Brong-Ahafo"
+msgstr ""
+
+#: wpboutik-functions.php:2573
+msgid "Bono"
+msgstr ""
+
+#: wpboutik-functions.php:2574
+msgid "Bono East"
+msgstr ""
+
+#: wpboutik-functions.php:2575
+#: wpboutik-functions.php:3360
+#: wpboutik-functions.php:3825
+msgid "Central"
+msgstr ""
+
+#: wpboutik-functions.php:2576
+#: wpboutik-functions.php:3826
+msgid "Eastern"
+msgstr ""
+
+#: wpboutik-functions.php:2577
+msgid "Greater Accra"
+msgstr ""
+
+#: wpboutik-functions.php:2578
+msgid "North East"
+msgstr ""
+
+#: wpboutik-functions.php:2579
+#: wpboutik-functions.php:3828
+msgid "Northern"
+msgstr ""
+
+#: wpboutik-functions.php:2580
+msgid "Oti"
+msgstr ""
+
+#: wpboutik-functions.php:2581
+msgid "Savannah"
+msgstr ""
+
+#: wpboutik-functions.php:2582
+msgid "Upper East"
+msgstr ""
+
+#: wpboutik-functions.php:2583
+msgid "Upper West"
+msgstr ""
+
+#: wpboutik-functions.php:2584
+msgid "Volta"
+msgstr ""
+
+#: wpboutik-functions.php:2585
+#: wpboutik-functions.php:3824
+msgid "Western"
+msgstr ""
+
+#: wpboutik-functions.php:2586
+msgid "Western North"
+msgstr ""
+
+#: wpboutik-functions.php:2590
+msgid "Attica"
+msgstr ""
+
+#: wpboutik-functions.php:2591
+msgid "East Macedonia and Thrace"
+msgstr ""
+
+#: wpboutik-functions.php:2592
+msgid "Central Macedonia"
+msgstr ""
+
+#: wpboutik-functions.php:2593
+msgid "West Macedonia"
+msgstr ""
+
+#: wpboutik-functions.php:2594
+msgid "Epirus"
+msgstr ""
+
+#: wpboutik-functions.php:2595
+msgid "Thessaly"
+msgstr ""
+
+#: wpboutik-functions.php:2596
+msgid "Ionian Islands"
+msgstr ""
+
+#: wpboutik-functions.php:2597
+msgid "West Greece"
+msgstr ""
+
+#: wpboutik-functions.php:2598
+msgid "Central Greece"
+msgstr ""
+
+#: wpboutik-functions.php:2599
+msgid "Peloponnese"
+msgstr ""
+
+#: wpboutik-functions.php:2600
+msgid "North Aegean"
+msgstr ""
+
+#: wpboutik-functions.php:2601
+msgid "South Aegean"
+msgstr ""
+
+#: wpboutik-functions.php:2602
+msgid "Crete"
+msgstr ""
+
+#: wpboutik-functions.php:2606
+msgid "Hong Kong Island"
+msgstr ""
+
+#: wpboutik-functions.php:2607
+msgid "Kowloon"
+msgstr ""
+
+#: wpboutik-functions.php:2608
+msgid "New Territories"
+msgstr ""
+
+#: wpboutik-functions.php:2611
+msgid "Bács-Kiskun"
+msgstr ""
+
+#: wpboutik-functions.php:2612
+msgid "Békés"
+msgstr ""
+
+#: wpboutik-functions.php:2613
+msgid "Baranya"
+msgstr ""
+
+#: wpboutik-functions.php:2614
+msgid "Borsod-Abaúj-Zemplén"
+msgstr ""
+
+#: wpboutik-functions.php:2615
+msgid "Budapest"
+msgstr ""
+
+#: wpboutik-functions.php:2616
+msgid "Csongrád-Csanád"
+msgstr ""
+
+#: wpboutik-functions.php:2617
+msgid "Fejér"
+msgstr ""
+
+#: wpboutik-functions.php:2618
+msgid "Győr-Moson-Sopron"
+msgstr ""
+
+#: wpboutik-functions.php:2619
+msgid "Hajdú-Bihar"
+msgstr ""
+
+#: wpboutik-functions.php:2620
+msgid "Heves"
+msgstr ""
+
+#: wpboutik-functions.php:2621
+msgid "Jász-Nagykun-Szolnok"
+msgstr ""
+
+#: wpboutik-functions.php:2622
+msgid "Komárom-Esztergom"
+msgstr ""
+
+#: wpboutik-functions.php:2623
+msgid "Nógrád"
+msgstr ""
+
+#: wpboutik-functions.php:2624
+msgid "Pest"
+msgstr ""
+
+#: wpboutik-functions.php:2625
+msgid "Somogy"
+msgstr ""
+
+#: wpboutik-functions.php:2626
+msgid "Szabolcs-Szatmár-Bereg"
+msgstr ""
+
+#: wpboutik-functions.php:2627
+msgid "Tolna"
+msgstr ""
+
+#: wpboutik-functions.php:2628
+msgid "Vas"
+msgstr ""
+
+#: wpboutik-functions.php:2629
+msgid "Veszprém"
+msgstr ""
+
+#: wpboutik-functions.php:2630
+msgid "Zala"
+msgstr ""
+
+#: wpboutik-functions.php:2633
+msgid "Daerah Istimewa Aceh"
+msgstr ""
+
+#: wpboutik-functions.php:2634
+msgid "Sumatera Utara"
+msgstr ""
+
+#: wpboutik-functions.php:2635
+msgid "Sumatera Barat"
+msgstr ""
+
+#: wpboutik-functions.php:2636
+msgid "Riau"
+msgstr ""
+
+#: wpboutik-functions.php:2637
+msgid "Kepulauan Riau"
+msgstr ""
+
+#: wpboutik-functions.php:2638
+msgid "Jambi"
+msgstr ""
+
+#: wpboutik-functions.php:2639
+msgid "Sumatera Selatan"
+msgstr ""
+
+#: wpboutik-functions.php:2640
+msgid "Bangka Belitung"
+msgstr ""
+
+#: wpboutik-functions.php:2641
+msgid "Bengkulu"
+msgstr ""
+
+#: wpboutik-functions.php:2642
+msgid "Lampung"
+msgstr ""
+
+#: wpboutik-functions.php:2643
+msgid "DKI Jakarta"
+msgstr ""
+
+#: wpboutik-functions.php:2644
+msgid "Jawa Barat"
+msgstr ""
+
+#: wpboutik-functions.php:2645
+msgid "Banten"
+msgstr ""
+
+#: wpboutik-functions.php:2646
+msgid "Jawa Tengah"
+msgstr ""
+
+#: wpboutik-functions.php:2647
+msgid "Jawa Timur"
+msgstr ""
+
+#: wpboutik-functions.php:2648
+msgid "Daerah Istimewa Yogyakarta"
+msgstr ""
+
+#: wpboutik-functions.php:2649
+msgid "Bali"
+msgstr ""
+
+#: wpboutik-functions.php:2650
+msgid "Nusa Tenggara Barat"
+msgstr ""
+
+#: wpboutik-functions.php:2651
+msgid "Nusa Tenggara Timur"
+msgstr ""
+
+#: wpboutik-functions.php:2652
+msgid "Kalimantan Barat"
+msgstr ""
+
+#: wpboutik-functions.php:2653
+msgid "Kalimantan Tengah"
+msgstr ""
+
+#: wpboutik-functions.php:2654
+msgid "Kalimantan Timur"
+msgstr ""
+
+#: wpboutik-functions.php:2655
+msgid "Kalimantan Selatan"
+msgstr ""
+
+#: wpboutik-functions.php:2656
+msgid "Kalimantan Utara"
+msgstr ""
+
+#: wpboutik-functions.php:2657
+msgid "Sulawesi Utara"
+msgstr ""
+
+#: wpboutik-functions.php:2658
+msgid "Sulawesi Tengah"
+msgstr ""
+
+#: wpboutik-functions.php:2659
+msgid "Sulawesi Tenggara"
+msgstr ""
+
+#: wpboutik-functions.php:2660
+msgid "Sulawesi Barat"
+msgstr ""
+
+#: wpboutik-functions.php:2661
+msgid "Sulawesi Selatan"
+msgstr ""
+
+#: wpboutik-functions.php:2662
+msgid "Gorontalo"
+msgstr ""
+
+#: wpboutik-functions.php:2663
+msgid "Maluku"
+msgstr ""
+
+#: wpboutik-functions.php:2664
+msgid "Maluku Utara"
+msgstr ""
+
+#: wpboutik-functions.php:2665
+msgid "Papua"
+msgstr ""
+
+#: wpboutik-functions.php:2666
+msgid "Papua Barat"
+msgstr ""
+
+#: wpboutik-functions.php:2669
+msgid "Carlow"
+msgstr ""
+
+#: wpboutik-functions.php:2670
+msgid "Cavan"
+msgstr ""
+
+#: wpboutik-functions.php:2671
+msgid "Clare"
+msgstr ""
+
+#: wpboutik-functions.php:2672
+msgid "Cork"
+msgstr ""
+
+#: wpboutik-functions.php:2673
+msgid "Donegal"
+msgstr ""
+
+#: wpboutik-functions.php:2674
+msgid "Dublin"
+msgstr ""
+
+#: wpboutik-functions.php:2675
+msgid "Galway"
+msgstr ""
+
+#: wpboutik-functions.php:2676
+msgid "Kerry"
+msgstr ""
+
+#: wpboutik-functions.php:2677
+msgid "Kildare"
+msgstr ""
+
+#: wpboutik-functions.php:2678
+msgid "Kilkenny"
+msgstr ""
+
+#: wpboutik-functions.php:2679
+msgid "Laois"
+msgstr ""
+
+#: wpboutik-functions.php:2680
+msgid "Leitrim"
+msgstr ""
+
+#: wpboutik-functions.php:2681
+msgid "Limerick"
+msgstr ""
+
+#: wpboutik-functions.php:2682
+msgid "Longford"
+msgstr ""
+
+#: wpboutik-functions.php:2683
+msgid "Louth"
+msgstr ""
+
+#: wpboutik-functions.php:2684
+msgid "Mayo"
+msgstr ""
+
+#: wpboutik-functions.php:2685
+msgid "Meath"
+msgstr ""
+
+#: wpboutik-functions.php:2686
+msgid "Monaghan"
+msgstr ""
+
+#: wpboutik-functions.php:2687
+msgid "Offaly"
+msgstr ""
+
+#: wpboutik-functions.php:2688
+msgid "Roscommon"
+msgstr ""
+
+#: wpboutik-functions.php:2689
+msgid "Sligo"
+msgstr ""
+
+#: wpboutik-functions.php:2690
+msgid "Tipperary"
+msgstr ""
+
+#: wpboutik-functions.php:2691
+msgid "Waterford"
+msgstr ""
+
+#: wpboutik-functions.php:2692
+msgid "Westmeath"
+msgstr ""
+
+#: wpboutik-functions.php:2693
+msgid "Wexford"
+msgstr ""
+
+#: wpboutik-functions.php:2694
+msgid "Wicklow"
+msgstr ""
+
+#: wpboutik-functions.php:2697
+msgid "Andhra Pradesh"
+msgstr ""
+
+#: wpboutik-functions.php:2698
+msgid "Arunachal Pradesh"
+msgstr ""
+
+#: wpboutik-functions.php:2699
+msgid "Assam"
+msgstr ""
+
+#: wpboutik-functions.php:2700
+msgid "Bihar"
+msgstr ""
+
+#: wpboutik-functions.php:2701
+msgid "Chhattisgarh"
+msgstr ""
+
+#: wpboutik-functions.php:2702
+msgid "Goa"
+msgstr ""
+
+#: wpboutik-functions.php:2703
+msgid "Gujarat"
+msgstr ""
+
+#: wpboutik-functions.php:2704
+msgid "Haryana"
+msgstr ""
+
+#: wpboutik-functions.php:2705
+msgid "Himachal Pradesh"
+msgstr ""
+
+#: wpboutik-functions.php:2706
+msgid "Jammu and Kashmir"
+msgstr ""
+
+#: wpboutik-functions.php:2707
+msgid "Jharkhand"
+msgstr ""
+
+#: wpboutik-functions.php:2708
+msgid "Karnataka"
+msgstr ""
+
+#: wpboutik-functions.php:2709
+msgid "Kerala"
+msgstr ""
+
+#: wpboutik-functions.php:2710
+msgid "Madhya Pradesh"
+msgstr ""
+
+#: wpboutik-functions.php:2711
+msgid "Maharashtra"
+msgstr ""
+
+#: wpboutik-functions.php:2712
+msgid "Manipur"
+msgstr ""
+
+#: wpboutik-functions.php:2713
+msgid "Meghalaya"
+msgstr ""
+
+#: wpboutik-functions.php:2714
+msgid "Mizoram"
+msgstr ""
+
+#: wpboutik-functions.php:2715
+msgid "Nagaland"
+msgstr ""
+
+#: wpboutik-functions.php:2716
+msgid "Orissa"
+msgstr ""
+
+#: wpboutik-functions.php:2717
+#: wpboutik-functions.php:3343
+msgid "Punjab"
+msgstr ""
+
+#: wpboutik-functions.php:2718
+msgid "Rajasthan"
+msgstr ""
+
+#: wpboutik-functions.php:2719
+msgid "Sikkim"
+msgstr ""
+
+#: wpboutik-functions.php:2720
+msgid "Tamil Nadu"
+msgstr ""
+
+#: wpboutik-functions.php:2721
+msgid "Telangana"
+msgstr ""
+
+#: wpboutik-functions.php:2722
+msgid "Tripura"
+msgstr ""
+
+#: wpboutik-functions.php:2723
+msgid "Uttarakhand"
+msgstr ""
+
+#: wpboutik-functions.php:2724
+msgid "Uttar Pradesh"
+msgstr ""
+
+#: wpboutik-functions.php:2725
+msgid "West Bengal"
+msgstr ""
+
+#: wpboutik-functions.php:2726
+msgid "Andaman and Nicobar Islands"
+msgstr ""
+
+#: wpboutik-functions.php:2727
+msgid "Chandigarh"
+msgstr ""
+
+#: wpboutik-functions.php:2728
+msgid "Dadra and Nagar Haveli"
+msgstr ""
+
+#: wpboutik-functions.php:2729
+msgid "Daman and Diu"
+msgstr ""
+
+#: wpboutik-functions.php:2730
+msgid "Delhi"
+msgstr ""
+
+#: wpboutik-functions.php:2731
+msgid "Lakshadeep"
+msgstr ""
+
+#: wpboutik-functions.php:2732
+msgid "Pondicherry (Puducherry)"
+msgstr ""
+
+#: wpboutik-functions.php:2735
+msgid "Khuzestan  (خوزستان)"
+msgstr ""
+
+#: wpboutik-functions.php:2736
+msgid "Tehran  (تهران)"
+msgstr ""
+
+#: wpboutik-functions.php:2737
+msgid "Ilaam (ایلام)"
+msgstr ""
+
+#: wpboutik-functions.php:2738
+msgid "Bushehr (بوشهر)"
+msgstr ""
+
+#: wpboutik-functions.php:2739
+msgid "Ardabil (اردبیل)"
+msgstr ""
+
+#: wpboutik-functions.php:2740
+msgid "Isfahan (اصفهان)"
+msgstr ""
+
+#: wpboutik-functions.php:2741
+msgid "Yazd (یزد)"
+msgstr ""
+
+#: wpboutik-functions.php:2742
+msgid "Kermanshah (کرمانشاه)"
+msgstr ""
+
+#: wpboutik-functions.php:2743
+msgid "Kerman (کرمان)"
+msgstr ""
+
+#: wpboutik-functions.php:2744
+msgid "Hamadan (همدان)"
+msgstr ""
+
+#: wpboutik-functions.php:2745
+msgid "Ghazvin (قزوین)"
+msgstr ""
+
+#: wpboutik-functions.php:2746
+msgid "Zanjan (زنجان)"
+msgstr ""
+
+#: wpboutik-functions.php:2747
+msgid "Luristan (لرستان)"
+msgstr ""
+
+#: wpboutik-functions.php:2748
+msgid "Alborz (البرز)"
+msgstr ""
+
+#: wpboutik-functions.php:2749
+msgid "East Azarbaijan (آذربایجان شرقی)"
+msgstr ""
+
+#: wpboutik-functions.php:2750
+msgid "West Azarbaijan (آذربایجان غربی)"
+msgstr ""
+
+#: wpboutik-functions.php:2751
+msgid "Chaharmahal and Bakhtiari (چهارمحال و بختیاری)"
+msgstr ""
+
+#: wpboutik-functions.php:2752
+msgid "South Khorasan (خراسان جنوبی)"
+msgstr ""
+
+#: wpboutik-functions.php:2753
+msgid "Razavi Khorasan (خراسان رضوی)"
+msgstr ""
+
+#: wpboutik-functions.php:2754
+msgid "North Khorasan (خراسان شمالی)"
+msgstr ""
+
+#: wpboutik-functions.php:2755
+msgid "Semnan (سمنان)"
+msgstr ""
+
+#: wpboutik-functions.php:2756
+msgid "Fars (فارس)"
+msgstr ""
+
+#: wpboutik-functions.php:2757
+msgid "Qom (قم)"
+msgstr ""
+
+#: wpboutik-functions.php:2758
+msgid "Kurdistan / کردستان)"
+msgstr ""
+
+#: wpboutik-functions.php:2759
+msgid "Kohgiluyeh and BoyerAhmad (کهگیلوییه و بویراحمد)"
+msgstr ""
+
+#: wpboutik-functions.php:2760
+msgid "Golestan (گلستان)"
+msgstr ""
+
+#: wpboutik-functions.php:2761
+msgid "Gilan (گیلان)"
+msgstr ""
+
+#: wpboutik-functions.php:2762
+msgid "Mazandaran (مازندران)"
+msgstr ""
+
+#: wpboutik-functions.php:2763
+msgid "Markazi (مرکزی)"
+msgstr ""
+
+#: wpboutik-functions.php:2764
+msgid "Hormozgan (هرمزگان)"
+msgstr ""
+
+#: wpboutik-functions.php:2765
+msgid "Sistan and Baluchestan (سیستان و بلوچستان)"
+msgstr ""
+
+#: wpboutik-functions.php:2769
+msgid "Agrigento"
+msgstr ""
+
+#: wpboutik-functions.php:2770
+msgid "Alessandria"
+msgstr ""
+
+#: wpboutik-functions.php:2771
+msgid "Ancona"
+msgstr ""
+
+#: wpboutik-functions.php:2772
+msgid "Aosta"
+msgstr ""
+
+#: wpboutik-functions.php:2773
+msgid "Arezzo"
+msgstr ""
+
+#: wpboutik-functions.php:2774
+msgid "Ascoli Piceno"
+msgstr ""
+
+#: wpboutik-functions.php:2775
+msgid "Asti"
+msgstr ""
+
+#: wpboutik-functions.php:2776
+msgid "Avellino"
+msgstr ""
+
+#: wpboutik-functions.php:2777
+msgid "Bari"
+msgstr ""
+
+#: wpboutik-functions.php:2778
+msgid "Barletta-Andria-Trani"
+msgstr ""
+
+#: wpboutik-functions.php:2779
+msgid "Belluno"
+msgstr ""
+
+#: wpboutik-functions.php:2780
+msgid "Benevento"
+msgstr ""
+
+#: wpboutik-functions.php:2781
+msgid "Bergamo"
+msgstr ""
+
+#: wpboutik-functions.php:2782
+msgid "Biella"
+msgstr ""
+
+#: wpboutik-functions.php:2783
+msgid "Bologna"
+msgstr ""
+
+#: wpboutik-functions.php:2784
+msgid "Bolzano"
+msgstr ""
+
+#: wpboutik-functions.php:2785
+msgid "Brescia"
+msgstr ""
+
+#: wpboutik-functions.php:2786
+msgid "Brindisi"
+msgstr ""
+
+#: wpboutik-functions.php:2787
+msgid "Cagliari"
+msgstr ""
+
+#: wpboutik-functions.php:2788
+msgid "Caltanissetta"
+msgstr ""
+
+#: wpboutik-functions.php:2789
+msgid "Campobasso"
+msgstr ""
+
+#: wpboutik-functions.php:2790
+msgid "Caserta"
+msgstr ""
+
+#: wpboutik-functions.php:2791
+msgid "Catania"
+msgstr ""
+
+#: wpboutik-functions.php:2792
+msgid "Catanzaro"
+msgstr ""
+
+#: wpboutik-functions.php:2793
+msgid "Chieti"
+msgstr ""
+
+#: wpboutik-functions.php:2794
+msgid "Como"
+msgstr ""
+
+#: wpboutik-functions.php:2795
+msgid "Cosenza"
+msgstr ""
+
+#: wpboutik-functions.php:2796
+msgid "Cremona"
+msgstr ""
+
+#: wpboutik-functions.php:2797
+msgid "Crotone"
+msgstr ""
+
+#: wpboutik-functions.php:2798
+msgid "Cuneo"
+msgstr ""
+
+#: wpboutik-functions.php:2799
+msgid "Enna"
+msgstr ""
+
+#: wpboutik-functions.php:2800
+msgid "Fermo"
+msgstr ""
+
+#: wpboutik-functions.php:2801
+msgid "Ferrara"
+msgstr ""
+
+#: wpboutik-functions.php:2802
+msgid "Firenze"
+msgstr ""
+
+#: wpboutik-functions.php:2803
+msgid "Foggia"
+msgstr ""
+
+#: wpboutik-functions.php:2804
+msgid "Forlì-Cesena"
+msgstr ""
+
+#: wpboutik-functions.php:2805
+msgid "Frosinone"
+msgstr ""
+
+#: wpboutik-functions.php:2806
+msgid "Genova"
+msgstr ""
+
+#: wpboutik-functions.php:2807
+msgid "Gorizia"
+msgstr ""
+
+#: wpboutik-functions.php:2808
+msgid "Grosseto"
+msgstr ""
+
+#: wpboutik-functions.php:2809
+msgid "Imperia"
+msgstr ""
+
+#: wpboutik-functions.php:2810
+msgid "Isernia"
+msgstr ""
+
+#: wpboutik-functions.php:2811
+msgid "La Spezia"
+msgstr ""
+
+#: wpboutik-functions.php:2812
+msgid "L'Aquila"
+msgstr ""
+
+#: wpboutik-functions.php:2813
+msgid "Latina"
+msgstr ""
+
+#: wpboutik-functions.php:2814
+msgid "Lecce"
+msgstr ""
+
+#: wpboutik-functions.php:2815
+msgid "Lecco"
+msgstr ""
+
+#: wpboutik-functions.php:2816
+msgid "Livorno"
+msgstr ""
+
+#: wpboutik-functions.php:2817
+msgid "Lodi"
+msgstr ""
+
+#: wpboutik-functions.php:2818
+msgid "Lucca"
+msgstr ""
+
+#: wpboutik-functions.php:2819
+msgid "Macerata"
+msgstr ""
+
+#: wpboutik-functions.php:2820
+msgid "Mantova"
+msgstr ""
+
+#: wpboutik-functions.php:2821
+msgid "Massa-Carrara"
+msgstr ""
+
+#: wpboutik-functions.php:2822
+msgid "Matera"
+msgstr ""
+
+#: wpboutik-functions.php:2823
+msgid "Messina"
+msgstr ""
+
+#: wpboutik-functions.php:2824
+msgid "Milano"
+msgstr ""
+
+#: wpboutik-functions.php:2825
+msgid "Modena"
+msgstr ""
+
+#: wpboutik-functions.php:2826
+msgid "Monza e della Brianza"
+msgstr ""
+
+#: wpboutik-functions.php:2827
+msgid "Napoli"
+msgstr ""
+
+#: wpboutik-functions.php:2828
+msgid "Novara"
+msgstr ""
+
+#: wpboutik-functions.php:2829
+msgid "Nuoro"
+msgstr ""
+
+#: wpboutik-functions.php:2830
+msgid "Oristano"
+msgstr ""
+
+#: wpboutik-functions.php:2831
+msgid "Padova"
+msgstr ""
+
+#: wpboutik-functions.php:2832
+msgid "Palermo"
+msgstr ""
+
+#: wpboutik-functions.php:2833
+msgid "Parma"
+msgstr ""
+
+#: wpboutik-functions.php:2834
+msgid "Pavia"
+msgstr ""
+
+#: wpboutik-functions.php:2835
+msgid "Perugia"
+msgstr ""
+
+#: wpboutik-functions.php:2836
+msgid "Pesaro e Urbino"
+msgstr ""
+
+#: wpboutik-functions.php:2837
+msgid "Pescara"
+msgstr ""
+
+#: wpboutik-functions.php:2838
+msgid "Piacenza"
+msgstr ""
+
+#: wpboutik-functions.php:2839
+msgid "Pisa"
+msgstr ""
+
+#: wpboutik-functions.php:2840
+msgid "Pistoia"
+msgstr ""
+
+#: wpboutik-functions.php:2841
+msgid "Pordenone"
+msgstr ""
+
+#: wpboutik-functions.php:2842
+msgid "Potenza"
+msgstr ""
+
+#: wpboutik-functions.php:2843
+msgid "Prato"
+msgstr ""
+
+#: wpboutik-functions.php:2844
+msgid "Ragusa"
+msgstr ""
+
+#: wpboutik-functions.php:2845
+msgid "Ravenna"
+msgstr ""
+
+#: wpboutik-functions.php:2846
+msgid "Reggio Calabria"
+msgstr ""
+
+#: wpboutik-functions.php:2847
+msgid "Reggio Emilia"
+msgstr ""
+
+#: wpboutik-functions.php:2848
+msgid "Rieti"
+msgstr ""
+
+#: wpboutik-functions.php:2849
+msgid "Rimini"
+msgstr ""
+
+#: wpboutik-functions.php:2850
+msgid "Roma"
+msgstr ""
+
+#: wpboutik-functions.php:2851
+msgid "Rovigo"
+msgstr ""
+
+#: wpboutik-functions.php:2852
+msgid "Salerno"
+msgstr ""
+
+#: wpboutik-functions.php:2853
+msgid "Sassari"
+msgstr ""
+
+#: wpboutik-functions.php:2854
+msgid "Savona"
+msgstr ""
+
+#: wpboutik-functions.php:2855
+msgid "Siena"
+msgstr ""
+
+#: wpboutik-functions.php:2856
+msgid "Siracusa"
+msgstr ""
+
+#: wpboutik-functions.php:2857
+msgid "Sondrio"
+msgstr ""
+
+#: wpboutik-functions.php:2858
+msgid "Sud Sardegna"
+msgstr ""
+
+#: wpboutik-functions.php:2859
+msgid "Taranto"
+msgstr ""
+
+#: wpboutik-functions.php:2860
+msgid "Teramo"
+msgstr ""
+
+#: wpboutik-functions.php:2861
+msgid "Terni"
+msgstr ""
+
+#: wpboutik-functions.php:2862
+msgid "Torino"
+msgstr ""
+
+#: wpboutik-functions.php:2863
+msgid "Trapani"
+msgstr ""
+
+#: wpboutik-functions.php:2864
+msgid "Trento"
+msgstr ""
+
+#: wpboutik-functions.php:2865
+msgid "Treviso"
+msgstr ""
+
+#: wpboutik-functions.php:2866
+msgid "Trieste"
+msgstr ""
+
+#: wpboutik-functions.php:2867
+msgid "Udine"
+msgstr ""
+
+#: wpboutik-functions.php:2868
+msgid "Varese"
+msgstr ""
+
+#: wpboutik-functions.php:2869
+msgid "Venezia"
+msgstr ""
+
+#: wpboutik-functions.php:2870
+msgid "Verbano-Cusio-Ossola"
+msgstr ""
+
+#: wpboutik-functions.php:2871
+msgid "Vercelli"
+msgstr ""
+
+#: wpboutik-functions.php:2872
+msgid "Verona"
+msgstr ""
+
+#: wpboutik-functions.php:2873
+msgid "Vibo Valentia"
+msgstr ""
+
+#: wpboutik-functions.php:2874
+msgid "Vicenza"
+msgstr ""
+
+#: wpboutik-functions.php:2875
+msgid "Viterbo"
+msgstr ""
+
+#: wpboutik-functions.php:2887
+msgid "Hokkaido"
+msgstr ""
+
+#: wpboutik-functions.php:2888
+msgid "Aomori"
+msgstr ""
+
+#: wpboutik-functions.php:2889
+msgid "Iwate"
+msgstr ""
+
+#: wpboutik-functions.php:2890
+msgid "Miyagi"
+msgstr ""
+
+#: wpboutik-functions.php:2891
+msgid "Akita"
+msgstr ""
+
+#: wpboutik-functions.php:2892
+msgid "Yamagata"
+msgstr ""
+
+#: wpboutik-functions.php:2893
+msgid "Fukushima"
+msgstr ""
+
+#: wpboutik-functions.php:2894
+msgid "Ibaraki"
+msgstr ""
+
+#: wpboutik-functions.php:2895
+msgid "Tochigi"
+msgstr ""
+
+#: wpboutik-functions.php:2896
+msgid "Gunma"
+msgstr ""
+
+#: wpboutik-functions.php:2897
+msgid "Saitama"
+msgstr ""
+
+#: wpboutik-functions.php:2898
+msgid "Chiba"
+msgstr ""
+
+#: wpboutik-functions.php:2899
+msgid "Tokyo"
+msgstr ""
+
+#: wpboutik-functions.php:2900
+msgid "Kanagawa"
+msgstr ""
+
+#: wpboutik-functions.php:2901
+msgid "Niigata"
+msgstr ""
+
+#: wpboutik-functions.php:2902
+msgid "Toyama"
+msgstr ""
+
+#: wpboutik-functions.php:2903
+msgid "Ishikawa"
+msgstr ""
+
+#: wpboutik-functions.php:2904
+msgid "Fukui"
+msgstr ""
+
+#: wpboutik-functions.php:2905
+msgid "Yamanashi"
+msgstr ""
+
+#: wpboutik-functions.php:2906
+msgid "Nagano"
+msgstr ""
+
+#: wpboutik-functions.php:2907
+msgid "Gifu"
+msgstr ""
+
+#: wpboutik-functions.php:2908
+msgid "Shizuoka"
+msgstr ""
+
+#: wpboutik-functions.php:2909
+msgid "Aichi"
+msgstr ""
+
+#: wpboutik-functions.php:2910
+msgid "Mie"
+msgstr ""
+
+#: wpboutik-functions.php:2911
+msgid "Shiga"
+msgstr ""
+
+#: wpboutik-functions.php:2912
+msgid "Kyoto"
+msgstr ""
+
+#: wpboutik-functions.php:2913
+msgid "Osaka"
+msgstr ""
+
+#: wpboutik-functions.php:2914
+msgid "Hyogo"
+msgstr ""
+
+#: wpboutik-functions.php:2915
+msgid "Nara"
+msgstr ""
+
+#: wpboutik-functions.php:2916
+msgid "Wakayama"
+msgstr ""
+
+#: wpboutik-functions.php:2917
+msgid "Tottori"
+msgstr ""
+
+#: wpboutik-functions.php:2918
+msgid "Shimane"
+msgstr ""
+
+#: wpboutik-functions.php:2919
+msgid "Okayama"
+msgstr ""
+
+#: wpboutik-functions.php:2920
+msgid "Hiroshima"
+msgstr ""
+
+#: wpboutik-functions.php:2921
+msgid "Yamaguchi"
+msgstr ""
+
+#: wpboutik-functions.php:2922
+msgid "Tokushima"
+msgstr ""
+
+#: wpboutik-functions.php:2923
+msgid "Kagawa"
+msgstr ""
+
+#: wpboutik-functions.php:2924
+msgid "Ehime"
+msgstr ""
+
+#: wpboutik-functions.php:2925
+msgid "Kochi"
+msgstr ""
+
+#: wpboutik-functions.php:2926
+msgid "Fukuoka"
+msgstr ""
+
+#: wpboutik-functions.php:2927
+msgid "Saga"
+msgstr ""
+
+#: wpboutik-functions.php:2928
+msgid "Nagasaki"
+msgstr ""
+
+#: wpboutik-functions.php:2929
+msgid "Kumamoto"
+msgstr ""
+
+#: wpboutik-functions.php:2930
+msgid "Oita"
+msgstr ""
+
+#: wpboutik-functions.php:2931
+msgid "Miyazaki"
+msgstr ""
+
+#: wpboutik-functions.php:2932
+msgid "Kagoshima"
+msgstr ""
+
+#: wpboutik-functions.php:2933
+msgid "Okinawa"
+msgstr ""
+
+#: wpboutik-functions.php:2936
+msgid "Baringo"
+msgstr ""
+
+#: wpboutik-functions.php:2937
+msgid "Bomet"
+msgstr ""
+
+#: wpboutik-functions.php:2938
+msgid "Bungoma"
+msgstr ""
+
+#: wpboutik-functions.php:2939
+#: wpboutik-functions.php:3638
+msgid "Busia"
+msgstr ""
+
+#: wpboutik-functions.php:2940
+msgid "Elgeyo-Marakwet"
+msgstr ""
+
+#: wpboutik-functions.php:2941
+msgid "Embu"
+msgstr ""
+
+#: wpboutik-functions.php:2942
+msgid "Garissa"
+msgstr ""
+
+#: wpboutik-functions.php:2943
+msgid "Homa Bay"
+msgstr ""
+
+#: wpboutik-functions.php:2944
+msgid "Isiolo"
+msgstr ""
+
+#: wpboutik-functions.php:2945
+msgid "Kajiado"
+msgstr ""
+
+#: wpboutik-functions.php:2946
+msgid "Kakamega"
+msgstr ""
+
+#: wpboutik-functions.php:2947
+msgid "Kericho"
+msgstr ""
+
+#: wpboutik-functions.php:2948
+msgid "Kiambu"
+msgstr ""
+
+#: wpboutik-functions.php:2949
+msgid "Kilifi"
+msgstr ""
+
+#: wpboutik-functions.php:2950
+msgid "Kirinyaga"
+msgstr ""
+
+#: wpboutik-functions.php:2951
+msgid "Kisii"
+msgstr ""
+
+#: wpboutik-functions.php:2952
+msgid "Kisumu"
+msgstr ""
+
+#: wpboutik-functions.php:2953
+msgid "Kitui"
+msgstr ""
+
+#: wpboutik-functions.php:2954
+msgid "Kwale"
+msgstr ""
+
+#: wpboutik-functions.php:2955
+msgid "Laikipia"
+msgstr ""
+
+#: wpboutik-functions.php:2956
+msgid "Lamu"
+msgstr ""
+
+#: wpboutik-functions.php:2957
+msgid "Machakos"
+msgstr ""
+
+#: wpboutik-functions.php:2958
+msgid "Makueni"
+msgstr ""
+
+#: wpboutik-functions.php:2959
+msgid "Mandera"
+msgstr ""
+
+#: wpboutik-functions.php:2960
+msgid "Marsabit"
+msgstr ""
+
+#: wpboutik-functions.php:2961
+msgid "Meru"
+msgstr ""
+
+#: wpboutik-functions.php:2962
+msgid "Migori"
+msgstr ""
+
+#: wpboutik-functions.php:2963
+msgid "Mombasa"
+msgstr ""
+
+#: wpboutik-functions.php:2964
+msgid "Murang’a"
+msgstr ""
+
+#: wpboutik-functions.php:2965
+msgid "Nairobi County"
+msgstr ""
+
+#: wpboutik-functions.php:2966
+msgid "Nakuru"
+msgstr ""
+
+#: wpboutik-functions.php:2967
+msgid "Nandi"
+msgstr ""
+
+#: wpboutik-functions.php:2968
+msgid "Narok"
+msgstr ""
+
+#: wpboutik-functions.php:2969
+msgid "Nyamira"
+msgstr ""
+
+#: wpboutik-functions.php:2970
+msgid "Nyandarua"
+msgstr ""
+
+#: wpboutik-functions.php:2971
+msgid "Nyeri"
+msgstr ""
+
+#: wpboutik-functions.php:2972
+msgid "Samburu"
+msgstr ""
+
+#: wpboutik-functions.php:2973
+msgid "Siaya"
+msgstr ""
+
+#: wpboutik-functions.php:2974
+msgid "Taita-Taveta"
+msgstr ""
+
+#: wpboutik-functions.php:2975
+msgid "Tana River"
+msgstr ""
+
+#: wpboutik-functions.php:2976
+msgid "Tharaka-Nithi"
+msgstr ""
+
+#: wpboutik-functions.php:2977
+msgid "Trans Nzoia"
+msgstr ""
+
+#: wpboutik-functions.php:2978
+msgid "Turkana"
+msgstr ""
+
+#: wpboutik-functions.php:2979
+msgid "Uasin Gishu"
+msgstr ""
+
+#: wpboutik-functions.php:2980
+msgid "Vihiga"
+msgstr ""
+
+#: wpboutik-functions.php:2981
+msgid "Wajir"
+msgstr ""
+
+#: wpboutik-functions.php:2982
+msgid "West Pokot"
+msgstr ""
+
+#: wpboutik-functions.php:2987
+msgid "Attapeu"
+msgstr ""
+
+#: wpboutik-functions.php:2988
+msgid "Bokeo"
+msgstr ""
+
+#: wpboutik-functions.php:2989
+msgid "Bolikhamsai"
+msgstr ""
+
+#: wpboutik-functions.php:2990
+msgid "Champasak"
+msgstr ""
+
+#: wpboutik-functions.php:2991
+msgid "Houaphanh"
+msgstr ""
+
+#: wpboutik-functions.php:2992
+msgid "Khammouane"
+msgstr ""
+
+#: wpboutik-functions.php:2993
+msgid "Luang Namtha"
+msgstr ""
+
+#: wpboutik-functions.php:2994
+msgid "Luang Prabang"
+msgstr ""
+
+#: wpboutik-functions.php:2995
+msgid "Oudomxay"
+msgstr ""
+
+#: wpboutik-functions.php:2996
+msgid "Phongsaly"
+msgstr ""
+
+#: wpboutik-functions.php:2997
+msgid "Salavan"
+msgstr ""
+
+#: wpboutik-functions.php:2998
+msgid "Savannakhet"
+msgstr ""
+
+#: wpboutik-functions.php:2999
+msgid "Vientiane Province"
+msgstr ""
+
+#: wpboutik-functions.php:3000
+msgid "Vientiane"
+msgstr ""
+
+#: wpboutik-functions.php:3001
+msgid "Sainyabuli"
+msgstr ""
+
+#: wpboutik-functions.php:3002
+msgid "Sekong"
+msgstr ""
+
+#: wpboutik-functions.php:3003
+msgid "Xiangkhouang"
+msgstr ""
+
+#: wpboutik-functions.php:3004
+msgid "Xaisomboun"
+msgstr ""
+
+#: wpboutik-functions.php:3008
+msgid "Bomi"
+msgstr ""
+
+#: wpboutik-functions.php:3009
+msgid "Bong"
+msgstr ""
+
+#: wpboutik-functions.php:3010
+msgid "Gbarpolu"
+msgstr ""
+
+#: wpboutik-functions.php:3011
+msgid "Grand Bassa"
+msgstr ""
+
+#: wpboutik-functions.php:3012
+msgid "Grand Cape Mount"
+msgstr ""
+
+#: wpboutik-functions.php:3013
+msgid "Grand Gedeh"
+msgstr ""
+
+#: wpboutik-functions.php:3014
+msgid "Grand Kru"
+msgstr ""
+
+#: wpboutik-functions.php:3015
+msgid "Lofa"
+msgstr ""
+
+#: wpboutik-functions.php:3016
+msgid "Margibi"
+msgstr ""
+
+#: wpboutik-functions.php:3017
+#: wpboutik-functions.php:3775
+msgid "Maryland"
+msgstr ""
+
+#: wpboutik-functions.php:3018
+msgid "Montserrado"
+msgstr ""
+
+#: wpboutik-functions.php:3019
+msgid "Nimba"
+msgstr ""
+
+#: wpboutik-functions.php:3020
+msgid "Rivercess"
+msgstr ""
+
+#: wpboutik-functions.php:3021
+msgid "River Gee"
+msgstr ""
+
+#: wpboutik-functions.php:3022
+msgid "Sinoe"
+msgstr ""
+
+#: wpboutik-functions.php:3026
+msgid "Chișinău"
+msgstr ""
+
+#: wpboutik-functions.php:3027
+msgid "Bălți"
+msgstr ""
+
+#: wpboutik-functions.php:3028
+msgid "Anenii Noi"
+msgstr ""
+
+#: wpboutik-functions.php:3029
+msgid "Basarabeasca"
+msgstr ""
+
+#: wpboutik-functions.php:3030
+msgid "Briceni"
+msgstr ""
+
+#: wpboutik-functions.php:3031
+msgid "Cahul"
+msgstr ""
+
+#: wpboutik-functions.php:3032
+msgid "Cantemir"
+msgstr ""
+
+#: wpboutik-functions.php:3033
+#: wpboutik-functions.php:3381
+msgid "Călărași"
+msgstr ""
+
+#: wpboutik-functions.php:3034
+msgid "Căușeni"
+msgstr ""
+
+#: wpboutik-functions.php:3035
+msgid "Cimișlia"
+msgstr ""
+
+#: wpboutik-functions.php:3036
+msgid "Criuleni"
+msgstr ""
+
+#: wpboutik-functions.php:3037
+msgid "Dondușeni"
+msgstr ""
+
+#: wpboutik-functions.php:3038
+msgid "Drochia"
+msgstr ""
+
+#: wpboutik-functions.php:3039
+msgid "Dubăsari"
+msgstr ""
+
+#: wpboutik-functions.php:3040
+msgid "Edineț"
+msgstr ""
+
+#: wpboutik-functions.php:3041
+msgid "Fălești"
+msgstr ""
+
+#: wpboutik-functions.php:3042
+msgid "Florești"
+msgstr ""
+
+#: wpboutik-functions.php:3043
+msgid "UTA Găgăuzia"
+msgstr ""
+
+#: wpboutik-functions.php:3044
+msgid "Glodeni"
+msgstr ""
+
+#: wpboutik-functions.php:3045
+msgid "Hîncești"
+msgstr ""
+
+#: wpboutik-functions.php:3046
+msgid "Ialoveni"
+msgstr ""
+
+#: wpboutik-functions.php:3047
+msgid "Leova"
+msgstr ""
+
+#: wpboutik-functions.php:3048
+msgid "Nisporeni"
+msgstr ""
+
+#: wpboutik-functions.php:3049
+msgid "Ocnița"
+msgstr ""
+
+#: wpboutik-functions.php:3050
+msgid "Orhei"
+msgstr ""
+
+#: wpboutik-functions.php:3051
+msgid "Rezina"
+msgstr ""
+
+#: wpboutik-functions.php:3052
+msgid "Rîșcani"
+msgstr ""
+
+#: wpboutik-functions.php:3053
+msgid "Sîngerei"
+msgstr ""
+
+#: wpboutik-functions.php:3054
+msgid "Soroca"
+msgstr ""
+
+#: wpboutik-functions.php:3055
+msgid "Strășeni"
+msgstr ""
+
+#: wpboutik-functions.php:3056
+msgid "Șoldănești"
+msgstr ""
+
+#: wpboutik-functions.php:3057
+msgid "Ștefan Vodă"
+msgstr ""
+
+#: wpboutik-functions.php:3058
+msgid "Taraclia"
+msgstr ""
+
+#: wpboutik-functions.php:3059
+msgid "Telenești"
+msgstr ""
+
+#: wpboutik-functions.php:3060
+msgid "Ungheni"
+msgstr ""
+
+#: wpboutik-functions.php:3065
+msgid "Ciudad de México"
+msgstr ""
+
+#: wpboutik-functions.php:3066
+msgid "Jalisco"
+msgstr ""
+
+#: wpboutik-functions.php:3067
+msgid "Nuevo León"
+msgstr ""
+
+#: wpboutik-functions.php:3068
+msgid "Aguascalientes"
+msgstr ""
+
+#: wpboutik-functions.php:3069
+msgid "Baja California"
+msgstr ""
+
+#: wpboutik-functions.php:3070
+msgid "Baja California Sur"
+msgstr ""
+
+#: wpboutik-functions.php:3071
+msgid "Campeche"
+msgstr ""
+
+#: wpboutik-functions.php:3072
+msgid "Chiapas"
+msgstr ""
+
+#: wpboutik-functions.php:3073
+msgid "Chihuahua"
+msgstr ""
+
+#: wpboutik-functions.php:3074
+msgid "Coahuila"
+msgstr ""
+
+#: wpboutik-functions.php:3075
+msgid "Colima"
+msgstr ""
+
+#: wpboutik-functions.php:3076
+msgid "Durango"
+msgstr ""
+
+#: wpboutik-functions.php:3077
+msgid "Guanajuato"
+msgstr ""
+
+#: wpboutik-functions.php:3078
+msgid "Guerrero"
+msgstr ""
+
+#: wpboutik-functions.php:3079
+msgid "Hidalgo"
+msgstr ""
+
+#: wpboutik-functions.php:3080
+msgid "Estado de México"
+msgstr ""
+
+#: wpboutik-functions.php:3081
+msgid "Michoacán"
+msgstr ""
+
+#: wpboutik-functions.php:3082
+msgid "Morelos"
+msgstr ""
+
+#: wpboutik-functions.php:3083
+msgid "Nayarit"
+msgstr ""
+
+#: wpboutik-functions.php:3084
+msgid "Oaxaca"
+msgstr ""
+
+#: wpboutik-functions.php:3085
+msgid "Puebla"
+msgstr ""
+
+#: wpboutik-functions.php:3086
+msgid "Querétaro"
+msgstr ""
+
+#: wpboutik-functions.php:3087
+msgid "Quintana Roo"
+msgstr ""
+
+#: wpboutik-functions.php:3088
+msgid "San Luis Potosí"
+msgstr ""
+
+#: wpboutik-functions.php:3089
+msgid "Sinaloa"
+msgstr ""
+
+#: wpboutik-functions.php:3090
+msgid "Sonora"
+msgstr ""
+
+#: wpboutik-functions.php:3091
+msgid "Tabasco"
+msgstr ""
+
+#: wpboutik-functions.php:3092
+msgid "Tamaulipas"
+msgstr ""
+
+#: wpboutik-functions.php:3093
+msgid "Tlaxcala"
+msgstr ""
+
+#: wpboutik-functions.php:3094
+msgid "Veracruz"
+msgstr ""
+
+#: wpboutik-functions.php:3095
+msgid "Yucatán"
+msgstr ""
+
+#: wpboutik-functions.php:3096
+msgid "Zacatecas"
+msgstr ""
+
+#: wpboutik-functions.php:3099
+msgid "Johor"
+msgstr ""
+
+#: wpboutik-functions.php:3100
+msgid "Kedah"
+msgstr ""
+
+#: wpboutik-functions.php:3101
+msgid "Kelantan"
+msgstr ""
+
+#: wpboutik-functions.php:3102
+msgid "Labuan"
+msgstr ""
+
+#: wpboutik-functions.php:3103
+msgid "Malacca (Melaka)"
+msgstr ""
+
+#: wpboutik-functions.php:3104
+msgid "Negeri Sembilan"
+msgstr ""
+
+#: wpboutik-functions.php:3105
+msgid "Pahang"
+msgstr ""
+
+#: wpboutik-functions.php:3106
+msgid "Penang (Pulau Pinang)"
+msgstr ""
+
+#: wpboutik-functions.php:3107
+msgid "Perak"
+msgstr ""
+
+#: wpboutik-functions.php:3108
+msgid "Perlis"
+msgstr ""
+
+#: wpboutik-functions.php:3109
+msgid "Sabah"
+msgstr ""
+
+#: wpboutik-functions.php:3110
+msgid "Sarawak"
+msgstr ""
+
+#: wpboutik-functions.php:3111
+msgid "Selangor"
+msgstr ""
+
+#: wpboutik-functions.php:3112
+msgid "Terengganu"
+msgstr ""
+
+#: wpboutik-functions.php:3113
+msgid "Putrajaya"
+msgstr ""
+
+#: wpboutik-functions.php:3114
+msgid "Kuala Lumpur"
+msgstr ""
+
+#: wpboutik-functions.php:3117
+msgid "Cabo Delgado"
+msgstr ""
+
+#: wpboutik-functions.php:3118
+msgid "Gaza"
+msgstr ""
+
+#: wpboutik-functions.php:3119
+msgid "Inhambane"
+msgstr ""
+
+#: wpboutik-functions.php:3120
+msgid "Manica"
+msgstr ""
+
+#: wpboutik-functions.php:3121
+msgid "Maputo Province"
+msgstr ""
+
+#: wpboutik-functions.php:3122
+msgid "Maputo"
+msgstr ""
+
+#: wpboutik-functions.php:3123
+msgid "Nampula"
+msgstr ""
+
+#: wpboutik-functions.php:3124
+msgid "Niassa"
+msgstr ""
+
+#: wpboutik-functions.php:3125
+msgid "Sofala"
+msgstr ""
+
+#: wpboutik-functions.php:3126
+msgid "Tete"
+msgstr ""
+
+#: wpboutik-functions.php:3127
+msgid "Zambézia"
+msgstr ""
+
+#: wpboutik-functions.php:3130
+msgid "Erongo"
+msgstr ""
+
+#: wpboutik-functions.php:3131
+msgid "Hardap"
+msgstr ""
+
+#: wpboutik-functions.php:3132
+msgid "Karas"
+msgstr ""
+
+#: wpboutik-functions.php:3133
+msgid "Kavango East"
+msgstr ""
+
+#: wpboutik-functions.php:3134
+msgid "Kavango West"
+msgstr ""
+
+#: wpboutik-functions.php:3135
+msgid "Khomas"
+msgstr ""
+
+#: wpboutik-functions.php:3136
+msgid "Kunene"
+msgstr ""
+
+#: wpboutik-functions.php:3137
+msgid "Ohangwena"
+msgstr ""
+
+#: wpboutik-functions.php:3138
+msgid "Omaheke"
+msgstr ""
+
+#: wpboutik-functions.php:3139
+msgid "Omusati"
+msgstr ""
+
+#: wpboutik-functions.php:3140
+msgid "Oshana"
+msgstr ""
+
+#: wpboutik-functions.php:3141
+msgid "Oshikoto"
+msgstr ""
+
+#: wpboutik-functions.php:3142
+msgid "Otjozondjupa"
+msgstr ""
+
+#: wpboutik-functions.php:3143
+msgid "Zambezi"
+msgstr ""
+
+#: wpboutik-functions.php:3146
+msgid "Abia"
+msgstr ""
+
+#: wpboutik-functions.php:3147
+msgid "Abuja"
+msgstr ""
+
+#: wpboutik-functions.php:3148
+msgid "Adamawa"
+msgstr ""
+
+#: wpboutik-functions.php:3149
+msgid "Akwa Ibom"
+msgstr ""
+
+#: wpboutik-functions.php:3150
+msgid "Anambra"
+msgstr ""
+
+#: wpboutik-functions.php:3151
+msgid "Bauchi"
+msgstr ""
+
+#: wpboutik-functions.php:3152
+msgid "Bayelsa"
+msgstr ""
+
+#: wpboutik-functions.php:3153
+msgid "Benue"
+msgstr ""
+
+#: wpboutik-functions.php:3154
+msgid "Borno"
+msgstr ""
+
+#: wpboutik-functions.php:3155
+msgid "Cross River"
+msgstr ""
+
+#: wpboutik-functions.php:3156
+msgid "Delta"
+msgstr ""
+
+#: wpboutik-functions.php:3157
+msgid "Ebonyi"
+msgstr ""
+
+#: wpboutik-functions.php:3158
+msgid "Edo"
+msgstr ""
+
+#: wpboutik-functions.php:3159
+msgid "Ekiti"
+msgstr ""
+
+#: wpboutik-functions.php:3160
+msgid "Enugu"
+msgstr ""
+
+#: wpboutik-functions.php:3161
+msgid "Gombe"
+msgstr ""
+
+#: wpboutik-functions.php:3162
+msgid "Imo"
+msgstr ""
+
+#: wpboutik-functions.php:3163
+msgid "Jigawa"
+msgstr ""
+
+#: wpboutik-functions.php:3164
+msgid "Kaduna"
+msgstr ""
+
+#: wpboutik-functions.php:3165
+msgid "Kano"
+msgstr ""
+
+#: wpboutik-functions.php:3166
+msgid "Katsina"
+msgstr ""
+
+#: wpboutik-functions.php:3167
+msgid "Kebbi"
+msgstr ""
+
+#: wpboutik-functions.php:3168
+msgid "Kogi"
+msgstr ""
+
+#: wpboutik-functions.php:3169
+msgid "Kwara"
+msgstr ""
+
+#: wpboutik-functions.php:3170
+msgid "Lagos"
+msgstr ""
+
+#: wpboutik-functions.php:3171
+msgid "Nasarawa"
+msgstr ""
+
+#: wpboutik-functions.php:3173
+msgid "Ogun"
+msgstr ""
+
+#: wpboutik-functions.php:3174
+msgid "Ondo"
+msgstr ""
+
+#: wpboutik-functions.php:3175
+msgid "Osun"
+msgstr ""
+
+#: wpboutik-functions.php:3176
+msgid "Oyo"
+msgstr ""
+
+#: wpboutik-functions.php:3178
+msgid "Rivers"
+msgstr ""
+
+#: wpboutik-functions.php:3179
+msgid "Sokoto"
+msgstr ""
+
+#: wpboutik-functions.php:3180
+msgid "Taraba"
+msgstr ""
+
+#: wpboutik-functions.php:3181
+msgid "Yobe"
+msgstr ""
+
+#: wpboutik-functions.php:3182
+msgid "Zamfara"
+msgstr ""
+
+#: wpboutik-functions.php:3187
+msgid "Bagmati"
+msgstr ""
+
+#: wpboutik-functions.php:3188
+msgid "Bheri"
+msgstr ""
+
+#: wpboutik-functions.php:3189
+msgid "Dhaulagiri"
+msgstr ""
+
+#: wpboutik-functions.php:3190
+msgid "Gandaki"
+msgstr ""
+
+#: wpboutik-functions.php:3191
+msgid "Janakpur"
+msgstr ""
+
+#: wpboutik-functions.php:3192
+msgid "Karnali"
+msgstr ""
+
+#: wpboutik-functions.php:3193
+msgid "Koshi"
+msgstr ""
+
+#: wpboutik-functions.php:3194
+msgid "Lumbini"
+msgstr ""
+
+#: wpboutik-functions.php:3195
+msgid "Mahakali"
+msgstr ""
+
+#: wpboutik-functions.php:3196
+msgid "Mechi"
+msgstr ""
+
+#: wpboutik-functions.php:3197
+msgid "Narayani"
+msgstr ""
+
+#: wpboutik-functions.php:3198
+msgid "Rapti"
+msgstr ""
+
+#: wpboutik-functions.php:3199
+msgid "Sagarmatha"
+msgstr ""
+
+#: wpboutik-functions.php:3200
+msgid "Seti"
+msgstr ""
+
+#: wpboutik-functions.php:3203
+msgid "Northland"
+msgstr ""
+
+#: wpboutik-functions.php:3204
+msgid "Auckland"
+msgstr ""
+
+#: wpboutik-functions.php:3205
+msgid "Waikato"
+msgstr ""
+
+#: wpboutik-functions.php:3206
+msgid "Bay of Plenty"
+msgstr ""
+
+#: wpboutik-functions.php:3207
+msgid "Taranaki"
+msgstr ""
+
+#: wpboutik-functions.php:3208
+msgid "Gisborne"
+msgstr ""
+
+#: wpboutik-functions.php:3209
+msgid "Hawke’s Bay"
+msgstr ""
+
+#: wpboutik-functions.php:3210
+msgid "Manawatu-Wanganui"
+msgstr ""
+
+#: wpboutik-functions.php:3211
+msgid "Wellington"
+msgstr ""
+
+#: wpboutik-functions.php:3212
+msgid "Nelson"
+msgstr ""
+
+#: wpboutik-functions.php:3213
+msgid "Marlborough"
+msgstr ""
+
+#: wpboutik-functions.php:3214
+msgid "Tasman"
+msgstr ""
+
+#: wpboutik-functions.php:3215
+msgid "West Coast"
+msgstr ""
+
+#: wpboutik-functions.php:3216
+msgid "Canterbury"
+msgstr ""
+
+#: wpboutik-functions.php:3217
+msgid "Otago"
+msgstr ""
+
+#: wpboutik-functions.php:3218
+msgid "Southland"
+msgstr ""
+
+#: wpboutik-functions.php:3221
+msgid "El Callao"
+msgstr ""
+
+#: wpboutik-functions.php:3222
+msgid "Municipalidad Metropolitana de Lima"
+msgstr ""
+
+#: wpboutik-functions.php:3224
+msgid "Ancash"
+msgstr ""
+
+#: wpboutik-functions.php:3225
+msgid "Apurímac"
+msgstr ""
+
+#: wpboutik-functions.php:3226
+msgid "Arequipa"
+msgstr ""
+
+#: wpboutik-functions.php:3227
+msgid "Ayacucho"
+msgstr ""
+
+#: wpboutik-functions.php:3228
+msgid "Cajamarca"
+msgstr ""
+
+#: wpboutik-functions.php:3229
+msgid "Cusco"
+msgstr ""
+
+#: wpboutik-functions.php:3230
+msgid "Huancavelica"
+msgstr ""
+
+#: wpboutik-functions.php:3231
+msgid "Huánuco"
+msgstr ""
+
+#: wpboutik-functions.php:3232
+msgid "Ica"
+msgstr ""
+
+#: wpboutik-functions.php:3233
+msgid "Junín"
+msgstr ""
+
+#: wpboutik-functions.php:3234
+msgid "La Libertad"
+msgstr ""
+
+#: wpboutik-functions.php:3235
+msgid "Lambayeque"
+msgstr ""
+
+#: wpboutik-functions.php:3236
+msgid "Lima"
+msgstr ""
+
+#: wpboutik-functions.php:3237
+msgid "Loreto"
+msgstr ""
+
+#: wpboutik-functions.php:3238
+msgid "Madre de Dios"
+msgstr ""
+
+#: wpboutik-functions.php:3239
+msgid "Moquegua"
+msgstr ""
+
+#: wpboutik-functions.php:3240
+msgid "Pasco"
+msgstr ""
+
+#: wpboutik-functions.php:3241
+msgid "Piura"
+msgstr ""
+
+#: wpboutik-functions.php:3242
+msgid "Puno"
+msgstr ""
+
+#: wpboutik-functions.php:3243
+msgid "San Martín"
+msgstr ""
+
+#: wpboutik-functions.php:3244
+msgid "Tacna"
+msgstr ""
+
+#: wpboutik-functions.php:3245
+msgid "Tumbes"
+msgstr ""
+
+#: wpboutik-functions.php:3246
+msgid "Ucayali"
+msgstr ""
+
+#: wpboutik-functions.php:3253
+msgid "Abra"
+msgstr ""
+
+#: wpboutik-functions.php:3254
+msgid "Agusan del Norte"
+msgstr ""
+
+#: wpboutik-functions.php:3255
+msgid "Agusan del Sur"
+msgstr ""
+
+#: wpboutik-functions.php:3256
+msgid "Aklan"
+msgstr ""
+
+#: wpboutik-functions.php:3257
+msgid "Albay"
+msgstr ""
+
+#: wpboutik-functions.php:3258
+msgid "Antique"
+msgstr ""
+
+#: wpboutik-functions.php:3259
+msgid "Apayao"
+msgstr ""
+
+#: wpboutik-functions.php:3260
+msgid "Aurora"
+msgstr ""
+
+#: wpboutik-functions.php:3261
+msgid "Basilan"
+msgstr ""
+
+#: wpboutik-functions.php:3262
+msgid "Bataan"
+msgstr ""
+
+#: wpboutik-functions.php:3263
+msgid "Batanes"
+msgstr ""
+
+#: wpboutik-functions.php:3264
+msgid "Batangas"
+msgstr ""
+
+#: wpboutik-functions.php:3265
+msgid "Benguet"
+msgstr ""
+
+#: wpboutik-functions.php:3266
+msgid "Biliran"
+msgstr ""
+
+#: wpboutik-functions.php:3267
+msgid "Bohol"
+msgstr ""
+
+#: wpboutik-functions.php:3268
+msgid "Bukidnon"
+msgstr ""
+
+#: wpboutik-functions.php:3269
+msgid "Bulacan"
+msgstr ""
+
+#: wpboutik-functions.php:3270
+msgid "Cagayan"
+msgstr ""
+
+#: wpboutik-functions.php:3271
+msgid "Camarines Norte"
+msgstr ""
+
+#: wpboutik-functions.php:3272
+msgid "Camarines Sur"
+msgstr ""
+
+#: wpboutik-functions.php:3273
+msgid "Camiguin"
+msgstr ""
+
+#: wpboutik-functions.php:3274
+msgid "Capiz"
+msgstr ""
+
+#: wpboutik-functions.php:3275
+msgid "Catanduanes"
+msgstr ""
+
+#: wpboutik-functions.php:3276
+msgid "Cavite"
+msgstr ""
+
+#: wpboutik-functions.php:3277
+msgid "Cebu"
+msgstr ""
+
+#: wpboutik-functions.php:3278
+msgid "Compostela Valley"
+msgstr ""
+
+#: wpboutik-functions.php:3279
+msgid "Cotabato"
+msgstr ""
+
+#: wpboutik-functions.php:3280
+msgid "Davao del Norte"
+msgstr ""
+
+#: wpboutik-functions.php:3281
+msgid "Davao del Sur"
+msgstr ""
+
+#: wpboutik-functions.php:3282
+msgid "Davao Occidental"
+msgstr ""
+
+#: wpboutik-functions.php:3283
+msgid "Davao Oriental"
+msgstr ""
+
+#: wpboutik-functions.php:3284
+msgid "Dinagat Islands"
+msgstr ""
+
+#: wpboutik-functions.php:3285
+msgid "Eastern Samar"
+msgstr ""
+
+#: wpboutik-functions.php:3286
+msgid "Guimaras"
+msgstr ""
+
+#: wpboutik-functions.php:3287
+msgid "Ifugao"
+msgstr ""
+
+#: wpboutik-functions.php:3288
+msgid "Ilocos Norte"
+msgstr ""
+
+#: wpboutik-functions.php:3289
+msgid "Ilocos Sur"
+msgstr ""
+
+#: wpboutik-functions.php:3290
+msgid "Iloilo"
+msgstr ""
+
+#: wpboutik-functions.php:3291
+msgid "Isabela"
+msgstr ""
+
+#: wpboutik-functions.php:3292
+msgid "Kalinga"
+msgstr ""
+
+#: wpboutik-functions.php:3293
+msgid "La Union"
+msgstr ""
+
+#: wpboutik-functions.php:3294
+msgid "Laguna"
+msgstr ""
+
+#: wpboutik-functions.php:3295
+msgid "Lanao del Norte"
+msgstr ""
+
+#: wpboutik-functions.php:3296
+msgid "Lanao del Sur"
+msgstr ""
+
+#: wpboutik-functions.php:3297
+msgid "Leyte"
+msgstr ""
+
+#: wpboutik-functions.php:3298
+msgid "Maguindanao"
+msgstr ""
+
+#: wpboutik-functions.php:3299
+msgid "Marinduque"
+msgstr ""
+
+#: wpboutik-functions.php:3300
+msgid "Masbate"
+msgstr ""
+
+#: wpboutik-functions.php:3301
+msgid "Misamis Occidental"
+msgstr ""
+
+#: wpboutik-functions.php:3302
+msgid "Misamis Oriental"
+msgstr ""
+
+#: wpboutik-functions.php:3303
+msgid "Mountain Province"
+msgstr ""
+
+#: wpboutik-functions.php:3304
+msgid "Negros Occidental"
+msgstr ""
+
+#: wpboutik-functions.php:3305
+msgid "Negros Oriental"
+msgstr ""
+
+#: wpboutik-functions.php:3306
+msgid "Northern Samar"
+msgstr ""
+
+#: wpboutik-functions.php:3307
+msgid "Nueva Ecija"
+msgstr ""
+
+#: wpboutik-functions.php:3308
+msgid "Nueva Vizcaya"
+msgstr ""
+
+#: wpboutik-functions.php:3309
+msgid "Occidental Mindoro"
+msgstr ""
+
+#: wpboutik-functions.php:3310
+msgid "Oriental Mindoro"
+msgstr ""
+
+#: wpboutik-functions.php:3311
+msgid "Palawan"
+msgstr ""
+
+#: wpboutik-functions.php:3312
+msgid "Pampanga"
+msgstr ""
+
+#: wpboutik-functions.php:3313
+msgid "Pangasinan"
+msgstr ""
+
+#: wpboutik-functions.php:3314
+msgid "Quezon"
+msgstr ""
+
+#: wpboutik-functions.php:3315
+msgid "Quirino"
+msgstr ""
+
+#: wpboutik-functions.php:3316
+msgid "Rizal"
+msgstr ""
+
+#: wpboutik-functions.php:3317
+msgid "Romblon"
+msgstr ""
+
+#: wpboutik-functions.php:3318
+msgid "Samar"
+msgstr ""
+
+#: wpboutik-functions.php:3319
+msgid "Sarangani"
+msgstr ""
+
+#: wpboutik-functions.php:3320
+msgid "Siquijor"
+msgstr ""
+
+#: wpboutik-functions.php:3321
+msgid "Sorsogon"
+msgstr ""
+
+#: wpboutik-functions.php:3322
+msgid "South Cotabato"
+msgstr ""
+
+#: wpboutik-functions.php:3323
+msgid "Southern Leyte"
+msgstr ""
+
+#: wpboutik-functions.php:3324
+msgid "Sultan Kudarat"
+msgstr ""
+
+#: wpboutik-functions.php:3325
+msgid "Sulu"
+msgstr ""
+
+#: wpboutik-functions.php:3326
+msgid "Surigao del Norte"
+msgstr ""
+
+#: wpboutik-functions.php:3327
+msgid "Surigao del Sur"
+msgstr ""
+
+#: wpboutik-functions.php:3328
+msgid "Tarlac"
+msgstr ""
+
+#: wpboutik-functions.php:3329
+msgid "Tawi-Tawi"
+msgstr ""
+
+#: wpboutik-functions.php:3330
+msgid "Zambales"
+msgstr ""
+
+#: wpboutik-functions.php:3331
+msgid "Zamboanga del Norte"
+msgstr ""
+
+#: wpboutik-functions.php:3332
+msgid "Zamboanga del Sur"
+msgstr ""
+
+#: wpboutik-functions.php:3333
+msgid "Zamboanga Sibugay"
+msgstr ""
+
+#: wpboutik-functions.php:3334
+msgid "Metro Manila"
+msgstr ""
+
+#: wpboutik-functions.php:3337
+msgid "Azad Kashmir"
+msgstr ""
+
+#: wpboutik-functions.php:3338
+msgid "Balochistan"
+msgstr ""
+
+#: wpboutik-functions.php:3339
+msgid "FATA"
+msgstr ""
+
+#: wpboutik-functions.php:3340
+msgid "Gilgit Baltistan"
+msgstr ""
+
+#: wpboutik-functions.php:3341
+msgid "Islamabad Capital Territory"
+msgstr ""
+
+#: wpboutik-functions.php:3342
+msgid "Khyber Pakhtunkhwa"
+msgstr ""
+
+#: wpboutik-functions.php:3344
+msgid "Sindh"
+msgstr ""
+
+#: wpboutik-functions.php:3349
+msgid "Asunción"
+msgstr ""
+
+#: wpboutik-functions.php:3350
+msgid "Concepción"
+msgstr ""
+
+#: wpboutik-functions.php:3351
+msgid "San Pedro"
+msgstr ""
+
+#: wpboutik-functions.php:3352
+msgid "Cordillera"
+msgstr ""
+
+#: wpboutik-functions.php:3353
+msgid "Guairá"
+msgstr ""
+
+#: wpboutik-functions.php:3354
+msgid "Caaguazú"
+msgstr ""
+
+#: wpboutik-functions.php:3355
+msgid "Caazapá"
+msgstr ""
+
+#: wpboutik-functions.php:3356
+msgid "Itapúa"
+msgstr ""
+
+#: wpboutik-functions.php:3358
+msgid "Paraguarí"
+msgstr ""
+
+#: wpboutik-functions.php:3359
+msgid "Alto Paraná"
+msgstr ""
+
+#: wpboutik-functions.php:3361
+msgid "Ñeembucú"
+msgstr ""
+
+#: wpboutik-functions.php:3362
+msgid "Amambay"
+msgstr ""
+
+#: wpboutik-functions.php:3363
+msgid "Canindeyú"
+msgstr ""
+
+#: wpboutik-functions.php:3364
+msgid "Presidente Hayes"
+msgstr ""
+
+#: wpboutik-functions.php:3365
+msgid "Alto Paraguay"
+msgstr ""
+
+#: wpboutik-functions.php:3366
+msgid "Boquerón"
+msgstr ""
+
+#: wpboutik-functions.php:3370
+msgid "Alba"
+msgstr ""
+
+#: wpboutik-functions.php:3371
+msgid "Arad"
+msgstr ""
+
+#: wpboutik-functions.php:3372
+msgid "Argeș"
+msgstr ""
+
+#: wpboutik-functions.php:3373
+msgid "Bacău"
+msgstr ""
+
+#: wpboutik-functions.php:3374
+msgid "Bihor"
+msgstr ""
+
+#: wpboutik-functions.php:3375
+msgid "Bistrița-Năsăud"
+msgstr ""
+
+#: wpboutik-functions.php:3376
+msgid "Botoșani"
+msgstr ""
+
+#: wpboutik-functions.php:3377
+msgid "Brăila"
+msgstr ""
+
+#: wpboutik-functions.php:3378
+msgid "Brașov"
+msgstr ""
+
+#: wpboutik-functions.php:3379
+msgid "București"
+msgstr ""
+
+#: wpboutik-functions.php:3380
+msgid "Buzău"
+msgstr ""
+
+#: wpboutik-functions.php:3382
+msgid "Caraș-Severin"
+msgstr ""
+
+#: wpboutik-functions.php:3383
+msgid "Cluj"
+msgstr ""
+
+#: wpboutik-functions.php:3384
+msgid "Constanța"
+msgstr ""
+
+#: wpboutik-functions.php:3385
+msgid "Covasna"
+msgstr ""
+
+#: wpboutik-functions.php:3386
+msgid "Dâmbovița"
+msgstr ""
+
+#: wpboutik-functions.php:3387
+msgid "Dolj"
+msgstr ""
+
+#: wpboutik-functions.php:3388
+msgid "Galați"
+msgstr ""
+
+#: wpboutik-functions.php:3389
+msgid "Giurgiu"
+msgstr ""
+
+#: wpboutik-functions.php:3390
+msgid "Gorj"
+msgstr ""
+
+#: wpboutik-functions.php:3391
+msgid "Harghita"
+msgstr ""
+
+#: wpboutik-functions.php:3392
+msgid "Hunedoara"
+msgstr ""
+
+#: wpboutik-functions.php:3393
+msgid "Ialomița"
+msgstr ""
+
+#: wpboutik-functions.php:3394
+msgid "Iași"
+msgstr ""
+
+#: wpboutik-functions.php:3395
+msgid "Ilfov"
+msgstr ""
+
+#: wpboutik-functions.php:3396
+msgid "Maramureș"
+msgstr ""
+
+#: wpboutik-functions.php:3397
+msgid "Mehedinți"
+msgstr ""
+
+#: wpboutik-functions.php:3398
+msgid "Mureș"
+msgstr ""
+
+#: wpboutik-functions.php:3399
+msgid "Neamț"
+msgstr ""
+
+#: wpboutik-functions.php:3400
+msgid "Olt"
+msgstr ""
+
+#: wpboutik-functions.php:3401
+msgid "Prahova"
+msgstr ""
+
+#: wpboutik-functions.php:3402
+msgid "Sălaj"
+msgstr ""
+
+#: wpboutik-functions.php:3403
+msgid "Satu Mare"
+msgstr ""
+
+#: wpboutik-functions.php:3404
+msgid "Sibiu"
+msgstr ""
+
+#: wpboutik-functions.php:3405
+msgid "Suceava"
+msgstr ""
+
+#: wpboutik-functions.php:3406
+msgid "Teleorman"
+msgstr ""
+
+#: wpboutik-functions.php:3407
+msgid "Timiș"
+msgstr ""
+
+#: wpboutik-functions.php:3408
+msgid "Tulcea"
+msgstr ""
+
+#: wpboutik-functions.php:3409
+msgid "Vâlcea"
+msgstr ""
+
+#: wpboutik-functions.php:3410
+msgid "Vaslui"
+msgstr ""
+
+#: wpboutik-functions.php:3411
+msgid "Vrancea"
+msgstr ""
+
+#: wpboutik-functions.php:3418
+msgid "Amnat Charoen"
+msgstr ""
+
+#: wpboutik-functions.php:3419
+msgid "Ang Thong"
+msgstr ""
+
+#: wpboutik-functions.php:3420
+msgid "Ayutthaya"
+msgstr ""
+
+#: wpboutik-functions.php:3421
+msgid "Bangkok"
+msgstr ""
+
+#: wpboutik-functions.php:3422
+msgid "Bueng Kan"
+msgstr ""
+
+#: wpboutik-functions.php:3423
+msgid "Buri Ram"
+msgstr ""
+
+#: wpboutik-functions.php:3424
+msgid "Chachoengsao"
+msgstr ""
+
+#: wpboutik-functions.php:3425
+msgid "Chai Nat"
+msgstr ""
+
+#: wpboutik-functions.php:3426
+msgid "Chaiyaphum"
+msgstr ""
+
+#: wpboutik-functions.php:3427
+msgid "Chanthaburi"
+msgstr ""
+
+#: wpboutik-functions.php:3428
+msgid "Chiang Mai"
+msgstr ""
+
+#: wpboutik-functions.php:3429
+msgid "Chiang Rai"
+msgstr ""
+
+#: wpboutik-functions.php:3430
+msgid "Chonburi"
+msgstr ""
+
+#: wpboutik-functions.php:3431
+msgid "Chumphon"
+msgstr ""
+
+#: wpboutik-functions.php:3432
+msgid "Kalasin"
+msgstr ""
+
+#: wpboutik-functions.php:3433
+msgid "Kamphaeng Phet"
+msgstr ""
+
+#: wpboutik-functions.php:3434
+msgid "Kanchanaburi"
+msgstr ""
+
+#: wpboutik-functions.php:3435
+msgid "Khon Kaen"
+msgstr ""
+
+#: wpboutik-functions.php:3436
+msgid "Krabi"
+msgstr ""
+
+#: wpboutik-functions.php:3437
+msgid "Lampang"
+msgstr ""
+
+#: wpboutik-functions.php:3438
+msgid "Lamphun"
+msgstr ""
+
+#: wpboutik-functions.php:3439
+msgid "Loei"
+msgstr ""
+
+#: wpboutik-functions.php:3440
+msgid "Lopburi"
+msgstr ""
+
+#: wpboutik-functions.php:3441
+msgid "Mae Hong Son"
+msgstr ""
+
+#: wpboutik-functions.php:3442
+msgid "Maha Sarakham"
+msgstr ""
+
+#: wpboutik-functions.php:3443
+msgid "Mukdahan"
+msgstr ""
+
+#: wpboutik-functions.php:3444
+msgid "Nakhon Nayok"
+msgstr ""
+
+#: wpboutik-functions.php:3445
+msgid "Nakhon Pathom"
+msgstr ""
+
+#: wpboutik-functions.php:3446
+msgid "Nakhon Phanom"
+msgstr ""
+
+#: wpboutik-functions.php:3447
+msgid "Nakhon Ratchasima"
+msgstr ""
+
+#: wpboutik-functions.php:3448
+msgid "Nakhon Sawan"
+msgstr ""
+
+#: wpboutik-functions.php:3449
+msgid "Nakhon Si Thammarat"
+msgstr ""
+
+#: wpboutik-functions.php:3450
+msgid "Nan"
+msgstr ""
+
+#: wpboutik-functions.php:3451
+msgid "Narathiwat"
+msgstr ""
+
+#: wpboutik-functions.php:3452
+msgid "Nong Bua Lam Phu"
+msgstr ""
+
+#: wpboutik-functions.php:3453
+msgid "Nong Khai"
+msgstr ""
+
+#: wpboutik-functions.php:3454
+msgid "Nonthaburi"
+msgstr ""
+
+#: wpboutik-functions.php:3455
+msgid "Pathum Thani"
+msgstr ""
+
+#: wpboutik-functions.php:3456
+msgid "Pattani"
+msgstr ""
+
+#: wpboutik-functions.php:3457
+msgid "Phang Nga"
+msgstr ""
+
+#: wpboutik-functions.php:3458
+msgid "Phatthalung"
+msgstr ""
+
+#: wpboutik-functions.php:3459
+msgid "Phayao"
+msgstr ""
+
+#: wpboutik-functions.php:3460
+msgid "Phetchabun"
+msgstr ""
+
+#: wpboutik-functions.php:3461
+msgid "Phetchaburi"
+msgstr ""
+
+#: wpboutik-functions.php:3462
+msgid "Phichit"
+msgstr ""
+
+#: wpboutik-functions.php:3463
+msgid "Phitsanulok"
+msgstr ""
+
+#: wpboutik-functions.php:3464
+msgid "Phrae"
+msgstr ""
+
+#: wpboutik-functions.php:3465
+msgid "Phuket"
+msgstr ""
+
+#: wpboutik-functions.php:3466
+msgid "Prachin Buri"
+msgstr ""
+
+#: wpboutik-functions.php:3467
+msgid "Prachuap Khiri Khan"
+msgstr ""
+
+#: wpboutik-functions.php:3468
+msgid "Ranong"
+msgstr ""
+
+#: wpboutik-functions.php:3469
+msgid "Ratchaburi"
+msgstr ""
+
+#: wpboutik-functions.php:3470
+msgid "Rayong"
+msgstr ""
+
+#: wpboutik-functions.php:3471
+msgid "Roi Et"
+msgstr ""
+
+#: wpboutik-functions.php:3472
+msgid "Sa Kaeo"
+msgstr ""
+
+#: wpboutik-functions.php:3473
+msgid "Sakon Nakhon"
+msgstr ""
+
+#: wpboutik-functions.php:3474
+msgid "Samut Prakan"
+msgstr ""
+
+#: wpboutik-functions.php:3475
+msgid "Samut Sakhon"
+msgstr ""
+
+#: wpboutik-functions.php:3476
+msgid "Samut Songkhram"
+msgstr ""
+
+#: wpboutik-functions.php:3477
+msgid "Saraburi"
+msgstr ""
+
+#: wpboutik-functions.php:3478
+msgid "Satun"
+msgstr ""
+
+#: wpboutik-functions.php:3479
+msgid "Sing Buri"
+msgstr ""
+
+#: wpboutik-functions.php:3480
+msgid "Sisaket"
+msgstr ""
+
+#: wpboutik-functions.php:3481
+msgid "Songkhla"
+msgstr ""
+
+#: wpboutik-functions.php:3482
+msgid "Sukhothai"
+msgstr ""
+
+#: wpboutik-functions.php:3483
+msgid "Suphan Buri"
+msgstr ""
+
+#: wpboutik-functions.php:3484
+msgid "Surat Thani"
+msgstr ""
+
+#: wpboutik-functions.php:3485
+msgid "Surin"
+msgstr ""
+
+#: wpboutik-functions.php:3486
+msgid "Tak"
+msgstr ""
+
+#: wpboutik-functions.php:3487
+msgid "Trang"
+msgstr ""
+
+#: wpboutik-functions.php:3488
+msgid "Trat"
+msgstr ""
+
+#: wpboutik-functions.php:3489
+msgid "Ubon Ratchathani"
+msgstr ""
+
+#: wpboutik-functions.php:3490
+msgid "Udon Thani"
+msgstr ""
+
+#: wpboutik-functions.php:3491
+msgid "Uthai Thani"
+msgstr ""
+
+#: wpboutik-functions.php:3492
+msgid "Uttaradit"
+msgstr ""
+
+#: wpboutik-functions.php:3493
+msgid "Yala"
+msgstr ""
+
+#: wpboutik-functions.php:3494
+msgid "Yasothon"
+msgstr ""
+
+#: wpboutik-functions.php:3497
+msgid "Adana"
+msgstr ""
+
+#: wpboutik-functions.php:3498
+msgid "Adıyaman"
+msgstr ""
+
+#: wpboutik-functions.php:3499
+msgid "Afyon"
+msgstr ""
+
+#: wpboutik-functions.php:3500
+msgid "Ağrı"
+msgstr ""
+
+#: wpboutik-functions.php:3501
+msgid "Amasya"
+msgstr ""
+
+#: wpboutik-functions.php:3502
+msgid "Ankara"
+msgstr ""
+
+#: wpboutik-functions.php:3503
+msgid "Antalya"
+msgstr ""
+
+#: wpboutik-functions.php:3504
+msgid "Artvin"
+msgstr ""
+
+#: wpboutik-functions.php:3505
+msgid "Aydın"
+msgstr ""
+
+#: wpboutik-functions.php:3506
+msgid "Balıkesir"
+msgstr ""
+
+#: wpboutik-functions.php:3507
+msgid "Bilecik"
+msgstr ""
+
+#: wpboutik-functions.php:3508
+msgid "Bingöl"
+msgstr ""
+
+#: wpboutik-functions.php:3509
+msgid "Bitlis"
+msgstr ""
+
+#: wpboutik-functions.php:3510
+msgid "Bolu"
+msgstr ""
+
+#: wpboutik-functions.php:3511
+msgid "Burdur"
+msgstr ""
+
+#: wpboutik-functions.php:3512
+msgid "Bursa"
+msgstr ""
+
+#: wpboutik-functions.php:3513
+msgid "Çanakkale"
+msgstr ""
+
+#: wpboutik-functions.php:3514
+msgid "Çankırı"
+msgstr ""
+
+#: wpboutik-functions.php:3515
+msgid "Çorum"
+msgstr ""
+
+#: wpboutik-functions.php:3516
+msgid "Denizli"
+msgstr ""
+
+#: wpboutik-functions.php:3517
+msgid "Diyarbakır"
+msgstr ""
+
+#: wpboutik-functions.php:3518
+msgid "Edirne"
+msgstr ""
+
+#: wpboutik-functions.php:3519
+msgid "Elazığ"
+msgstr ""
+
+#: wpboutik-functions.php:3520
+msgid "Erzincan"
+msgstr ""
+
+#: wpboutik-functions.php:3521
+msgid "Erzurum"
+msgstr ""
+
+#: wpboutik-functions.php:3522
+msgid "Eskişehir"
+msgstr ""
+
+#: wpboutik-functions.php:3523
+msgid "Gaziantep"
+msgstr ""
+
+#: wpboutik-functions.php:3524
+msgid "Giresun"
+msgstr ""
+
+#: wpboutik-functions.php:3525
+msgid "Gümüşhane"
+msgstr ""
+
+#: wpboutik-functions.php:3526
+msgid "Hakkari"
+msgstr ""
+
+#: wpboutik-functions.php:3527
+msgid "Hatay"
+msgstr ""
+
+#: wpboutik-functions.php:3528
+msgid "Isparta"
+msgstr ""
+
+#: wpboutik-functions.php:3529
+msgid "İçel"
+msgstr ""
+
+#: wpboutik-functions.php:3530
+msgid "İstanbul"
+msgstr ""
+
+#: wpboutik-functions.php:3531
+msgid "İzmir"
+msgstr ""
+
+#: wpboutik-functions.php:3532
+msgid "Kars"
+msgstr ""
+
+#: wpboutik-functions.php:3533
+msgid "Kastamonu"
+msgstr ""
+
+#: wpboutik-functions.php:3534
+msgid "Kayseri"
+msgstr ""
+
+#: wpboutik-functions.php:3535
+msgid "Kırklareli"
+msgstr ""
+
+#: wpboutik-functions.php:3536
+msgid "Kırşehir"
+msgstr ""
+
+#: wpboutik-functions.php:3537
+msgid "Kocaeli"
+msgstr ""
+
+#: wpboutik-functions.php:3538
+msgid "Konya"
+msgstr ""
+
+#: wpboutik-functions.php:3539
+msgid "Kütahya"
+msgstr ""
+
+#: wpboutik-functions.php:3540
+msgid "Malatya"
+msgstr ""
+
+#: wpboutik-functions.php:3541
+msgid "Manisa"
+msgstr ""
+
+#: wpboutik-functions.php:3542
+msgid "Kahramanmaraş"
+msgstr ""
+
+#: wpboutik-functions.php:3543
+msgid "Mardin"
+msgstr ""
+
+#: wpboutik-functions.php:3544
+msgid "Muğla"
+msgstr ""
+
+#: wpboutik-functions.php:3545
+msgid "Muş"
+msgstr ""
+
+#: wpboutik-functions.php:3546
+msgid "Nevşehir"
+msgstr ""
+
+#: wpboutik-functions.php:3547
+msgid "Niğde"
+msgstr ""
+
+#: wpboutik-functions.php:3548
+msgid "Ordu"
+msgstr ""
+
+#: wpboutik-functions.php:3549
+msgid "Rize"
+msgstr ""
+
+#: wpboutik-functions.php:3550
+msgid "Sakarya"
+msgstr ""
+
+#: wpboutik-functions.php:3551
+msgid "Samsun"
+msgstr ""
+
+#: wpboutik-functions.php:3552
+msgid "Siirt"
+msgstr ""
+
+#: wpboutik-functions.php:3553
+msgid "Sinop"
+msgstr ""
+
+#: wpboutik-functions.php:3554
+msgid "Sivas"
+msgstr ""
+
+#: wpboutik-functions.php:3555
+msgid "Tekirdağ"
+msgstr ""
+
+#: wpboutik-functions.php:3556
+msgid "Tokat"
+msgstr ""
+
+#: wpboutik-functions.php:3557
+msgid "Trabzon"
+msgstr ""
+
+#: wpboutik-functions.php:3558
+msgid "Tunceli"
+msgstr ""
+
+#: wpboutik-functions.php:3559
+msgid "Şanlıurfa"
+msgstr ""
+
+#: wpboutik-functions.php:3560
+msgid "Uşak"
+msgstr ""
+
+#: wpboutik-functions.php:3561
+msgid "Van"
+msgstr ""
+
+#: wpboutik-functions.php:3562
+msgid "Yozgat"
+msgstr ""
+
+#: wpboutik-functions.php:3563
+msgid "Zonguldak"
+msgstr ""
+
+#: wpboutik-functions.php:3564
+msgid "Aksaray"
+msgstr ""
+
+#: wpboutik-functions.php:3565
+msgid "Bayburt"
+msgstr ""
+
+#: wpboutik-functions.php:3566
+msgid "Karaman"
+msgstr ""
+
+#: wpboutik-functions.php:3567
+msgid "Kırıkkale"
+msgstr ""
+
+#: wpboutik-functions.php:3568
+msgid "Batman"
+msgstr ""
+
+#: wpboutik-functions.php:3569
+msgid "Şırnak"
+msgstr ""
+
+#: wpboutik-functions.php:3570
+msgid "Bartın"
+msgstr ""
+
+#: wpboutik-functions.php:3571
+msgid "Ardahan"
+msgstr ""
+
+#: wpboutik-functions.php:3572
+msgid "Iğdır"
+msgstr ""
+
+#: wpboutik-functions.php:3573
+msgid "Yalova"
+msgstr ""
+
+#: wpboutik-functions.php:3574
+msgid "Karabük"
+msgstr ""
+
+#: wpboutik-functions.php:3575
+msgid "Kilis"
+msgstr ""
+
+#: wpboutik-functions.php:3576
+msgid "Osmaniye"
+msgstr ""
+
+#: wpboutik-functions.php:3577
+msgid "Düzce"
+msgstr ""
+
+#: wpboutik-functions.php:3580
+msgid "Arusha"
+msgstr ""
+
+#: wpboutik-functions.php:3581
+msgid "Dar es Salaam"
+msgstr ""
+
+#: wpboutik-functions.php:3582
+msgid "Dodoma"
+msgstr ""
+
+#: wpboutik-functions.php:3583
+msgid "Iringa"
+msgstr ""
+
+#: wpboutik-functions.php:3584
+msgid "Kagera"
+msgstr ""
+
+#: wpboutik-functions.php:3585
+msgid "Pemba North"
+msgstr ""
+
+#: wpboutik-functions.php:3586
+msgid "Zanzibar North"
+msgstr ""
+
+#: wpboutik-functions.php:3587
+msgid "Kigoma"
+msgstr ""
+
+#: wpboutik-functions.php:3588
+msgid "Kilimanjaro"
+msgstr ""
+
+#: wpboutik-functions.php:3589
+msgid "Pemba South"
+msgstr ""
+
+#: wpboutik-functions.php:3590
+msgid "Zanzibar South"
+msgstr ""
+
+#: wpboutik-functions.php:3591
+msgid "Lindi"
+msgstr ""
+
+#: wpboutik-functions.php:3592
+msgid "Mara"
+msgstr ""
+
+#: wpboutik-functions.php:3593
+msgid "Mbeya"
+msgstr ""
+
+#: wpboutik-functions.php:3594
+msgid "Zanzibar West"
+msgstr ""
+
+#: wpboutik-functions.php:3595
+msgid "Morogoro"
+msgstr ""
+
+#: wpboutik-functions.php:3596
+msgid "Mtwara"
+msgstr ""
+
+#: wpboutik-functions.php:3597
+msgid "Mwanza"
+msgstr ""
+
+#: wpboutik-functions.php:3598
+msgid "Coast"
+msgstr ""
+
+#: wpboutik-functions.php:3599
+msgid "Rukwa"
+msgstr ""
+
+#: wpboutik-functions.php:3600
+msgid "Ruvuma"
+msgstr ""
+
+#: wpboutik-functions.php:3601
+msgid "Shinyanga"
+msgstr ""
+
+#: wpboutik-functions.php:3602
+msgid "Singida"
+msgstr ""
+
+#: wpboutik-functions.php:3603
+msgid "Tabora"
+msgstr ""
+
+#: wpboutik-functions.php:3604
+msgid "Tanga"
+msgstr ""
+
+#: wpboutik-functions.php:3605
+msgid "Manyara"
+msgstr ""
+
+#: wpboutik-functions.php:3606
+msgid "Geita"
+msgstr ""
+
+#: wpboutik-functions.php:3607
+msgid "Katavi"
+msgstr ""
+
+#: wpboutik-functions.php:3608
+msgid "Njombe"
+msgstr ""
+
+#: wpboutik-functions.php:3609
+msgid "Simiyu"
+msgstr ""
+
+#: wpboutik-functions.php:3614
+msgid "Abim"
+msgstr ""
+
+#: wpboutik-functions.php:3615
+msgid "Adjumani"
+msgstr ""
+
+#: wpboutik-functions.php:3616
+msgid "Agago"
+msgstr ""
+
+#: wpboutik-functions.php:3617
+msgid "Alebtong"
+msgstr ""
+
+#: wpboutik-functions.php:3618
+msgid "Amolatar"
+msgstr ""
+
+#: wpboutik-functions.php:3619
+msgid "Amudat"
+msgstr ""
+
+#: wpboutik-functions.php:3620
+msgid "Amuria"
+msgstr ""
+
+#: wpboutik-functions.php:3621
+msgid "Amuru"
+msgstr ""
+
+#: wpboutik-functions.php:3622
+msgid "Apac"
+msgstr ""
+
+#: wpboutik-functions.php:3623
+msgid "Arua"
+msgstr ""
+
+#: wpboutik-functions.php:3624
+msgid "Budaka"
+msgstr ""
+
+#: wpboutik-functions.php:3625
+msgid "Bududa"
+msgstr ""
+
+#: wpboutik-functions.php:3626
+msgid "Bugiri"
+msgstr ""
+
+#: wpboutik-functions.php:3627
+msgid "Bugweri"
+msgstr ""
+
+#: wpboutik-functions.php:3628
+msgid "Buhweju"
+msgstr ""
+
+#: wpboutik-functions.php:3629
+msgid "Buikwe"
+msgstr ""
+
+#: wpboutik-functions.php:3630
+msgid "Bukedea"
+msgstr ""
+
+#: wpboutik-functions.php:3631
+msgid "Bukomansimbi"
+msgstr ""
+
+#: wpboutik-functions.php:3632
+msgid "Bukwa"
+msgstr ""
+
+#: wpboutik-functions.php:3633
+msgid "Bulambuli"
+msgstr ""
+
+#: wpboutik-functions.php:3634
+msgid "Buliisa"
+msgstr ""
+
+#: wpboutik-functions.php:3635
+msgid "Bundibugyo"
+msgstr ""
+
+#: wpboutik-functions.php:3636
+msgid "Bunyangabu"
+msgstr ""
+
+#: wpboutik-functions.php:3637
+msgid "Bushenyi"
+msgstr ""
+
+#: wpboutik-functions.php:3639
+msgid "Butaleja"
+msgstr ""
+
+#: wpboutik-functions.php:3640
+msgid "Butambala"
+msgstr ""
+
+#: wpboutik-functions.php:3641
+msgid "Butebo"
+msgstr ""
+
+#: wpboutik-functions.php:3642
+msgid "Buvuma"
+msgstr ""
+
+#: wpboutik-functions.php:3643
+msgid "Buyende"
+msgstr ""
+
+#: wpboutik-functions.php:3644
+msgid "Dokolo"
+msgstr ""
+
+#: wpboutik-functions.php:3645
+msgid "Gomba"
+msgstr ""
+
+#: wpboutik-functions.php:3646
+msgid "Gulu"
+msgstr ""
+
+#: wpboutik-functions.php:3647
+msgid "Hoima"
+msgstr ""
+
+#: wpboutik-functions.php:3648
+msgid "Ibanda"
+msgstr ""
+
+#: wpboutik-functions.php:3649
+msgid "Iganga"
+msgstr ""
+
+#: wpboutik-functions.php:3650
+msgid "Isingiro"
+msgstr ""
+
+#: wpboutik-functions.php:3651
+msgid "Jinja"
+msgstr ""
+
+#: wpboutik-functions.php:3652
+msgid "Kaabong"
+msgstr ""
+
+#: wpboutik-functions.php:3653
+msgid "Kabale"
+msgstr ""
+
+#: wpboutik-functions.php:3654
+msgid "Kabarole"
+msgstr ""
+
+#: wpboutik-functions.php:3655
+msgid "Kaberamaido"
+msgstr ""
+
+#: wpboutik-functions.php:3656
+msgid "Kagadi"
+msgstr ""
+
+#: wpboutik-functions.php:3657
+msgid "Kakumiro"
+msgstr ""
+
+#: wpboutik-functions.php:3658
+msgid "Kalangala"
+msgstr ""
+
+#: wpboutik-functions.php:3659
+msgid "Kaliro"
+msgstr ""
+
+#: wpboutik-functions.php:3660
+msgid "Kalungu"
+msgstr ""
+
+#: wpboutik-functions.php:3661
+msgid "Kampala"
+msgstr ""
+
+#: wpboutik-functions.php:3662
+msgid "Kamuli"
+msgstr ""
+
+#: wpboutik-functions.php:3663
+msgid "Kamwenge"
+msgstr ""
+
+#: wpboutik-functions.php:3664
+msgid "Kanungu"
+msgstr ""
+
+#: wpboutik-functions.php:3665
+msgid "Kapchorwa"
+msgstr ""
+
+#: wpboutik-functions.php:3666
+msgid "Kapelebyong"
+msgstr ""
+
+#: wpboutik-functions.php:3667
+msgid "Kasanda"
+msgstr ""
+
+#: wpboutik-functions.php:3668
+msgid "Kasese"
+msgstr ""
+
+#: wpboutik-functions.php:3669
+msgid "Katakwi"
+msgstr ""
+
+#: wpboutik-functions.php:3670
+msgid "Kayunga"
+msgstr ""
+
+#: wpboutik-functions.php:3671
+msgid "Kibaale"
+msgstr ""
+
+#: wpboutik-functions.php:3672
+msgid "Kiboga"
+msgstr ""
+
+#: wpboutik-functions.php:3673
+msgid "Kibuku"
+msgstr ""
+
+#: wpboutik-functions.php:3674
+msgid "Kikuube"
+msgstr ""
+
+#: wpboutik-functions.php:3675
+msgid "Kiruhura"
+msgstr ""
+
+#: wpboutik-functions.php:3676
+msgid "Kiryandongo"
+msgstr ""
+
+#: wpboutik-functions.php:3677
+msgid "Kisoro"
+msgstr ""
+
+#: wpboutik-functions.php:3678
+msgid "Kitgum"
+msgstr ""
+
+#: wpboutik-functions.php:3679
+msgid "Koboko"
+msgstr ""
+
+#: wpboutik-functions.php:3680
+msgid "Kole"
+msgstr ""
+
+#: wpboutik-functions.php:3681
+msgid "Kotido"
+msgstr ""
+
+#: wpboutik-functions.php:3682
+msgid "Kumi"
+msgstr ""
+
+#: wpboutik-functions.php:3683
+msgid "Kwania"
+msgstr ""
+
+#: wpboutik-functions.php:3684
+msgid "Kween"
+msgstr ""
+
+#: wpboutik-functions.php:3685
+msgid "Kyankwanzi"
+msgstr ""
+
+#: wpboutik-functions.php:3686
+msgid "Kyegegwa"
+msgstr ""
+
+#: wpboutik-functions.php:3687
+msgid "Kyenjojo"
+msgstr ""
+
+#: wpboutik-functions.php:3688
+msgid "Kyotera"
+msgstr ""
+
+#: wpboutik-functions.php:3689
+msgid "Lamwo"
+msgstr ""
+
+#: wpboutik-functions.php:3690
+msgid "Lira"
+msgstr ""
+
+#: wpboutik-functions.php:3691
+msgid "Luuka"
+msgstr ""
+
+#: wpboutik-functions.php:3692
+msgid "Luwero"
+msgstr ""
+
+#: wpboutik-functions.php:3693
+msgid "Lwengo"
+msgstr ""
+
+#: wpboutik-functions.php:3694
+msgid "Lyantonde"
+msgstr ""
+
+#: wpboutik-functions.php:3695
+msgid "Manafwa"
+msgstr ""
+
+#: wpboutik-functions.php:3696
+msgid "Maracha"
+msgstr ""
+
+#: wpboutik-functions.php:3697
+msgid "Masaka"
+msgstr ""
+
+#: wpboutik-functions.php:3698
+msgid "Masindi"
+msgstr ""
+
+#: wpboutik-functions.php:3699
+msgid "Mayuge"
+msgstr ""
+
+#: wpboutik-functions.php:3700
+msgid "Mbale"
+msgstr ""
+
+#: wpboutik-functions.php:3701
+msgid "Mbarara"
+msgstr ""
+
+#: wpboutik-functions.php:3702
+msgid "Mitooma"
+msgstr ""
+
+#: wpboutik-functions.php:3703
+msgid "Mityana"
+msgstr ""
+
+#: wpboutik-functions.php:3704
+msgid "Moroto"
+msgstr ""
+
+#: wpboutik-functions.php:3705
+msgid "Moyo"
+msgstr ""
+
+#: wpboutik-functions.php:3706
+msgid "Mpigi"
+msgstr ""
+
+#: wpboutik-functions.php:3707
+msgid "Mubende"
+msgstr ""
+
+#: wpboutik-functions.php:3708
+msgid "Mukono"
+msgstr ""
+
+#: wpboutik-functions.php:3709
+msgid "Nabilatuk"
+msgstr ""
+
+#: wpboutik-functions.php:3710
+msgid "Nakapiripirit"
+msgstr ""
+
+#: wpboutik-functions.php:3711
+msgid "Nakaseke"
+msgstr ""
+
+#: wpboutik-functions.php:3712
+msgid "Nakasongola"
+msgstr ""
+
+#: wpboutik-functions.php:3713
+msgid "Namayingo"
+msgstr ""
+
+#: wpboutik-functions.php:3714
+msgid "Namisindwa"
+msgstr ""
+
+#: wpboutik-functions.php:3715
+msgid "Namutumba"
+msgstr ""
+
+#: wpboutik-functions.php:3716
+msgid "Napak"
+msgstr ""
+
+#: wpboutik-functions.php:3717
+msgid "Nebbi"
+msgstr ""
+
+#: wpboutik-functions.php:3718
+msgid "Ngora"
+msgstr ""
+
+#: wpboutik-functions.php:3719
+msgid "Ntoroko"
+msgstr ""
+
+#: wpboutik-functions.php:3720
+msgid "Ntungamo"
+msgstr ""
+
+#: wpboutik-functions.php:3721
+msgid "Nwoya"
+msgstr ""
+
+#: wpboutik-functions.php:3722
+msgid "Omoro"
+msgstr ""
+
+#: wpboutik-functions.php:3723
+msgid "Otuke"
+msgstr ""
+
+#: wpboutik-functions.php:3724
+msgid "Oyam"
+msgstr ""
+
+#: wpboutik-functions.php:3725
+msgid "Pader"
+msgstr ""
+
+#: wpboutik-functions.php:3726
+msgid "Pakwach"
+msgstr ""
+
+#: wpboutik-functions.php:3727
+msgid "Pallisa"
+msgstr ""
+
+#: wpboutik-functions.php:3728
+msgid "Rakai"
+msgstr ""
+
+#: wpboutik-functions.php:3729
+msgid "Rubanda"
+msgstr ""
+
+#: wpboutik-functions.php:3730
+msgid "Rubirizi"
+msgstr ""
+
+#: wpboutik-functions.php:3731
+msgid "Rukiga"
+msgstr ""
+
+#: wpboutik-functions.php:3732
+msgid "Rukungiri"
+msgstr ""
+
+#: wpboutik-functions.php:3733
+msgid "Sembabule"
+msgstr ""
+
+#: wpboutik-functions.php:3734
+msgid "Serere"
+msgstr ""
+
+#: wpboutik-functions.php:3735
+msgid "Sheema"
+msgstr ""
+
+#: wpboutik-functions.php:3736
+msgid "Sironko"
+msgstr ""
+
+#: wpboutik-functions.php:3737
+msgid "Soroti"
+msgstr ""
+
+#: wpboutik-functions.php:3738
+msgid "Tororo"
+msgstr ""
+
+#: wpboutik-functions.php:3739
+msgid "Wakiso"
+msgstr ""
+
+#: wpboutik-functions.php:3740
+msgid "Yumbe"
+msgstr ""
+
+#: wpboutik-functions.php:3741
+msgid "Zombo"
+msgstr ""
+
+#: wpboutik-functions.php:3744
+msgid "Baker Island"
+msgstr ""
+
+#: wpboutik-functions.php:3745
+msgid "Howland Island"
+msgstr ""
+
+#: wpboutik-functions.php:3746
+msgid "Jarvis Island"
+msgstr ""
+
+#: wpboutik-functions.php:3747
+msgid "Johnston Atoll"
+msgstr ""
+
+#: wpboutik-functions.php:3748
+msgid "Kingman Reef"
+msgstr ""
+
+#: wpboutik-functions.php:3749
+msgid "Midway Atoll"
+msgstr ""
+
+#: wpboutik-functions.php:3750
+msgid "Navassa Island"
+msgstr ""
+
+#: wpboutik-functions.php:3751
+msgid "Palmyra Atoll"
+msgstr ""
+
+#: wpboutik-functions.php:3752
+msgid "Wake Island"
+msgstr ""
+
+#: wpboutik-functions.php:3755
+msgid "Alabama"
+msgstr ""
+
+#: wpboutik-functions.php:3756
+msgid "Alaska"
+msgstr ""
+
+#: wpboutik-functions.php:3757
+msgid "Arizona"
+msgstr ""
+
+#: wpboutik-functions.php:3758
+msgid "Arkansas"
+msgstr ""
+
+#: wpboutik-functions.php:3759
+msgid "California"
+msgstr ""
+
+#: wpboutik-functions.php:3760
+msgid "Colorado"
+msgstr ""
+
+#: wpboutik-functions.php:3761
+msgid "Connecticut"
+msgstr ""
+
+#: wpboutik-functions.php:3762
+msgid "Delaware"
+msgstr ""
+
+#: wpboutik-functions.php:3763
+msgid "District Of Columbia"
+msgstr ""
+
+#: wpboutik-functions.php:3764
+msgid "Florida"
+msgstr ""
+
+#: wpboutik-functions.php:3765
+msgctxt "US state of Georgia"
+msgid "Georgia"
+msgstr ""
+
+#: wpboutik-functions.php:3766
+msgid "Hawaii"
+msgstr ""
+
+#: wpboutik-functions.php:3767
+msgid "Idaho"
+msgstr ""
+
+#: wpboutik-functions.php:3768
+msgid "Illinois"
+msgstr ""
+
+#: wpboutik-functions.php:3769
+msgid "Indiana"
+msgstr ""
+
+#: wpboutik-functions.php:3770
+msgid "Iowa"
+msgstr ""
+
+#: wpboutik-functions.php:3771
+msgid "Kansas"
+msgstr ""
+
+#: wpboutik-functions.php:3772
+msgid "Kentucky"
+msgstr ""
+
+#: wpboutik-functions.php:3773
+msgid "Louisiana"
+msgstr ""
+
+#: wpboutik-functions.php:3774
+msgid "Maine"
+msgstr ""
+
+#: wpboutik-functions.php:3776
+msgid "Massachusetts"
+msgstr ""
+
+#: wpboutik-functions.php:3777
+msgid "Michigan"
+msgstr ""
+
+#: wpboutik-functions.php:3778
+msgid "Minnesota"
+msgstr ""
+
+#: wpboutik-functions.php:3779
+msgid "Mississippi"
+msgstr ""
+
+#: wpboutik-functions.php:3780
+msgid "Missouri"
+msgstr ""
+
+#: wpboutik-functions.php:3782
+msgid "Nebraska"
+msgstr ""
+
+#: wpboutik-functions.php:3783
+msgid "Nevada"
+msgstr ""
+
+#: wpboutik-functions.php:3784
+msgid "New Hampshire"
+msgstr ""
+
+#: wpboutik-functions.php:3785
+msgid "New Jersey"
+msgstr ""
+
+#: wpboutik-functions.php:3786
+msgid "New Mexico"
+msgstr ""
+
+#: wpboutik-functions.php:3787
+msgid "New York"
+msgstr ""
+
+#: wpboutik-functions.php:3788
+msgid "North Carolina"
+msgstr ""
+
+#: wpboutik-functions.php:3789
+msgid "North Dakota"
+msgstr ""
+
+#: wpboutik-functions.php:3790
+msgid "Ohio"
+msgstr ""
+
+#: wpboutik-functions.php:3791
+msgid "Oklahoma"
+msgstr ""
+
+#: wpboutik-functions.php:3792
+msgid "Oregon"
+msgstr ""
+
+#: wpboutik-functions.php:3793
+msgid "Pennsylvania"
+msgstr ""
+
+#: wpboutik-functions.php:3794
+msgid "Rhode Island"
+msgstr ""
+
+#: wpboutik-functions.php:3795
+msgid "South Carolina"
+msgstr ""
+
+#: wpboutik-functions.php:3796
+msgid "South Dakota"
+msgstr ""
+
+#: wpboutik-functions.php:3797
+msgid "Tennessee"
+msgstr ""
+
+#: wpboutik-functions.php:3798
+msgid "Texas"
+msgstr ""
+
+#: wpboutik-functions.php:3799
+msgid "Utah"
+msgstr ""
+
+#: wpboutik-functions.php:3800
+msgid "Vermont"
+msgstr ""
+
+#: wpboutik-functions.php:3801
+msgid "Virginia"
+msgstr ""
+
+#: wpboutik-functions.php:3802
+msgid "Washington"
+msgstr ""
+
+#: wpboutik-functions.php:3803
+msgid "West Virginia"
+msgstr ""
+
+#: wpboutik-functions.php:3804
+msgid "Wisconsin"
+msgstr ""
+
+#: wpboutik-functions.php:3805
+msgid "Wyoming"
+msgstr ""
+
+#: wpboutik-functions.php:3806
+msgid "Armed Forces (AA)"
+msgstr ""
+
+#: wpboutik-functions.php:3807
+msgid "Armed Forces (AE)"
+msgstr ""
+
+#: wpboutik-functions.php:3808
+msgid "Armed Forces (AP)"
+msgstr ""
+
+#: wpboutik-functions.php:3813
+msgid "Eastern Cape"
+msgstr ""
+
+#: wpboutik-functions.php:3814
+msgid "Free State"
+msgstr ""
+
+#: wpboutik-functions.php:3815
+msgid "Gauteng"
+msgstr ""
+
+#: wpboutik-functions.php:3816
+msgid "KwaZulu-Natal"
+msgstr ""
+
+#: wpboutik-functions.php:3817
+msgid "Limpopo"
+msgstr ""
+
+#: wpboutik-functions.php:3818
+msgid "Mpumalanga"
+msgstr ""
+
+#: wpboutik-functions.php:3819
+msgid "Northern Cape"
+msgstr ""
+
+#: wpboutik-functions.php:3820
+msgid "North West"
+msgstr ""
+
+#: wpboutik-functions.php:3821
+msgid "Western Cape"
+msgstr ""
+
+#: wpboutik-functions.php:3827
+msgid "Luapula"
+msgstr ""
+
+#: wpboutik-functions.php:3829
+msgid "North-Western"
+msgstr ""
+
+#: wpboutik-functions.php:3830
+msgid "Southern"
+msgstr ""
+
+#: wpboutik-functions.php:3831
+msgid "Copperbelt"
+msgstr ""
+
+#: wpboutik-functions.php:3832
+msgid "Lusaka"
+msgstr ""
+
+#: wpboutik-functions.php:3833
+msgid "Muchinga"
+msgstr ""
+
+#: wpboutik-functions.php:4218
+msgctxt "slug"
+msgid "product"
+msgstr ""
+
+#: wpboutik-functions.php:4219
+msgctxt "slug"
+msgid "product-category"
+msgstr ""
+
+#: wpboutik-functions.php:4220
+msgctxt "slug"
+msgid "product-tag"
+msgstr ""
+
+#: wpboutik-functions.php:5166
+msgid "Invalid token!"
+msgstr ""
+
+#: build/breadcrumb/index.js:1
+#: src/breadcrumb/edit.js:49
+msgid "Current page"
+msgstr ""
+
+#: build/add-to-cart/block.json
+#: src/add-to-cart/block.json
+msgctxt "block title"
+msgid "WPBoutik: Ajouter au panier"
+msgstr ""
+
+#: build/add-to-cart/block.json
+#: src/add-to-cart/block.json
+msgctxt "block description"
+msgid "Bouton d'achat"
+msgstr ""
+
+#: build/best-seller-products/block.json
+#: src/best-seller-products/block.json
+msgctxt "block title"
+msgid "WPBoutik: Best Seller"
+msgstr ""
+
+#: build/best-seller-products/block.json
+#: src/best-seller-products/block.json
+msgctxt "block description"
+msgid "Affiche les meilleures ventes de produits"
+msgstr ""
+
+#: build/breadcrumb/block.json
+#: src/breadcrumb/block.json
+msgctxt "block title"
+msgid "WPBoutik: Breadcrumb"
+msgstr ""
+
+#: build/breadcrumb/block.json
+#: src/breadcrumb/block.json
+msgctxt "block description"
+msgid "Fil d'ariane"
+msgstr ""
+
+#: build/cart-content/block.json
+#: src/cart-content/block.json
+msgctxt "block title"
+msgid "WPBoutik: Cart Content"
+msgstr ""
+
+#: build/cart-content/block.json
+#: src/cart-content/block.json
+msgctxt "block description"
+msgid "Affiche le contenu du panier de l'utilisateur."
+msgstr ""
+
+#: build/cart-total/block.json
+#: src/cart-total/block.json
+msgctxt "block title"
+msgid "WPBoutik: Cart total"
+msgstr ""
+
+#: build/cart-total/block.json
+#: src/cart-total/block.json
+msgctxt "block description"
+msgid "Affiche la valeur du panier."
+msgstr ""
+
+#: build/cart-validate/block.json
+#: src/cart-validate/block.json
+msgctxt "block title"
+msgid "WPBoutik: Cart validate"
+msgstr ""
+
+#: build/cart-validate/block.json
+#: src/cart-validate/block.json
+msgctxt "block description"
+msgid "Affiche le bouton de validation du panier."
+msgstr ""
+
+#: build/cart/block.json
+#: src/cart/block.json
+msgctxt "block title"
+msgid "WPBoutik: Cart"
+msgstr ""
+
+#: build/cart/block.json
+#: src/cart/block.json
+msgctxt "block description"
+msgid "Affichage du panier"
+msgstr ""
+
+#: build/description-courte/block.json
+#: src/description-courte/block.json
+msgctxt "block title"
+msgid "WPBoutik: Short description"
+msgstr ""
+
+#: build/description-courte/block.json
+#: src/description-courte/block.json
+msgctxt "block description"
+msgid "Description courte du produit"
+msgstr ""
+
+#: build/last-products/block.json
+#: src/last-products/block.json
+msgctxt "block title"
+msgid "WPBoutik: Last products"
+msgstr ""
+
+#: build/last-products/block.json
+#: src/last-products/block.json
+msgctxt "block description"
+msgid "Affiche les derniers produits ajoutés à la boutique"
+msgstr ""
+
+#: build/product-price/block.json
+#: src/product-price/block.json
+msgctxt "block title"
+msgid "WPBoutik: Product price"
+msgstr ""
+
+#: build/product-price/block.json
+#: src/product-price/block.json
+msgctxt "block description"
+msgid "Affiche le prix du produit"
+msgstr ""

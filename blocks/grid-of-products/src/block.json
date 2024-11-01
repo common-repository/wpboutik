@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wpboutik/grid-of-products",
+	"version": "0.1.0",
+	"title": "WPBoutik Grid of products",
+	"category": "wpboutik",
+	"icon": "flag",
+	"description": "A Gutenberg block to show your pride! This block enables you to type text and style it with the color font Gilbert from Type with Pride.",
+	"attributes": {
+		"message": {
+			"type": "string",
+			"source": "text",
+			"selector": "h2"
+		},
+		"nb_products" : {
+			"type": "integer",
+			"source": "text",
+			"default": "5"
+		},
+		"products" : {
+			"type": "array",
+			"default": null
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "wpboutik",
+	"editorScript": "file:./index.js"
+}

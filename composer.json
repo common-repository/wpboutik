@@ -1,0 +1,6 @@
+{
+    "require": {
+        "stripe/stripe-php": "^10.1",
+        "mollie/mollie-api-php": "^2.56"
+    }
+}

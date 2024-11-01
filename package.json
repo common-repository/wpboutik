@@ -1,0 +1,49 @@
+{
+  "name": "wpboutik",
+  "version": "1.0.0",
+  "description": "=== WPBoutik === Contributors: NicolasKulka, wpformation Tags: Requires at least: 4.2 Tested up to: 6.1 Requires PHP: 7.0 Stable tag: 1.0 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "main": "index.js",
+  "scripts": {
+    "minify": "node minify-project",
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:md:js": "wp-scripts lint-md-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/NicolasKulka/wpboutik-plugin-wp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/NicolasKulka/wpboutik-plugin-wp/issues"
+  },
+  "homepage": "https://bitbucket.org/NicolasKulka/wpboutik-plugin-wp#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^27.4.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.0"
+  },
+  "dependencies": {
+    "@node-minify/core": "^8.0.6",
+    "@node-minify/cssnano": "^8.0.6",
+    "@node-minify/uglify-js": "^8.0.6",
+    "@tailwindcss/typography": "^0.5.10",
+    "@wordpress/core-data": "^6.31.0",
+    "@wordpress/server-side-render": "^4.30.0",
+    "postcss-nested": "^6.0.0"
+  }
+}
